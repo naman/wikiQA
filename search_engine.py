@@ -3,6 +3,7 @@ import os
 import re
 import sys
 import math
+import json
 
 
 def load_stop_words():
@@ -127,9 +128,8 @@ def loadDocuments():
 
 
 def write_inverted_index_to_file():
-    f = open(sys.argv[1], 'w')
-    f.write(str(dictionary))
-    f.close()
+    with open(sys.argv[1], 'w') as outfile:
+        json.dump(dictionary, outfile, sort_keys=True, indent=4)
 
 
 def intersection(lists):
@@ -222,10 +222,9 @@ def PhraseQ(words_in_query):
 
 
 def load_index_in_memory():
-    # \TODO 
-    f = open(sys.argv[1])
-    dictionary = f.read()
-    f.close()
+    with open(sys.argv[1]) as data_file:
+        dictionary = dict(json.load(data_file))
+    return dictionary
 
 
 def run_query(query):
@@ -268,7 +267,8 @@ dictionary = {
 stop_words = []
 delimiters = ['\n', ' ', ',', '.', '?', '!', ':', '#', '$', '[', ']',
               '(', ')', '-', '=', '@', '%', '&', '*', '_', '>', '<',
-              '{', '}', '|', '/', '\\', '\'', '"']
+              '{', '}', '|', '/', '\\', '\'', '"', '\t', '+', '~', ':',
+              '^']
 
 porter = PorterStemmer()
 

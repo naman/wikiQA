@@ -1,13 +1,26 @@
 # Go: Search Engine
-A basic search engine using tf-idf score. The code and a more readable README can be found on https://github.com/naman/go-search-engine 
+A basic search engine using tf-idf score. The code and a more readable README can be found on https://github.com/naman/go-search-engine.
 
 [Naman Gupta, 2013064]
+
+# Screenshots
+
+![Building Index](index.png)
+
+![Inverted Index JSON](json.png)
+
+![Offline Caching](cache1.png)
+
+![Offline Caching 2](cache2.png)
+
+
 
 # References
 
 1. Porter stemmer from https://tartarus.org/~martin/PorterStemmer/
 2. Stop words from http://xpo6.com/list-of-english-stop-words/
-3. Documents taken from http://www.textfiles.com/computers/DOCUMENTATION/
+3. Documents taken from http://www.textfiles.com/computers/DOCUMENTATION/. EDIT: Now, http://www.textfiles.com/humor/
+(Some files contained special characters, they were ommited since python throws an error while converting special characters to unicode strings.)
 
 # Usage
 
@@ -19,7 +32,7 @@ A basic search engine using tf-idf score. The code and a more readable README ca
 
 1. The code automatically downloads the document from "http://www.textfiles.com/computers/DOCUMENTATION/". (see `loadDocuments()`)
 
-2. Stores the inverted index as a json allowing offline caching (saves precious time, power and those CPU cycles on building the index again) (see `build_index()` and `write_inverted_index_to_file()`). 
+2. Stores the inverted index as a json allowing offline caching (saves precious time, power and those CPU cycles on building the index again) (see `build_index()`, `load_index_in_memory()` and `write_inverted_index_to_file()`). The 
 	The inverted index json stores as follows 
 	
 		term: {
