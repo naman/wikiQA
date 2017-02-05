@@ -30,12 +30,14 @@ A basic search engine using tf-idf score. [Naman Gupta, 2013064]
 3. Scoring is done using tf-idf (normalized) formula (see `normalize()`). 
 
 4. Specially handled one word queries, multiword queries and phrase queries with "<query>". Logic for Query results:
+	
 	a) `OneWordQ()` function: Search for the query term in the inverted index.  
 	
 	b) `MultiWordQ()` function: Search for the each query term in the inverted index. Take a union of results. Make a set. The output is the list of documents that contain any of the query terms.
 	
 	c) `PhraseQ()` function: Search for the each query term in the inverted index. Take an intersection of results. In the intersection of result documents, find positions of the query terms for each resulting documents. Take the intersection of positions from a doc d after subtracting the term offset  from the positions. If the intersection is non empty, then we have found a match. A similar algorithm for finding match in phrase queries was also covered in class.
 		Eg. "time out" is present in the doc 3_drives.txt. The term offset for time is 0, and out is 1.
+			
 			```
 			find docs for time
 			find docs for out
