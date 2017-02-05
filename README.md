@@ -12,6 +12,7 @@ A basic search engine using tf-idf score. The code and a more readable README ca
 # Usage
 
 `python search_engine.py <inverted_index> <stop_words> <path_to_docs>`
+
 `python search_engine.py inverted_index.json stop_words.txt ./Documents/` 
 
 # Features Implemented
@@ -20,14 +21,14 @@ A basic search engine using tf-idf score. The code and a more readable README ca
 
 2. Stores the inverted index as a json allowing offline caching (saves precious time, power and those CPU cycles on building the index again) (see `build_index()` and `write_inverted_index_to_file()`). 
 	The inverted index json stores as follows 
-	```
-	term: {
-		doc_name,
-		frequency,
-		score,
-		positions[]
-	}
-	```
+	
+		term: {
+			doc_name,
+			frequency,
+			score,
+			positions[]
+		}
+	
 
 3. Scoring is done using tf-idf (normalized) formula (see `normalize()`). 
 
@@ -39,8 +40,7 @@ A basic search engine using tf-idf score. The code and a more readable README ca
 	
 	c) `PhraseQ()` function: Search for the each query term in the inverted index. Take an intersection of results. In the intersection of result documents, find positions of the query terms for each resulting documents. Take the intersection of positions from a doc d after subtracting the term offset  from the positions. If the intersection is non empty, then we have found a match. A similar algorithm for finding match in phrase queries was also covered in class.
 		Eg. "time out" is present in the doc 3_drives.txt. The term offset for time is 0, and out is 1.
-			
-			```
+					
 			find docs for time
 			find docs for out
 			take intersection
@@ -51,7 +51,7 @@ A basic search engine using tf-idf score. The code and a more readable README ca
 				match is found
 			else
 				no match
-			```
+			
 
 5. The query can be entered iteratively just like a normal shell. A prompt is visible where the query is entered and results are shown almost instantaneosly.
 
