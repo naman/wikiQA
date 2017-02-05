@@ -1,5 +1,7 @@
 # Go: Search Engine
-A basic search engine using tf-idf score. [Naman Gupta, 2013064]
+A basic search engine using tf-idf score. The code and a more readable README can be found on https://github.com/naman/go-search-engine 
+
+[Naman Gupta, 2013064]
 
 # References
 
