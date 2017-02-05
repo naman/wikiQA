@@ -11,13 +11,14 @@ def load_stop_words():
         stop_words.append(word.strip())
 
 
-def add_to_dictionary(docname, term_frequency, word):
+def add_to_dictionary(docname, term_frequency, position, word):
     if word not in dictionary.keys():  # or dictionary.keys()
         # print "Creating a new dictionary entry!"
         posting = {
             'name': docname,
             'frequency': 1,
-            'tf_idf_weight': 0
+            'tf_idf_weight': 0,
+            'positions': [position]
         }
 
         dictionary[word] = [posting]  # creating postings list
@@ -26,18 +27,21 @@ def add_to_dictionary(docname, term_frequency, word):
         for x in dictionary[word]:
             if x['name'] == docname:
                 x['frequency'] += 1
+                x['positions'].append(position)
                 present = True
                 break
             else:
                 present = False
 
-        if not present:
+        if not present:  # doc not present in the term index
             # print "Creating a new dictionary entry!"
             posting = {
                 'name': docname,
                 'frequency': term_frequency,
-                'tf_idf_weight': 0
+                'tf_idf_weight': 0,
+                'positions': [position]
             }
+
             dictionary[word].append(posting)
 
 
@@ -48,7 +52,12 @@ def hasNumbers(inputString):
 def normalize():
     print "Calculating idf weights for each term(in all documents)!"
     idf_weights = {}
-    N = 101  # 101 documents
+
+    N = 0  # 101 documents
+    for file_name in os.listdir(path_to_documents):
+        if file_name.endswith(".txt"):
+            N += 1
+
     for term in dictionary:
         df = len(dictionary[term])
         idf = math.log10(N / float(df))
@@ -90,15 +99,20 @@ def build_index():
         if file_name.endswith(".txt"):
             f = open(path_to_documents + file_name)
             term_frequency = 0
+            position = 0
             for line in f:
                 words_in_line = clean_split(line)
 
                 if len(words_in_line) > 1:
                     for word in words_in_line:
-                        if (word not in stop_words) and (not hasNumbers(word)) and (word is not ''):
+                        if (word is '') or (word in stop_words) or (hasNumbers(word)):
+                            continue
+                        else:
                             word = porter.stem(word, 0, len(word) - 1)
+                            position += 1
                             term_frequency += 1
-                            add_to_dictionary(file_name, term_frequency, word)
+                            add_to_dictionary(
+                                file_name, term_frequency, position, word)
             # break
             f.close()
 
@@ -109,7 +123,7 @@ def clean_split(string):
 
 def loadDocuments():
     os.system(
-        "wget -nd -r -P ./Documents -A txt,doc http://www.textfiles.com/computers/DOCUMENTATION/")
+        "wget -nd -r -P ./Documents -A txt http://www.textfiles.com/computers/DOCUMENTATION/")
 
 
 def write_inverted_index_to_file():
@@ -131,25 +145,26 @@ def MultiWordQ(words_in_query):
 
     for query in words_in_query:
         query = porter.stem(query, 0, len(query) - 1)
-        results = []
-        if query not in stop_words and query not in dictionary:
+        if (query is '') or (query in stop_words) or (hasNumbers(query)) or (query not in dictionary):
             print query, "word is not in any document."
+            continue
         else:
             for x in dictionary[query]:
-                results.append(x['name'])
-        all_results.append(results)
+                all_results.append(x['name'])
 
-    print intersection(all_results)
+    final_results = list(set(all_results))
 
+    if len(final_results) == 0:
+        print "Sorry! No results found!"
 
-def show_results():
-    return 0
+    for x in xrange(len(final_results)):
+        print "[" + str(x + 1) + "]", "in", final_results[x]
 
 
 def OneWordQ(query):
     # or dictionary.keys()
     query = porter.stem(query, 0, len(query) - 1)
-    if query not in stop_words and query not in dictionary:
+    if (query is '') or (query in stop_words) or (hasNumbers(query)) or (query not in dictionary):
         # short cicruiting at its best in python :D
         print "Sorry! No results found!"
     else:
@@ -167,7 +182,43 @@ def OneWordQ(query):
 
 
 def PhraseQ(words_in_query):
-    return 1
+    all_results = []
+
+    for query in words_in_query:
+        if query is not '':
+            query = porter.stem(query, 0, len(query) - 1)
+            if (query in stop_words) or (hasNumbers(query)) or (query not in dictionary):
+                print query, "word is not in any document."
+                continue
+            else:
+                results = []
+                for x in dictionary[query]:
+                    results.append(x['name'])
+                all_results.append(results)
+
+    intersect_docs = intersection(all_results)
+
+    for doc in intersect_docs:
+        positions = []
+        q_no = 0
+        for query in words_in_query:
+            if query is not '':
+                query = porter.stem(query, 0, len(query) - 1)
+                if (query in stop_words) or (hasNumbers(query)) or (query not in dictionary):
+                    print query, "word is not in any document."
+                    continue
+                else:
+                    q_no += 1
+                    for x in dictionary[query]:
+                        if x['name'] == doc:
+                            temp = [(p - q_no) for p in x['positions']]
+                            positions.append(temp)
+                            break
+        intersect_positions = intersection(positions)
+        if len(intersect_positions) > 0:
+            print "Match found in document", doc
+        else:
+            print doc, "is not a match!"
 
 
 def load_index_in_memory():
@@ -187,9 +238,9 @@ def run_query(query):
 
 
 def take_commands():
-    print "Please enter your query!"
+    print "Please enter your query at the prompt!\n"
     while 1:
-        print "Enter: "
+        sys.stdout.write("> ")
         query = raw_input().strip()
         run_query(query)
 
@@ -208,14 +259,15 @@ dictionary = {
     'code': [{
         'name': 'abc.txt',  # primary_key
         'frequency': 1,
-        'tf_idf_weight': 0
+        'tf_idf_weight': 0,
+        'positions': [1]
     }]  # postings_list
 }
 
 stop_words = []
 delimiters = ['\n', ' ', ',', '.', '?', '!', ':', '#', '$', '[', ']',
               '(', ')', '-', '=', '@', '%', '&', '*', '_', '>', '<',
-              '{', '}', '|', '/', '\\', '\'', '"', '\\x']
+              '{', '}', '|', '/', '\\', '\'', '"']
 
 porter = PorterStemmer()
 
@@ -237,9 +289,9 @@ if raw_input() == 'y':
     normalize()
     print "Writing the inverted index to", sys.argv[1]
     write_inverted_index_to_file()
-    print "Data munching complete! Use Go now!\n"
+    print "Data munching complete! Use Go now!"
 
-    print "Complete!"
+    print "Complete!\n"
 
     take_commands()
 else:
