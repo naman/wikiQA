@@ -222,8 +222,9 @@ def PhraseQ(words_in_query):
 
 
 def load_index_in_memory():
+    # \TODO 
     f = open(sys.argv[1])
-
+    dictionary = f.read()
     f.close()
 
 
