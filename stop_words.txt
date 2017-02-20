@@ -4,6 +4,7 @@ after
 align
 all
 also
+am
 amp
 an
 and
@@ -20,12 +21,16 @@ br
 but
 by
 c
+can
+can't
+cannot
 category
 center
 cite
 com
 d
 do
+did
 e
 f
 flagicon
@@ -39,6 +44,7 @@ have
 he
 her
 his
+how
 html
 http
 i
@@ -102,8 +108,11 @@ we
 were
 what
 when
+where
 which
 who
+whom
+whose
 will
 with
 would
