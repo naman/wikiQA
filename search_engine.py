@@ -279,9 +279,6 @@ if len(sys.argv) < 4:
 
     exit(1)
 
-# reload(sys)
-# sys.setdefaultencoding('utf-8')
-
 path_to_documents = sys.argv[3]
 file_sentences = {}
 FOCUS_DISTANCE = 2
