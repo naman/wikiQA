@@ -88,6 +88,6 @@ ENV/
 # Rope project settings
 .ropeproject
 
-Documents/
+# Documents/
 doc2/
 *.json
