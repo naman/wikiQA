@@ -33,8 +33,8 @@ Abraham_Lincoln	Did Lincoln win the election of 1860?	Yes	hard	hard	data/set3/a4
 Abraham_Lincoln	Did Lincoln win the election of 1860?	Yes	hard	too hard	data/set3/a4
 Abraham_Lincoln	Who was the general in charge at the Battle of Antietam?	General McClellan	hard	medium	data/set3/a4
 Abraham_Lincoln	Who was the general in charge at the Battle of Antietam?	John Alexander McClernand	hard	medium	data/set3/a4
-Abraham_Lincoln	Why did Lincoln issue the Emancipation Proclamation?	To free slaves 	hard	hard	data/set3/a4
-Abraham_Lincoln	Why did Lincoln issue the Emancipation Proclamation?	The goal was to weaken the rebellion, which was led and controlled by slave owners.	hard	hard	data/set3/a4
+Abraham_Lincoln	Why did Lincoln issue the emancipation Proclamation?	To free slaves 	hard	hard	data/set3/a4
+Abraham_Lincoln	Why did Lincoln issue the emancipation Proclamation?	The goal was to weaken the rebellion, which was led and controlled by slave owners.	hard	hard	data/set3/a4
 Abraham_Lincoln	Do scholars rank lincoln among the top three presidents?	NULL	easy	NULL	data/set3/a4
 Abraham_Lincoln	Do scholars rank lincoln among the top three presidents?	Yes	easy	easy	data/set3/a4
 Abraham_Lincoln	Did lincoln have 18 months of schooling?	NULL	easy	NULL	data/set3/a4
@@ -114,9 +114,9 @@ Amedeo_Avogadro	Who confirm that he sponsored and helped some Sardinian plotters
 Amedeo_Avogadro	He is what?	NULL	NULL	NULL	data/set4/a8
 Amedeo_Avogadro	He is what?	NULL	NULL	NULL	data/set4/a8
 Amedeo_Avogadro	The unification of Italy did what?	NULL	NULL	NULL	data/set4/a8
-Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	yes	NULL	easy	data/set4/a8
-Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	data/set4/a8
-Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	data/set4/a8
+Amedeo_Avogadro	Was King Victor emmanuel III there to pay homage to Avogadro ?	yes	NULL	easy	data/set4/a8
+Amedeo_Avogadro	Was King Victor emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	data/set4/a8
+Amedeo_Avogadro	Was King Victor emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	data/set4/a8
 Amedeo_Avogadro	Is Avogadro 's number commonly used to compute the results of chemical reactions ?	yes	NULL	easy	data/set4/a8
 Amedeo_Avogadro	Is Avogadro 's number commonly used to compute the results of chemical reactions ?	NULL	NULL	NULL	data/set4/a8
 Amedeo_Avogadro	Is Avogadro 's number commonly used to compute the results of chemical reactions ?	NULL	NULL	NULL	data/set4/a8
@@ -127,9 +127,9 @@ Amedeo_Avogadro	Did the scientific community not reserve great attention to his 
 Amedeo_Avogadro	Did the scientific community not reserve great attention to his theory ?	NULL	NULL	NULL	data/set4/a8
 Amedeo_Avogadro	Does it not allow chemists to determine the exact amounts of substances produced in a given reaction ?	NULL	NULL	NULL	data/set4/a8
 Amedeo_Avogadro	Does it not allow chemists to determine the exact amounts of substances produced in a given reaction ?	NULL	NULL	NULL	data/set4/a8
-Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	yes	NULL	easy	data/set4/a8
-Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	data/set4/a8
-Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	data/set4/a8
+Amedeo_Avogadro	Was King Victor emmanuel III there to pay homage to Avogadro ?	yes	NULL	easy	data/set4/a8
+Amedeo_Avogadro	Was King Victor emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	data/set4/a8
+Amedeo_Avogadro	Was King Victor emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	data/set4/a8
 Amedeo_Avogadro	Can the title of this famous 1811 paper be roughly translated into english?	yes	NULL	easy	data/set4/a8
 Amedeo_Avogadro	Can the title of this famous 1811 paper be roughly translated into english?	NULL	NULL	NULL	data/set4/a8
 Amedeo_Avogadro	Can the title of this famous 1811 paper be roughly translated into english?		NULL		data/set4/a8
@@ -280,12 +280,12 @@ Calvin_Coolidge	Were the more well-known Coolidges , such as architect Charles A
 Calvin_Coolidge	Is the genius of the average the most convincing proof of $ his strength?	NULL	NULL	NULL	data/set3/a9
 Calvin_Coolidge	What happened from tuberculosis?	NULL	NULL	NULL	data/set3/a9
 Calvin_Coolidge	What happened from black river academy , vermont?	NULL	NULL	NULL	data/set3/a9
-Canada	Did France cede nearly all of its colonies in Europe in 1763?	Yes.	easy	easy	data/set2/a8
-Canada	Did France cede nearly all of its colonies in Europe in 1763?	yes	easy	easy	data/set2/a8
-Canada	Did France cede nearly all of its colonies in Europe in 1763?	NULL	easy	NULL	data/set2/a8
-Canada	Is Canada a member of the OECD?	Yes.	easy	easy	data/set2/a8
-Canada	Is Canada a member of the OECD?	yes	easy	easy	data/set2/a8
-Canada	Is Canada a member of the OECD?	NULL	easy	NULL	data/set2/a8
+Canada	Did France cede nearly all of its colonies in europe in 1763?	Yes.	easy	easy	data/set2/a8
+Canada	Did France cede nearly all of its colonies in europe in 1763?	yes	easy	easy	data/set2/a8
+Canada	Did France cede nearly all of its colonies in europe in 1763?	NULL	easy	NULL	data/set2/a8
+Canada	Is Canada a member of the OeCD?	Yes.	easy	easy	data/set2/a8
+Canada	Is Canada a member of the OeCD?	yes	easy	easy	data/set2/a8
+Canada	Is Canada a member of the OeCD?	NULL	easy	NULL	data/set2/a8
 Canada	Is Canada's official language Zulu?	No.	easy	easy	data/set2/a8
 Canada	Is Canada's official language Zulu?	no	easy	easy	data/set2/a8
 Canada	Is Canada's official language Zulu?	NULL	easy	NULL	data/set2/a8
@@ -303,9 +303,9 @@ Canada	Which countries established colonies in Canada?	NULL	hard	NULL	data/set2/
 Canada	How has Canada helped UN peacekeeping efforts?	During the Suez Crisis of 1956, Lester B. Pearson eased tensions by proposing the inception of the United Nations Peacekeeping Force. Canada has since served in 50 peacekeeping missions, including every UN peacekeeping effort until 1989	hard	medium	data/set2/a8
 Canada	How has Canada helped UN peacekeeping efforts?	Canada has played a leading role in UN peacekeeping efforts. During the Suez Crisis of 1956, Lester B. Pearson eased tensions by proposing the inception of the United Nations Peacekeeping Force. Canada has since served in 50 peacekeeping missions, including every UN peacekeeping effort until 1989	hard	hard	data/set2/a8
 Canada	How has Canada helped UN peacekeeping efforts?	NULL	hard	NULL	data/set2/a8
-Canada	What percentage of the population don't speak English or French at home?	28%	hard	too hard	data/set2/a8
-Canada	What percentage of the population don't speak English or French at home?	1.5%	hard	hard	data/set2/a8
-Canada	What percentage of the population don't speak English or French at home?	NULL	hard	NULL	data/set2/a8
+Canada	What percentage of the population don't speak english or French at home?	28%	hard	too hard	data/set2/a8
+Canada	What percentage of the population don't speak english or French at home?	1.5%	hard	hard	data/set2/a8
+Canada	What percentage of the population don't speak english or French at home?	NULL	hard	NULL	data/set2/a8
 Canada	Is Canada bilingual?	Yes.	easy	easy	data/set2/a8
 Canada	Is Canada bilingual?	Yes, it is.	easy	easy	data/set2/a8
 Canada	Did Canadian soldiers win the Battle of Vimy Ridge in 1917?	Yes	easy	easy	data/set2/a8
@@ -325,19 +325,19 @@ Canada	What is the largest religious group in Canada?	Christian	hard	hard	data/s
 Canada	When did Canada have one of the largest armed forces in the world?	1944.	hard	hard	data/set2/a8
 Canada	When did Canada have one of the largest armed forces in the world?	World War II.	hard	hard	data/set2/a8
 Canada	What have been inhabited for millennia by aboriginal peoples?	The lands	NULL	easy	data/set2/a8
-Canada	European books and maps began referring to this region as Canada in what year?	1545	NULL	easy	data/set2/a8
+Canada	european books and maps began referring to this region as Canada in what year?	1545	NULL	easy	data/set2/a8
 Canada	What was Canada's most important industry until the 1800s?	The fur trade	NULL	easy	data/set2/a8
 Canada	Is it true that it angered many residents of the thirteen colonies?	yes	NULL	easy	data/set2/a8
 Canada	How do cuba and declining participation relate?	Canada maintains full relations with both.	NULL	easy	data/set2/a8
 Canada	Is it true that provinces have a large degree of autonomy?	yes	NULL	easy	data/set2/a8
 Canada	What did Canada adopt in 1965?	The Maple Leaf Flag	NULL	medium	data/set2/a8
 Canada	What arrived in Britain?	The first Canadian Army units in WW II	NULL	easy	data/set2/a8
-Canada	Are Canada 's two official languages English and French ?	yes	NULL	easy	data/set2/a8
+Canada	Are Canada 's two official languages english and French ?	yes	NULL	easy	data/set2/a8
 Canada	Are Canada 's official national sports ice hockey ( winter ) and lacrosse ( summer ) ?	yes	NULL	easy	data/set2/a8
 Canada	Is Canada a geographically vast and ethnically diverse country ?	yes	NULL	easy	data/set2/a8
-Canada	Did Mainland Nova Scotia not come under British rule with the Treaty of Utrecht    (: ; ?	no!	NULL	easy	data/set2/a8
+Canada	Did Mainland Nova Scotia not come under British rule with the Treaty of Utrecht (: ; ?	no!	NULL	easy	data/set2/a8
 Canada	Did Cartier not use the word ` Canada ' to refer to not only that village , but the entire area subject to Donnacona , Chief at Stadacona ?	yes	NULL	easy	data/set2/a8
-Canada	Did continental European immigrants not settle the prairies ?	no	NULL	easy	data/set2/a8
+Canada	Did continental european immigrants not settle the prairies ?	no	NULL	easy	data/set2/a8
 Canada	Is it the world 's second largest country by total area?	yes	NULL	easy	data/set2/a8
 Canada	What happened in 1867?	Canada was formed as a federal, semi-autonomous polity	NULL	easy	data/set2/a8
 duck	Are ducks in the Arctic Northern Hemisphere migratory?	Some are	easy	medium	data/set1/a10
@@ -392,55 +392,55 @@ duck	What expression is part of a conceptual framework for testing computer syst
 duck	What expression is part of a conceptual framework for testing computer systems?	Quacks like a duck	hard	hard	data/set1/a10
 duck	Where did the expression "a sitting duck" come from?	In many areas, wild duckof various species (including ducks farmed and released into the wild) are hunted for food or sport, by shooting, or formerly by decoys.	hard	hard	data/set1/a10
 duck	Where did the expression "a sitting duck" come from?	In many areas, wild ducks of various species (including ducks farmed and released into the wild) are hunted for food or sport, by shooting, or formerly by decoys.	hard	hard	data/set1/a10
-Egypt	Is Egypt bordered by the Gaza Strip?	yes	easy	easy	data/set2/a6
-Egypt	Is Egypt bordered by the Gaza Strip?	Yes	easy	medium	data/set2/a6
-Egypt	Is Egypt the most populated country in Africa?	no	easy	medium	data/set2/a6
-Egypt	Is Egypt the most populated country in Africa?	No	easy	easy	data/set2/a6
-Egypt	Does Egypt have political influence in the Middle East?	yes	easy	easy	data/set2/a6
-Egypt	Does Egypt have political influence in the Middle East?	Yes	easy	medium	data/set2/a6
-Egypt	When was the Six Day War?	1967	medium	easy	data/set2/a6
-Egypt	When was the Six Day War?	1967	medium	medium	data/set2/a6
-Egypt	What religions has Egypt outlawed?	All but Christianity, Islam, and Judaism	medium	hard	data/set2/a6
-Egypt	What religions has Egypt outlawed?	all religions and belief except Islam, Christianity and Judaism	medium	medium	data/set2/a6
-Egypt	What is the poulation of Egypt?	more than 78 million	medium	easy	data/set2/a6
-Egypt	What is the poulation of Egypt?	78 million people	medium	hard	data/set2/a6
-Egypt	Why does most of Egypt's population live near the Nile?	the only arable agricultural land is found there,	hard	medium	data/set2/a6
-Egypt	Why does most of Egypt's population live near the Nile?	The only arable agricultural land is found there	hard	hard	data/set2/a6
-Egypt	Are there a large number of Jews living in Egypt today?	no	hard	medium	data/set2/a6
-Egypt	Are there a large number of Jews living in Egypt today?	No	hard	hard	data/set2/a6
-Egypt	During what period was Akhenaten a Pharaoh?	The New Kingdom (c.1550&#8722;1070 BC) 	hard	hard	data/set2/a6
-Egypt	During what period was Akhenaten a Pharaoh?	The New Kingdom	hard	hard	data/set2/a6
-Egypt	Is Egypt in Asia?	No.	easy	easy	data/set2/a6
-Egypt	Does Egypt receive the least rainfall in the world?	Yes.	easy	easy	data/set2/a6
-Egypt	Does Egypt receive the least rainfall in the world?	Yes	easy	easy	data/set2/a6
-Egypt	Does Egypt's foreign policy operates along moderate lines?	Yes.	easy	easy	data/set2/a6
-Egypt	Does Egypt's foreign policy operates along moderate lines?	Yes	easy	easy	data/set2/a6
-Egypt	Since when has Egypt been a republic?	June 18 1953.	medium	medium	data/set2/a6
-Egypt	Since when has Egypt been a republic?	June 18 1953	medium	medium	data/set2/a6
-Egypt	When were the Great Sphinx and the Pyramids of Giza built?	During the Old Kingdom.	medium	medium	data/set2/a6
-Egypt	When were the Great Sphinx and the Pyramids of Giza built?	During the Old Kingdom	medium	medium	data/set2/a6
-Egypt	What countries border Egypt?	Libya, Sudan, the Gaza Strip and Israel.	medium	hard	data/set2/a6
-Egypt	What countries border Egypt?	Libya, Sudan, the Gaza Strip and Israel	medium	hard	data/set2/a6
-Egypt	What is the estimated population of Egypt?	More than 78 million.	hard	hard	data/set2/a6
-Egypt	What is the estimated population of Egypt?	78 million	hard	hard	data/set2/a6
-Egypt	Does snow fall in Egypt?	Yes.	hard	hard	data/set2/a6
-Egypt	Does snow fall in Egypt?	Yes	hard	hard	data/set2/a6
-Egypt	When did organized agriculture appear in the Nile Valley?	6000 BC.	hard	medium	data/set2/a6
-Egypt	When did organized agriculture appear in the Nile Valley?	About 6000 BC	hard	medium	data/set2/a6
+egypt	Is egypt bordered by the Gaza Strip?	yes	easy	easy	data/set2/a6
+egypt	Is egypt bordered by the Gaza Strip?	Yes	easy	medium	data/set2/a6
+egypt	Is egypt the most populated country in Africa?	no	easy	medium	data/set2/a6
+egypt	Is egypt the most populated country in Africa?	No	easy	easy	data/set2/a6
+egypt	Does egypt have political influence in the Middle east?	yes	easy	easy	data/set2/a6
+egypt	Does egypt have political influence in the Middle east?	Yes	easy	medium	data/set2/a6
+egypt	When was the Six Day War?	1967	medium	easy	data/set2/a6
+egypt	When was the Six Day War?	1967	medium	medium	data/set2/a6
+egypt	What religions has egypt outlawed?	All but Christianity, Islam, and Judaism	medium	hard	data/set2/a6
+egypt	What religions has egypt outlawed?	all religions and belief except Islam, Christianity and Judaism	medium	medium	data/set2/a6
+egypt	What is the poulation of egypt?	more than 78 million	medium	easy	data/set2/a6
+egypt	What is the poulation of egypt?	78 million people	medium	hard	data/set2/a6
+egypt	Why does most of egypt's population live near the Nile?	the only arable agricultural land is found there,	hard	medium	data/set2/a6
+egypt	Why does most of egypt's population live near the Nile?	The only arable agricultural land is found there	hard	hard	data/set2/a6
+egypt	Are there a large number of Jews living in egypt today?	no	hard	medium	data/set2/a6
+egypt	Are there a large number of Jews living in egypt today?	No	hard	hard	data/set2/a6
+egypt	During what period was Akhenaten a Pharaoh?	The New Kingdom (c.1550&#8722;1070 BC) 	hard	hard	data/set2/a6
+egypt	During what period was Akhenaten a Pharaoh?	The New Kingdom	hard	hard	data/set2/a6
+egypt	Is egypt in Asia?	No.	easy	easy	data/set2/a6
+egypt	Does egypt receive the least rainfall in the world?	Yes.	easy	easy	data/set2/a6
+egypt	Does egypt receive the least rainfall in the world?	Yes	easy	easy	data/set2/a6
+egypt	Does egypt's foreign policy operates along moderate lines?	Yes.	easy	easy	data/set2/a6
+egypt	Does egypt's foreign policy operates along moderate lines?	Yes	easy	easy	data/set2/a6
+egypt	Since when has egypt been a republic?	June 18 1953.	medium	medium	data/set2/a6
+egypt	Since when has egypt been a republic?	June 18 1953	medium	medium	data/set2/a6
+egypt	When were the Great Sphinx and the Pyramids of Giza built?	During the Old Kingdom.	medium	medium	data/set2/a6
+egypt	When were the Great Sphinx and the Pyramids of Giza built?	During the Old Kingdom	medium	medium	data/set2/a6
+egypt	What countries border egypt?	Libya, Sudan, the Gaza Strip and Israel.	medium	hard	data/set2/a6
+egypt	What countries border egypt?	Libya, Sudan, the Gaza Strip and Israel	medium	hard	data/set2/a6
+egypt	What is the estimated population of egypt?	More than 78 million.	hard	hard	data/set2/a6
+egypt	What is the estimated population of egypt?	78 million	hard	hard	data/set2/a6
+egypt	Does snow fall in egypt?	Yes.	hard	hard	data/set2/a6
+egypt	Does snow fall in egypt?	Yes	hard	hard	data/set2/a6
+egypt	When did organized agriculture appear in the Nile Valley?	6000 BC.	hard	medium	data/set2/a6
+egypt	When did organized agriculture appear in the Nile Valley?	About 6000 BC	hard	medium	data/set2/a6
 elephant	Are elephants the largest land animals alive today?	yes	easy	easy	data/set1/a5
 elephant	Are elephants the largest land animals alive today?	yes	easy	easy	data/set1/a5
 elephant	Can an elephant kill a rhinoceros?	yes	easy	hard	data/set1/a5
 elephant	Can an elephant kill a rhinoceros?	yes	easy	easy	data/set1/a5
 elephant	Are elephants good swimmers?	yes	easy	easy	data/set1/a5
 elephant	Are elephants good swimmers?	yes	easy	easy	data/set1/a5
-elephant	How many living species of African Elephants are there?	2	medium	hard	data/set1/a5
-elephant	How many living species of African Elephants are there?	The African Elephant genus contains two (or, arguably, three) living species.	medium	medium	data/set1/a5
+elephant	How many living species of African elephants are there?	2	medium	hard	data/set1/a5
+elephant	How many living species of African elephants are there?	The African elephant genus contains two (or, arguably, three) living species.	medium	medium	data/set1/a5
 elephant	How long may elephants live?	70 years	medium	medium	data/set1/a5
 elephant	How long may elephants live?	As long as 70 years, sometimes longer.	medium	medium	data/set1/a5
 elephant	Why does the phrase 'elephants never forget' have no metaphorical meaning?	it refers literally to elephants supposedly having an excellent memory	medium	hard	data/set1/a5
 elephant	Why does the phrase 'elephants never forget' have no metaphorical meaning?	Because it refers literally to elephants supposedly having an excellent memory.	medium	medium	data/set1/a5
-elephant	How many living species of Asian Elephants are there?	1	hard	hard	data/set1/a5
-elephant	How many living species of Asian Elephants are there?	one	hard	medium	data/set1/a5
+elephant	How many living species of Asian elephants are there?	1	hard	hard	data/set1/a5
+elephant	How many living species of Asian elephants are there?	one	hard	medium	data/set1/a5
 elephant	How much do elephants weight at birth?	120 kilograms	hard	medium	data/set1/a5
 elephant	How much do elephants weight at birth?	At birth it is common for an elephant calf to weigh 120 kilograms (265 lb).	hard	medium	data/set1/a5
 elephant	What did Aristotle say about elephants?	the beast which passeth all others in wit and mind	hard	hard	data/set1/a5
@@ -469,8 +469,8 @@ elephant	Have elephants been used as working animals?	Yes	easy	easy	data/set1/a5
 elephant	Do they prefer forested areas?	Yes	easy	easy	data/set1/a5
 elephant	Do they prefer forested areas?	Yes	easy	easy	data/set1/a5
 elephant	What is the world population of Asian elephants?	60000	medium	medium	data/set1/a5
-elephant	What is the world population of Asian elephants?	The world population of Asian elephants – also called Indian Elephants or Elephas maximus – is estimated to be around 60,000	medium	medium	data/set1/a5
-elephant	What part of an elephant is very important for temperature regulation?	Ears	medium	medium	data/set1/a5
+elephant	What is the world population of Asian elephants?	The world population of Asian elephants - also called Indian elephants or elephas maximus - is estimated to be around 60,000	medium	medium	data/set1/a5
+elephant	What part of an elephant is very important for temperature regulation?	ears	medium	medium	data/set1/a5
 elephant	What part of an elephant is very important for temperature regulation?	The large flapping ears of an elephant are also very important for temperature regulation.	medium	medium	data/set1/a5
 elephant	Where was the largest elephant ever recorded shot?	Angola	medium	medium	data/set1/a5
 elephant	Where was the largest elephant ever recorded shot?	The largest elephant ever recorded was shot in Angola in 1956.	medium	medium	data/set1/a5
@@ -494,8 +494,8 @@ Finland	In what year were the "Games of the XV Olympiad" held?	1952	medium	mediu
 Finland	In what year were the "Games of the XV Olympiad" held?	1952	medium	medium	data/set2/a4
 Finland	What body of water lies to the south of Finland?	the Gulf of Finland	hard	hard	data/set2/a4
 Finland	What body of water lies to the south of Finland?	Archipelago Sea	hard	hard	data/set2/a4
-Finland	Name an animal that is growing in number due to recent conservation efforts	Golden Eagle, Brown Bear, or Eurasian Lynx (Change imperative to interrogative)	hard	hard	data/set2/a4
-Finland	Name an animal that is growing in number due to recent conservation efforts	Golden Eagle	hard	hard	data/set2/a4
+Finland	Name an animal that is growing in number due to recent conservation efforts	Golden eagle, Brown Bear, or eurasian Lynx (Change imperative to interrogative)	hard	hard	data/set2/a4
+Finland	Name an animal that is growing in number due to recent conservation efforts	Golden eagle	hard	hard	data/set2/a4
 Finland	Today, are there more cell phone subscriptions than people in Finland?	yes	hard	too hard	data/set2/a4
 Finland	Today, are there more cell phone subscriptions than people in Finland?	Yes	hard	hard	data/set2/a4
 Finland	Is Matti Vanhanen the Prime Minister of Finland?	yes	easy	easy	data/set2/a4
@@ -511,8 +511,8 @@ Finland	What is the biggest city in Finland?	the cities of the Greater Helsinki 
 Finland	Who is the most popular rock group in Finland?	CMX	medium	medium	data/set2/a4
 Finland	Who is the most popular rock group in Finland?	CMX	medium	hard	data/set2/a4
 Finland	What is Finland's economy like?	a highly industrialised, free-market economy	hard	medium	data/set2/a4
-Finland	Where is Finland located?	Northern Europe	hard	medium	data/set2/a4
-Finland	Where is Finland located?	Northern Europe	hard	hard	data/set2/a4
+Finland	Where is Finland located?	Northern europe	hard	medium	data/set2/a4
+Finland	Where is Finland located?	Northern europe	hard	hard	data/set2/a4
 Finland	What is the weather like in summer?	relatively warm	hard	medium	data/set2/a4
 Finland	What is the weather like in summer?	relatively warm	hard	medium	data/set2/a4
 Finland	Does salmon remain the favorite of fly rod enthusiasts?	Yes	easy	easy	data/set2/a4
@@ -535,7 +535,7 @@ Finland	What is a country with which Finland is involved in an international con
 Finland	What is Helsinki?	NULL	NULL	NULL	data/set2/a4
 Finland	What is concentrated in the southern part of the country?	NULL	NULL	NULL	data/set2/a4
 Finland	What is spoken natively by a 5.5 percent minority?	NULL	NULL	NULL	data/set2/a4
-Finland	What do jari litmanen and sami hyypiä have in common?	NULL	NULL	NULL	data/set2/a4
+Finland	What do jari litmanen and sami hyypia have in common?	NULL	NULL	NULL	data/set2/a4
 Finland	Is it true that he composed finlandia in 1899?	NULL	NULL	NULL	data/set2/a4
 Finland	Is it true that it has borders with sweden?	NULL	NULL	NULL	data/set2/a4
 Finland	What did Finland join in 1995?	NULL	NULL	NULL	data/set2/a4
@@ -545,14 +545,14 @@ Finland	What situated in Northern?	NULL	NULL	NULL	data/set2/a4
 Finland	What arrived in Finland?	NULL	NULL	NULL	data/set2/a4
 Finland	What ceded by Finland?	NULL	NULL	NULL	data/set2/a4
 Finland	Lunch is what?	NULL	NULL	NULL	data/set2/a4
-Finland	Who is the autonomous Åland Islands , where Finnish is not compulsory due to Swedish being the sole official language of the province . ?	NULL	NULL	NULL	data/set2/a4
+Finland	Who is the autonomous land Islands , where Finnish is not compulsory due to Swedish being the sole official language of the province . ?	NULL	NULL	NULL	data/set2/a4
 Finland	The earliest people were what?	NULL	NULL	NULL	data/set2/a4
 Finland	Are Various sporting events popular in Finland ?	NULL	NULL	NULL	data/set2/a4
 Finland	Are all official holidays in Finland established by acts of Parliament ?	NULL	NULL	NULL	data/set2/a4
 Finland	Are the people of Finland accustomed to technology and information services ?	NULL	NULL	NULL	data/set2/a4
-Finland	Was one of the most productive composers of popular music Toivo Kärki , and the most famous singer Olavi Virta -LRB- 1915 -- 1972 -RRB- ?	NULL	NULL	NULL	data/set2/a4
+Finland	Was one of the most productive composers of popular music Toivo Karki , and the most famous singer Olavi Virta -LRB- 1915 -- 1972 -RRB- ?	NULL	NULL	NULL	data/set2/a4
 Finland	Do 79 percent of the population not use the Internet ?	NULL	NULL	NULL	data/set2/a4
-Finland	Did the relationship between the Grand Duchy and the Russian Empire not sour when the Russian government made moves to restrict Finnish autonomy ?	NULL	NULL	NULL	data/set2/a4
+Finland	Did the relationship between the Grand Duchy and the Russian empire not sour when the Russian government made moves to restrict Finnish autonomy ?	NULL	NULL	NULL	data/set2/a4
 Finland	Is finland , officially the republic of finland (`` `` republic of finland ('' '' , or (`` `` suomen tasavalta ('' '' in finnish and (`` `` republiken finland ('' '' in swedish , the long protocol name , which is not defined by the law?	NULL	NULL	NULL	data/set2/a4
 Finland	Is the capital city helsinki?	NULL	NULL	NULL	data/set2/a4
 Finland	Is finland a democratic , parliamentary republic?	NULL	NULL	NULL	data/set2/a4
@@ -560,8 +560,8 @@ Gerald_Ford	Was Ford a member of the House of Representatives?	Yes	easy	easy	dat
 Gerald_Ford	Was Ford a member of the House of Representatives?	yes	easy	easy	data/set3/a10
 Gerald_Ford	For how long was Ford a member of the House of Representatives?	Over eight years.	medium	medium	data/set3/a10
 Gerald_Ford	For how long was Ford a member of the House of Representatives?	Ford served for over eight years as the Republican Minority Leader of the United States House of Representatives	medium	medium	data/set3/a10
-Gerald_Ford	Was Gerald Ford a member of Delta Kappa Epsilon?	Yes	easy	easy	data/set3/a10
-Gerald_Ford	Was Gerald Ford a member of Delta Kappa Epsilon?	Yes	easy	easy	data/set3/a10
+Gerald_Ford	Was Gerald Ford a member of Delta Kappa epsilon?	Yes	easy	easy	data/set3/a10
+Gerald_Ford	Was Gerald Ford a member of Delta Kappa epsilon?	Yes	easy	easy	data/set3/a10
 Gerald_Ford	Did ford get an award called "Congressman's congressman"?	Yes	easy	easy	data/set3/a10
 Gerald_Ford	Did ford get an award called "Congressman's congressman"?	No	easy	medium	data/set3/a10
 Gerald_Ford	Did ford attend the University of Michigan?	Yes	easy	easy	data/set3/a10
@@ -572,8 +572,7 @@ Gerald_Ford	What did Ford say about his biological father?	He was abusive and ha
 Gerald_Ford	What did Ford say about his biological father?	his biological father was abusive and had a history of hitting his mother	medium	medium	data/set3/a10
 Gerald_Ford	Who did Ford nominate for Vice President?	Bob Dole	medium	hard	data/set3/a10
 Gerald_Ford	Who did Ford nominate for Vice President?	Nelson Rockefeller	medium	medium	data/set3/a10
-Gerald_Ford	Was Ford active about Vietnamese affairs?	No
-\n	hard	hard	data/set3/a10
+Gerald_Ford	Was Ford active about Vietnamese affairs?	No	hard	hard	data/set3/a10
 Gerald_Ford	Was Ford active about Vietnamese affairs?	Yes	hard	too hard	data/set3/a10
 Gerald_Ford	Had Ford's wife married before?	Yes	hard	hard	data/set3/a10
 Gerald_Ford	Had Ford's wife married before?	No	hard	hard	data/set3/a10
@@ -582,16 +581,16 @@ Gerald_Ford	Was Gerald Ford the 38th President of the United States?	yes	easy	ea
 Gerald_Ford	Was Gerald Ford the 38th President of the United States?	yes	easy	easy	data/set3/a10
 Gerald_Ford	Did Gerald Ford serve as the Republican Minority Leader of the House of Representatives?	yes	easy	easy	data/set3/a10
 Gerald_Ford	Did Gerald Ford serve as the Republican Minority Leader of the House of Representatives?	yes	easy	easy	data/set3/a10
-Gerald_Ford	Was Ford an Eagle Scout?	yes	easy	easy	data/set3/a10
-Gerald_Ford	Was Ford an Eagle Scout?	yes	easy	easy	data/set3/a10
+Gerald_Ford	Was Ford an eagle Scout?	yes	easy	easy	data/set3/a10
+Gerald_Ford	Was Ford an eagle Scout?	yes	easy	easy	data/set3/a10
 Gerald_Ford	What district was Ford elected from?	Michigan's 5th congressional district	medium	medium	data/set3/a10
 Gerald_Ford	What district was Ford elected from?	Michigan's 5th congressional district	medium	medium	data/set3/a10
-Gerald_Ford	How many Eagle Scouts were involved in Ford's funeral procession?	400	medium	medium	data/set3/a10
-Gerald_Ford	How many Eagle Scouts were involved in Ford's funeral procession?	About 400	medium	medium	data/set3/a10
+Gerald_Ford	How many eagle Scouts were involved in Ford's funeral procession?	400	medium	medium	data/set3/a10
+Gerald_Ford	How many eagle Scouts were involved in Ford's funeral procession?	About 400	medium	medium	data/set3/a10
 Gerald_Ford	Which future Heisman Trophy winner did Ford tackle?	Jay Berwanger	medium	hard	data/set3/a10
 Gerald_Ford	Which future Heisman Trophy winner did Ford tackle?	Jay Berwanger	medium	medium	data/set3/a10
-Gerald_Ford	Has another US President been an Eagle Scout?	no	hard	hard	data/set3/a10
-Gerald_Ford	Has another US President been an Eagle Scout?	no	hard	hard	data/set3/a10
+Gerald_Ford	Has another US President been an eagle Scout?	no	hard	hard	data/set3/a10
+Gerald_Ford	Has another US President been an eagle Scout?	no	hard	hard	data/set3/a10
 Gerald_Ford	Did Ford need to do extra work to pay for college?	yes	hard	medium	data/set3/a10
 Gerald_Ford	Did Ford need to do extra work to pay for college?	yes	hard	hard	data/set3/a10
 Gerald_Ford	Have more than five Presidents lived past the age of 90?	no	hard	hard	data/set3/a10
@@ -606,10 +605,10 @@ Gerald_Ford	Did Grand Rapids supporters not urge him to take on Bartel J. Jonkma
 Gerald_Ford	Did they not claim Ford 's pardon was quid pro quo in exchange for Nixon 's resignation ?	They did claim Ford's pardon was quid pro quo.	NULL	easy	data/set3/a10
 Ghana	Does Ghana have twice the per capita output of the poorer countries in West Africa?	yes	easy	easy	data/set2/a5
 Ghana	Does Ghana have twice the per capita output of the poorer countries in West Africa?	yes	easy	easy	data/set2/a5
-Ghana	Is English Ghana's official language?	yes	easy	easy	data/set2/a5
-Ghana	Is English Ghana's official language?	yes	easy	easy	data/set2/a5
-Ghana	Did the Dutch build the Elmina Castle?	No	easy	medium	data/set2/a5
-Ghana	Did the Dutch build the Elmina Castle?	no	easy	easy	data/set2/a5
+Ghana	Is english Ghana's official language?	yes	easy	easy	data/set2/a5
+Ghana	Is english Ghana's official language?	yes	easy	easy	data/set2/a5
+Ghana	Did the Dutch build the elmina Castle?	No	easy	medium	data/set2/a5
+Ghana	Did the Dutch build the elmina Castle?	no	easy	easy	data/set2/a5
 Ghana	When did Ghana achieve independence from the United Kingdom?	1957	medium	medium	data/set2/a5
 Ghana	When did Ghana achieve independence from the United Kingdom?	1957	medium	medium	data/set2/a5
 Ghana	How many regions is Ghana divided into?	10	medium	easy	data/set2/a5
@@ -624,8 +623,8 @@ Ghana	What is the weather like at Lake Volta?	Warm and comparatively dry	hard	ha
 Ghana	What is the weather like at Lake Volta?	warm and comparatively dry	hard	hard	data/set2/a5
 Ghana	Is Ghana in Asia?	no	easy	easy	data/set2/a5
 Ghana	Is Ghana in Asia?	No	easy	easy	data/set2/a5
-Ghana	Is English the official language?	yes	easy	easy	data/set2/a5
-Ghana	Is English the official language?	Yes	easy	easy	data/set2/a5
+Ghana	Is english the official language?	yes	easy	easy	data/set2/a5
+Ghana	Is english the official language?	Yes	easy	easy	data/set2/a5
 Ghana	Is Ghana's head of state John Agyekum Kufuor?	yes	easy	easy	data/set2/a5
 Ghana	Is Ghana's head of state John Agyekum Kufuor?	Yes	easy	easy	data/set2/a5
 Ghana	What does the word Ghana mean?	warrior king	medium	medium	data/set2/a5
@@ -636,28 +635,28 @@ Ghana	Where is old Ghana in relation to present Ghana?	500 miles north	medium	me
 Ghana	Where is old Ghana in relation to present Ghana?	500 miles north of the present Ghana, and occupied the area between Rivers Senegal and Niger	medium	medium	data/set2/a5
 Ghana	Who makes up Ghana's Parliament?	the New Patriotic Party and National Democratic Congress	hard	hard	data/set2/a5
 Ghana	Who makes up Ghana's Parliament?	the New Patriotic Party and National Democratic Congress	hard	hard	data/set2/a5
-Ghana	What European countries established states in Ghana?	The UK	hard	too hard	data/set2/a5
-Ghana	What European countries established states in Ghana?	Portugual, France, Britain, Netherlands	hard	hard	data/set2/a5
+Ghana	What european countries established states in Ghana?	The UK	hard	too hard	data/set2/a5
+Ghana	What european countries established states in Ghana?	Portugual, France, Britain, Netherlands	hard	hard	data/set2/a5
 Ghana	What was Wagadugu?	NULL	NULL	NULL	data/set2/a5
-Ghana	What was controlled by Sundiata in 1240 AD, and absorbed into the larger Mali Empire?	NULL	NULL	NULL	data/set2/a5
-Ghana	What connected the Akans to this Empire?	NULL	NULL	NULL	data/set2/a5
+Ghana	What was controlled by Sundiata in 1240 AD, and absorbed into the larger Mali empire?	NULL	NULL	NULL	data/set2/a5
+Ghana	What connected the Akans to this empire?	NULL	NULL	NULL	data/set2/a5
 Ghana	Is it true that anecdotal evidence connected the akans to this empire?	NULL	NULL	NULL	data/set2/a5
 Ghana	Is it true that the portuguese came to ghana in the 15th century?	NULL	NULL	NULL	data/set2/a5
 Ghana	Is it true that agricultural expansion marked the period before 500?	NULL	NULL	NULL	data/set2/a5
 Ghana	What did Ghana capture in 1642?	NULL	NULL	NULL	data/set2/a5
 Ghana	Is The Parliament of Ghana unicameral?	NULL	NULL	NULL	data/set2/a5
-Ghana	Is Medieval Ghana (4th- 13th Century): The Republic of Ghana is named after the medieval Ghana Empire of West Africa. named after the medieval Ghana Empire of West Africa?	NULL	NULL	NULL	data/set2/a5
+Ghana	Is Medieval Ghana (4th- 13th Century): The Republic of Ghana is named after the medieval Ghana empire of West Africa. named after the medieval Ghana empire of West Africa?	NULL	NULL	NULL	data/set2/a5
 Ghana	What was on March?	NULL	NULL	NULL	data/set2/a5
 Ghana		NULL	NULL	NULL	data/set2/a5
 Ghana		NULL	NULL	NULL	data/set2/a5
 Ghana	The coastline is what?	NULL	NULL	NULL	data/set2/a5
 Ghana	Ghana 's spending on education has what?	NULL	NULL	NULL	data/set2/a5
 Ghana	Who sits at Osu Castle ?	NULL	NULL	NULL	data/set2/a5
-Ghana	Is all teaching done in English , Ghana 's official language ?	NULL	NULL	NULL	data/set2/a5
+Ghana	Is all teaching done in english , Ghana 's official language ?	NULL	NULL	NULL	data/set2/a5
 Ghana	Are Native Ghanaian languages divided into two linguistic subfamilies of the Niger-Congo language family ?	NULL	NULL	NULL	data/set2/a5
 Ghana	Are more than 100 languages and dialects spoken in Ghana ?	NULL	NULL	NULL	data/set2/a5
 Ghana	Had the tax regime which started in 1998 a single rate but since September 2007 entered into a multiple rate regime ?	NULL	NULL	NULL	data/set2/a5
-Ghana	Did European and other : 0.2 % Religions : Christian 63 % , African beliefs 21 % , Muslim 16 % , Facts on People of Ghana , not access July 13 , 2006 More than 100 languages and dialects are spoken in Ghana ?	NULL	NULL	NULL	data/set2/a5
+Ghana	Did european and other : 0.2 % Religions : Christian 63 % , African beliefs 21 % , Muslim 16 % , Facts on People of Ghana , not access July 13 , 2006 More than 100 languages and dialects are spoken in Ghana ?	NULL	NULL	NULL	data/set2/a5
 Ghana	Does this not allow retailers of taxable goods under Act 546 to charge a marginal 3 % on their sales and account on same to the VAT Service ?	NULL	NULL	NULL	data/set2/a5
 Ghana	Is the republic of ghana a country in west africa?	NULL	NULL	NULL	data/set2/a5
 Ghana	What happened with the portuguese in the 15th century?	NULL	NULL	NULL	data/set2/a5
@@ -679,7 +678,7 @@ Gray_Wolf	Why do wolves howl?	To pack members keep in touch, allowing them to co
 Gray_Wolf	What is surplus killing?	Surplus killing is defined as the killing of several prey animals too numerous to eat at one sitting.	hard	medium	data/set1/a6
 Gray_Wolf	What is surplus killing?	the killing of several prey animals too numerous to eat at one sitting	hard	easy	data/set1/a6
 Gray_Wolf	Are Gray Wolves native to North America?	Yes	hard	easy	data/set1/a6
-Gray_Wolf	Are Gray Wolves native to North America?	No. Current theory suggests that it's from Eurasia	hard	hard	data/set1/a6
+Gray_Wolf	Are Gray Wolves native to North America?	No. Current theory suggests that it's from eurasia	hard	hard	data/set1/a6
 Gray_Wolf	Is the Gray Wolf a mammal?	Yes	easy	easy	data/set1/a6
 Gray_Wolf	Is the Gray Wolf a mammal?	Yes	easy	easy	data/set1/a6
 Gray_Wolf	Are a wolf's teeth its main weapons?	Yes	easy	easy	data/set1/a6
@@ -690,7 +689,7 @@ Gray_Wolf	Where is the largest gray wolf population thought to be found?	Kazakhs
 Gray_Wolf	Where is the largest gray wolf population thought to be found?	Kazakhstan	medium	medium	data/set1/a6
 Gray_Wolf	To what genus does the gray wolf belong?	Canis	medium	medium	data/set1/a6
 Gray_Wolf	To what genus does the gray wolf belong?	Canis	medium	medium	data/set1/a6
-Gray_Wolf	When do wolves molt?	Late Spring or Early Summer	medium	medium	data/set1/a6
+Gray_Wolf	When do wolves molt?	Late Spring or early Summer	medium	medium	data/set1/a6
 Gray_Wolf	When do wolves molt?	late spring or early summer	medium	medium	data/set1/a6
 Gray_Wolf	Why is it beneficial for alpha males and females to forcefully prevent other wolves from mating?	A pack can only suppport one littler per year	hard	hard	data/set1/a6
 Gray_Wolf	Why is it beneficial for alpha males and females to forcefully prevent other wolves from mating?	The pack tension rises as each mature wolf feels urged to mate	hard	too hard	data/set1/a6
@@ -722,8 +721,8 @@ Grover_Cleveland	Is Grover Cleveland honest?	Yes.	easy	easy	data/set3/a6
 Grover_Cleveland	Is Grover Cleveland honest?	Yes.	easy	easy	data/set3/a6
 Grover_Cleveland	Was Grover Cleveland married in the whitehouse?	Yes.	easy	easy	data/set3/a6
 Grover_Cleveland	Was Grover Cleveland married in the whitehouse?	Yes.	easy	easy	data/set3/a6
-Grover_Cleveland	When was he elected sheriff of Erire County, New York?	Yes.	medium	easy	data/set3/a6
-Grover_Cleveland	When was he elected sheriff of Erire County, New York?	1870	medium	medium	data/set3/a6
+Grover_Cleveland	When was he elected sheriff of erire County, New York?	Yes.	medium	easy	data/set3/a6
+Grover_Cleveland	When was he elected sheriff of erire County, New York?	1870	medium	medium	data/set3/a6
 Grover_Cleveland	When did he die?	June 24 1908	medium	medium	data/set3/a6
 Grover_Cleveland	When did he die?	1908 	medium	medium	data/set3/a6
 Grover_Cleveland	Which election did Grover Cleveland win?	1884 and 1892 presidential elections	medium	hard	data/set3/a6
@@ -734,17 +733,17 @@ Grover_Cleveland	How many children did Grover Cleveland have?	Six.	hard	too hard
 Grover_Cleveland	Who lost control of his party to the agrarians and silverites in 1896?	Grover Cleveland	NULL	medium	data/set3/a6
 Grover_Cleveland	Is it true that he sent in federal troops to chicago?	yes	NULL	easy	data/set3/a6
 Grover_Cleveland	Was Cleveland born in Caldwell, New Jersey to the Reverend Richard Cleveland and Anne Neal?	yes	NULL	easy	data/set3/a6
-Grover_Cleveland	Was Grover Cleveland elected Sheriff of Erie County, New York?	yes	NULL	easy	data/set3/a6
+Grover_Cleveland	Was Grover Cleveland elected Sheriff of erie County, New York?	yes	NULL	easy	data/set3/a6
 Grover_Cleveland	Was Cleveland 's portrait on the U.S. $ 1000 bill from 1928 to 1946 ?	yes	NULL	easy	data/set3/a6
 Grover_Cleveland	Is he buried in the Princeton Cemetery of the Nassau Presbyterian Church ?	yes	NULL	easy	data/set3/a6
 Grover_Cleveland	Did the Department of the Interior not charge that the rights of way for this land must be returned to the public because the railroads failed to extend their lines according to agreements ?	yes	NULL	easy	data/set3/a6
 Grover_Cleveland	Did the team , sedating Cleveland with nitrous oxide -LRB- laughing gas -RRB- , not remove his upper left jaw and portions of his hard palate ?	yes	NULL	easy	data/set3/a6
 Henri_Becquerel	He became chief engineer in the Department of Bridges and Highways in what year?	in 1894	NULL	medium	data/set4/a9
 Henri_Becquerel	What led Becquerel to investigate the spontaneous emission of nuclear radiation?	phographic plates being fully exposed	NULL	hard	data/set4/a9
-Henri_Becquerel	Is it true that he married louise désirée lorieux in 1890?	yes	NULL	easy	data/set4/a9
+Henri_Becquerel	Is it true that he married louise desiree lorieux in 1890?	yes	NULL	easy	data/set4/a9
 Henri_Becquerel	Is it true that he shared the nobel prize in physics?	yes	NULL	easy	data/set4/a9
-Henri_Becquerel	When did he marry louise désirée lorieux?	1890	NULL	medium	data/set4/a9
-Henri_Becquerel	Was Becquerel elected Permanent Secretary of the Académie des Sciences?	yes	NULL	easy	data/set4/a9
+Henri_Becquerel	When did he marry louise desiree lorieux?	1890	NULL	medium	data/set4/a9
+Henri_Becquerel	Was Becquerel elected Permanent Secretary of the Academie des Sciences?	yes	NULL	easy	data/set4/a9
 Henri_Becquerel	Was Becquerel born in Paris into a family which, including he and his son Jean, produced four generations of scientists?	yes	NULL	easy	data/set4/a9
 Henri_Becquerel	Who won the 1903 Nobel Prize in Physics for discovering radioactivity ?	Henri Becquerel	NULL	medium	data/set4/a9
 Henri_Becquerel	Did he not die at the age of 55 in Le Croisic ?	Yes he died at the age of 55	NULL	easy	data/set4/a9
@@ -758,8 +757,8 @@ Indonesia	Is Indonesia a monarchy with a presidential system?	no	easy	easy	data/
 Indonesia	Is Indonesia a monarchy with a presidential system?	No	easy	easy	data/set2/a10
 Indonesia	Did the Japanese invasion and subsequent occupation during WWII end Dutch rule?	yes	easy	easy	data/set2/a10
 Indonesia	Did the Japanese invasion and subsequent occupation during WWII end Dutch rule?	Yes	easy	easy	data/set2/a10
-Indonesia	In what year did East Timor secede from Indonesia?	1999	medium	medium	data/set2/a10
-Indonesia	In what year did East Timor secede from Indonesia?	1999	medium	medium	data/set2/a10
+Indonesia	In what year did east Timor secede from Indonesia?	1999	medium	medium	data/set2/a10
+Indonesia	In what year did east Timor secede from Indonesia?	1999	medium	medium	data/set2/a10
 Indonesia	When did Islam become the dominant religion in Java and Sumatra?	the end of the 16th century	medium	medium	data/set2/a10
 Indonesia	When did Islam become the dominant religion in Java and Sumatra?	by the end of the 16th century	medium	medium	data/set2/a10
 Indonesia	Does Indonesia have the world's hightest level of biodiversity?	no	medium	easy	data/set2/a10
@@ -768,10 +767,10 @@ Indonesia	Was Indonesia named after it became an independent country?	no	hard	ha
 Indonesia	Was Indonesia named after it became an independent country?	No	hard	hard	data/set2/a10
 Indonesia	Why did Indonesia break off relations with the People's Republic of China?	because of anti-communist purges early in the Suharto era	hard	too hard	data/set2/a10
 Indonesia	Why did Indonesia break off relations with the People's Republic of China?	anti-communist purges early in the Suharto era	hard	hard	data/set2/a10
-Indonesia	Which spice originally attracted Europeans to Indonesia?	nutmeg, cloves, or cubeb pepper	hard	hard	data/set2/a10
-Indonesia	Which spice originally attracted Europeans to Indonesia?	nutmeg, cloves, and cubeb pepper	hard	hard	data/set2/a10
+Indonesia	Which spice originally attracted europeans to Indonesia?	nutmeg, cloves, or cubeb pepper	hard	hard	data/set2/a10
+Indonesia	Which spice originally attracted europeans to Indonesia?	nutmeg, cloves, and cubeb pepper	hard	hard	data/set2/a10
 Indonesia	What is Jakarta?	Indonesia's special capital region	NULL	hard	data/set2/a10
-Indonesia	What shares land borders with Papua New Guinea, East Timor and Malaysia?	Indonesia	NULL	medium	data/set2/a10
+Indonesia	What shares land borders with Papua New Guinea, east Timor and Malaysia?	Indonesia	NULL	medium	data/set2/a10
 Indonesia	What are the largest and politically dominant ethnic group?	the Javanese	NULL	easy	data/set2/a10
 Indonesia	What happens when the srivijaya kingdom formed trade links?	The indonesian archipelago became an important trade region	NULL	medium	data/set2/a10
 Indonesia	Is it true that indonesia has vast areas of wilderness?	yes	NULL	easy	data/set2/a10
@@ -785,7 +784,7 @@ Indonesia	Who has its own political legislature and governor ?	each province	NUL
 Indonesia	Is it the world 's largest archipelagic state?	yes	NULL	easy	data/set2/a10
 Indonesia	Is it the world 's fourth most populous country and the most populous muslim-majority nation?	yes	NULL	easy	data/set2/a10
 Indonesia	Is indonesia a republic?	yes	NULL	easy	data/set2/a10
-Isaac_Newton	What Eves?	NULL	NULL	NULL	data/set4/a1
+Isaac_Newton	What eves?	NULL	NULL	NULL	data/set4/a1
 Isaac_Newton	What are a rumors that he remained a virgin?	NULL	NULL	NULL	data/set4/a1
 Isaac_Newton	Who was, by later reports of his contemporaries, thoroughly unhappy with the work?	NULL	NULL	NULL	data/set4/a1
 Isaac_Newton	Is it true that newton saw god as the master creator?	NULL	NULL	NULL	data/set4/a1
@@ -821,12 +820,12 @@ James_Monroe	What is Monroe's father's name?	Spence	medium	medium	data/set3/a2
 James_Monroe	What is Monroe's father's name?	Spence Monroe.	medium	medium	data/set3/a2
 James_Monroe	What is Monroe's daughter's name?	Maria Hester Monroe Gouverneur	medium	medium	data/set3/a2
 James_Monroe	What is Monroe's daughter's name?	Maria Hester Monroe Gouverneur	medium	medium	data/set3/a2
-James_Monroe	What does "Era of Good Feelings" refers to?	Reduced tension	hard	medium	data/set3/a2
-James_Monroe	What does "Era of Good Feelings" refers to?	Monroe allowed his political base to decay, which reduced tensions and led to the naming of his era as the "Era of Good Feelings".	hard	too hard	data/set3/a2
+James_Monroe	What does "era of Good Feelings" refers to?	Reduced tension	hard	medium	data/set3/a2
+James_Monroe	What does "era of Good Feelings" refers to?	Monroe allowed his political base to decay, which reduced tensions and led to the naming of his era as the "era of Good Feelings".	hard	too hard	data/set3/a2
 James_Monroe	Did Monroe' wedding happen at the Trinity Church in New York?	Yes	hard	easy	data/set3/a2
 James_Monroe	Did Monroe' wedding happen at the Trinity Church in New York?	Yes	hard	too hard	data/set3/a2
-James_Monroe	What is Monroe Doctrine?	A doctrine declaring U.S. opposition to European interference in the Americas.	hard	medium	data/set3/a2
-James_Monroe	What is Monroe Doctrine?	In it, Monroe proclaimed the Americas should be free from future European colonization and free from European interference in sovereign countries' affairs. It further stated the United States' intention to stay neutral in European wars and wars between European powers and their colonies, but to consider any new colonies or interference with independent countries in the Americas as hostile acts toward the United States. 	hard	hard	data/set3/a2
+James_Monroe	What is Monroe Doctrine?	A doctrine declaring U.S. opposition to european interference in the Americas.	hard	medium	data/set3/a2
+James_Monroe	What is Monroe Doctrine?	In it, Monroe proclaimed the Americas should be free from future european colonization and free from european interference in sovereign countries' affairs. It further stated the United States' intention to stay neutral in european wars and wars between european powers and their colonies, but to consider any new colonies or interference with independent countries in the Americas as hostile acts toward the United States. 	hard	hard	data/set3/a2
 James_Monroe	Was James Monroe President of the United States?	yes	easy	easy	data/set3/a2
 James_Monroe	Was James Monroe President of the United States?	Yes	easy	easy	data/set3/a2
 James_Monroe	Did James Monroe attend the College of William and Mary?	yes	easy	easy	data/set3/a2
@@ -837,8 +836,8 @@ James_Monroe	Where was James Monroe born?	Westmoreland County, Virginia	medium	m
 James_Monroe	Where was James Monroe born?	Westmoreland County, Virginia	medium	medium	data/set3/a2
 James_Monroe	Where was James Monroe shot?	at the Battle of Trenton, in his left shoulder	medium	medium	data/set3/a2
 James_Monroe	Where was James Monroe shot?	The Battle of Trenton	medium	medium	data/set3/a2
-James_Monroe	Who did James Monroe marry?	Elizabeth Kortright	medium	medium	data/set3/a2
-James_Monroe	Who did James Monroe marry?	Elizabeth Kortright	medium	medium	data/set3/a2
+James_Monroe	Who did James Monroe marry?	elizabeth Kortright	medium	medium	data/set3/a2
+James_Monroe	Who did James Monroe marry?	elizabeth Kortright	medium	medium	data/set3/a2
 James_Monroe	What did James Monroe do before being elected governor?	He practiced law in Virginia.	hard	medium	data/set3/a2
 James_Monroe	What did James Monroe do before being elected governor?	He practiced law	hard	hard	data/set3/a2
 James_Monroe	In which years were John Monroe elected as President?	1817-1825	hard	medium	data/set3/a2
@@ -877,13 +876,13 @@ James_Monroe	What happened in 1811?	Monroe returned to the Virginia House of Del
 James_Monroe	What happened in the election of 1816?	Monroe was elected president	NULL	easy	data/set3/a2
 James_Watt	Who died in childbirth in 1772?	Margaret Miller	NULL	medium	data/set4/a2
 James_Watt	Who died in 1832?	Margaret Miller.	NULL	medium	data/set4/a2
-James_Watt	Is watt commemorated by statuary in George Square, Glasgow and Princes Street, Edinburgh?	Yes.	NULL	easy	data/set4/a2
+James_Watt	Is watt commemorated by statuary in George Square, Glasgow and Princes Street, edinburgh?	Yes.	NULL	easy	data/set4/a2
 James_Watt	Was watt a gentleman, greatly respected by other prominent men of the Industrial Revolution?	Yes.	NULL	easy	data/set4/a2
-James_Watt	Was watt a fellow of the Royal Society of Edinburgh and the Royal Society of London?	Yes.	NULL	easy	data/set4/a2
+James_Watt	Was watt a fellow of the Royal Society of edinburgh and the Royal Society of London?	Yes.	NULL	easy	data/set4/a2
 James_Watt	Four years after opening his shop , Watt began what?	Watt began to experiment with steam after his friend, Professor John Robison, called his attention to it.	NULL	medium	data/set4/a2
 James_Watt	Was Watt ranked 22nd in Michael H. Hart 's list of the most influential figures in history ?	Yes.	NULL	easy	data/set4/a2
-John_Adams	Did John Adams represent the Continental Congress in Europe?	Yes.	easy	easy	data/set3/a1
-John_Adams	Did John Adams represent the Continental Congress in Europe?	yes	easy	easy	data/set3/a1
+John_Adams	Did John Adams represent the Continental Congress in europe?	Yes.	easy	easy	data/set3/a1
+John_Adams	Did John Adams represent the Continental Congress in europe?	yes	easy	easy	data/set3/a1
 John_Adams	Was Adams raised Congregationalist?	Yes.	easy	easy	data/set3/a1
 John_Adams	Was Adams raised Congregationalist?	yes	easy	easy	data/set3/a1
 John_Adams	Was Adams an opponent of the Stamp Act?	Yes.	easy	easy	data/set3/a1
@@ -918,7 +917,7 @@ John_Adams	In what ways was Adams opposed by Anderw Hamilton?	Hamilton wanted to
 John_Adams	What information did he record in his diary?	Descriptions of events and ompressions of men	hard	hard	data/set3/a1
 John_Adams	What information did he record in his diary?	He wrote descriptions of events and impressions of men	hard	medium	data/set3/a1
 John_Adams	Who was defeated for re-election in the`` Revolution of 1800'' by Thomas Jefferson?	John Adams	NULL	medium	data/set3/a1
-John_Adams	Who represented the Continental Congress in Europe?	John Adams	NULL	medium	data/set3/a1
+John_Adams	Who represented the Continental Congress in europe?	John Adams	NULL	medium	data/set3/a1
 John_Adams	What is now part of Adams National Historical Park?	John Adams' birthplace	NULL	medium	data/set3/a1
 John_Adams	Is it true that adams had spent some time as the ambassador?	yes	NULL	easy	data/set3/a1
 John_Adams	Is it true that massachusetts sent him in 1774?	yes	NULL	easy	data/set3/a1
@@ -946,8 +945,8 @@ kangaroo	What is responsible for converting the hydrogen byproduct of fermentati
 kangaroo	What is responsible for converting the hydrogen byproduct of fermentation into acetate?	The digestive system of a kangaroo	hard	too hard	data/set1/a1
 kangaroo	Are wild kangaroos shot for meat?	yes	easy	easy	data/set1/a1
 kangaroo	Are wild kangaroos shot for meat?	Yes	easy	easy	data/set1/a1
-kangaroo	Have kangaroos fared well since European settlement?	yes	easy	easy	data/set1/a1
-kangaroo	Have kangaroos fared well since European settlement?	Yes	easy	easy	data/set1/a1
+kangaroo	Have kangaroos fared well since european settlement?	yes	easy	easy	data/set1/a1
+kangaroo	Have kangaroos fared well since european settlement?	Yes	easy	easy	data/set1/a1
 kangaroo	Do kangaroos have many natural predators?	no	easy	easy	data/set1/a1
 kangaroo	Do kangaroos have many natural predators?	No	easy	easy	data/set1/a1
 kangaroo	What is the average life expectancy of a kangaroo?	4.6 years	medium	medium	data/set1/a1
@@ -979,7 +978,7 @@ kangaroo	What is used to protect a vehicale from a Kangaroo?	roo bars	hard	hard	
 kangaroo	What method is used by Kangaroos to travel?	NULL	hard	NULL	data/set1/a1
 kangaroo	What method is used by Kangaroos to travel?	hopping	hard	medium	data/set1/a1
 kangaroo	Who asked a nearby local what the creatures were called?	Captain James Cook and naturalist Sir Joseph Banks	NULL	hard	data/set1/a1
-kangaroo	What are four species that are commonly referred to as kangaroos?	The Red Kangaroo, The Eastern Grey Kangaroo, The Western Grey Kangaroo, and The Antilopine Kangaroo	NULL	too hard	data/set1/a1
+kangaroo	What are four species that are commonly referred to as kangaroos?	The Red Kangaroo, The eastern Grey Kangaroo, The Western Grey Kangaroo, and The Antilopine Kangaroo	NULL	too hard	data/set1/a1
 kangaroo	Are kangaroos and wallabies adept swimmers?	yes	NULL	easy	data/set1/a1
 kangaroo	Are kangaroos farmed to any extent?	No.	NULL	easy	data/set1/a1
 kangaroo	Who also discovered that less than three percent of kangaroos exposed to the virus developed blindness ?	Veterinarians	NULL	medium	data/set1/a1
@@ -1007,8 +1006,8 @@ leopard	How did early naturalists distinguish between leopards and panthers?	by 
 leopard	How did early naturalists distinguish between leopards and panthers?	By the length of the tail, panthers having longer tails than leopards	hard	hard	data/set1/a2
 leopard	What are dark leopards known as colloquially?	Black Panthers	hard	hard	data/set1/a2
 leopard	What are dark leopards known as colloquially?	black panthers	hard	too hard	data/set1/a2
-leopard	What shape are a leopard's black rosettes in East Africa?	circular	hard	hard	data/set1/a2
-leopard	What shape are a leopard's black rosettes in East Africa?	circular	hard	hard	data/set1/a2
+leopard	What shape are a leopard's black rosettes in east Africa?	circular	hard	hard	data/set1/a2
+leopard	What shape are a leopard's black rosettes in east Africa?	circular	hard	hard	data/set1/a2
 leopard	Is the leopard an Old World mammal?	yes	easy	easy	data/set1/a2
 leopard	Is the leopard an Old World mammal?	yes	easy	easy	data/set1/a2
 leopard	Is the leopard an Old World mammal?	.	easy	too easy	data/set1/a2
@@ -1018,8 +1017,8 @@ leopard	Is the leopard of the Felidae family?	NULL	easy	NULL	data/set1/a2
 leopard	Is the leopard one of the four 'big cats'?	yes	easy	easy	data/set1/a2
 leopard	Is the leopard one of the four 'big cats'?	yes	easy	medium	data/set1/a2
 leopard	Is the leopard one of the four 'big cats'?	NULL	easy	NULL	data/set1/a2
-leopard	Where is the leopard distributed?	southern Eurasia and Africa	medium	medium	data/set1/a2
-leopard	Where is the leopard distributed?	southern Eurasia and Africa, from Korea to South Africa and Spain	medium	medium	data/set1/a2
+leopard	Where is the leopard distributed?	southern eurasia and Africa	medium	medium	data/set1/a2
+leopard	Where is the leopard distributed?	southern eurasia and Africa, from Korea to South Africa and Spain	medium	medium	data/set1/a2
 leopard	Where is the leopard distributed?	NULL	medium	NULL	data/set1/a2
 leopard	How long is a leopard's tail?	60 to 110cm	medium	medium	data/set1/a2
 leopard	How long is a leopard's tail?	60-110cm	medium	medium	data/set1/a2
@@ -1157,7 +1156,7 @@ Millard_Fillmore	Is the comic strip Mallard Fillmore named after the president ?
 Millard_Fillmore	Was Fillmore the first U.S. President born after the death of a former president ?	yes	NULL	easy	data/set3/a3
 Millard_Fillmore	Did Fillmore not turn down the honor , explaining that he had neither the `` literary nor scientific attainment '' to justify the degree ?	no	NULL	easy	data/set3/a3
 Millard_Fillmore	What happened in a log cabin in summerhill , new york?	Fillmore was born	NULL	easy	data/set3/a3
-Nikola_Tesla	Who was born precisely at midnight during an electrical storm , to a Serbian family in the village of Smiljan near Gospić , in the Lika region of the Croatian Krajina in Military Frontier ( part of the Austrian Empire ) , in the present-day Croatia . ?	Nikola Tesla	NULL	easy	data/set4/a3
+Nikola_Tesla	Who was born precisely at midnight during an electrical storm , to a Serbian family in the village of Smiljan near Gospić , in the Lika region of the Croatian Krajina in Military Frontier ( part of the Austrian empire ) , in the present-day Croatia . ?	Nikola Tesla	NULL	easy	data/set4/a3
 Nikola_Tesla	Are there at least two films describing Tesla 's life ?	Yes.	NULL	easy	data/set4/a3
 Nikola_Tesla	Have a number of live theatrical plays based on Tesla 's life been produced and staged worldwide ?	yes.	NULL	easy	data/set4/a3
 otter	Do sea otters have long muscular tails?	no	easy	medium	data/set1/a7
@@ -1176,8 +1175,8 @@ otter	How do sea otters insulate themselves?	a layer of air trapped in their fur
 otter	How do sea otters insulate themselves?	As with other species of otter, they rely on a layer of air trapped in their fur, which they keep topped up by blowing into the fur from their mouths.	hard	hard	data/set1/a7
 otter	Why are sea otters nearly extinct?	They've been hunted for their fur	hard	hard	data/set1/a7
 otter	Why are sea otters nearly extinct?	Sea otters have some 200,000 hairs per square cm of skin, a rich fur for which humans hunted them	hard	hard	data/set1/a7
-otter	What is one of the challenges of re-establishing a population of Eurasian otters in the UK?	roadkill deaths	hard	hard	data/set1/a7
-otter	What is one of the challenges of re-establishing a population of Eurasian otters in the UK?	Roadkill deaths have become one of the significant threats to the success of their re-establishment. 	hard	hard	data/set1/a7
+otter	What is one of the challenges of re-establishing a population of eurasian otters in the UK?	roadkill deaths	hard	hard	data/set1/a7
+otter	What is one of the challenges of re-establishing a population of eurasian otters in the UK?	Roadkill deaths have become one of the significant threats to the success of their re-establishment. 	hard	hard	data/set1/a7
 otter	Is otter a kind of mammal?	yes	easy	easy	data/set1/a7
 otter	Is otter a kind of mammal?	Yes.	easy	easy	data/set1/a7
 otter	How many species and genera does otter have?	13 species and 7 genera	easy	easy	data/set1/a7
@@ -1186,10 +1185,10 @@ otter	Do otters live in water?	yes	easy	hard	data/set1/a7
 otter	Do otters live in water?	Yes.	easy	easy	data/set1/a7
 otter	What do river otters eat?	River otters eat a variety of fish and shellfish, as well as small land mammals and birds. 	medium	easy	data/set1/a7
 otter	What do river otters eat?	River otters eat a variety of fish and shellfish, as well as small land mammals and birds.	medium	medium	data/set1/a7
-otter	Where do sea otters live?	Sea otters (Enhydra lutris) live along the Pacific coast of North America. 	medium	easy	data/set1/a7
+otter	Where do sea otters live?	Sea otters (enhydra lutris) live along the Pacific coast of North America. 	medium	easy	data/set1/a7
 otter	Where do sea otters live?	The sea otter lives actually in the sea. 	medium	medium	data/set1/a7
-otter	Where does the word "otter" derive from?	The word "otter" derives from the Old English word otr, otor or oter. 	medium	easy	data/set1/a7
-otter	Where does the word "otter" derive from?	The word "otter" derives from the Old English word otr, otor or oter. This and cognate words in other Indo-European languages ultimately stem from a root which also gave rise to the English words "water", "wet" and "winter". 	medium	medium	data/set1/a7
+otter	Where does the word "otter" derive from?	The word "otter" derives from the Old english word otr, otor or oter. 	medium	easy	data/set1/a7
+otter	Where does the word "otter" derive from?	The word "otter" derives from the Old english word otr, otor or oter. This and cognate words in other Indo-european languages ultimately stem from a root which also gave rise to the english words "water", "wet" and "winter". 	medium	medium	data/set1/a7
 otter	Does otter give birth or lay egg?	give birth	hard	too hard	data/set1/a7
 otter	What drives sea otter almost to extinction?	Humans hunted them almost to extinction. 	hard	medium	data/set1/a7
 otter	What drives sea otter almost to extinction?	Sea otters have some 200,000 hairs per square cm of skin, a rich fur for which humans hunted them almost to extinction. 	hard	medium	data/set1/a7
@@ -1224,8 +1223,8 @@ otter	Is an otter 's den called a holt ?	yes	NULL	easy	data/set1/a7
 otter	Have most otters fish as the primary item in their diet , supplemented by frogs , crayfish and crabs ?	yes	NULL	easy	data/set1/a7
 penguin	Do penguins feed on krill?	yes	easy	easy	data/set1/a3
 penguin	Do penguins feed on krill?	yes	easy	easy	data/set1/a3
-penguin	What is the largest living species of penguin?	Emperor Penguin	easy	medium	data/set1/a3
-penguin	What is the largest living species of penguin?	the Emperor Penguin (Aptenodytes forsteri)	easy	medium	data/set1/a3
+penguin	What is the largest living species of penguin?	emperor Penguin	easy	medium	data/set1/a3
+penguin	What is the largest living species of penguin?	the emperor Penguin (Aptenodytes forsteri)	easy	medium	data/set1/a3
 penguin	Do penguins live almost exclusively in the Southern Hemisphere?	yes	easy	easy	data/set1/a3
 penguin	Do penguins live almost exclusively in the Southern Hemisphere?	yes	easy	easy	data/set1/a3
 penguin	What is "tobogganing"?	when penguins slide on their bellies across the snow	medium	hard	data/set1/a3
@@ -1248,8 +1247,8 @@ penguin	Are penguins considered "higher waterbirds"?	yes	easy	easy	data/set1/a3
 penguin	Are penguins considered "higher waterbirds"?	Yes	easy	easy	data/set1/a3
 penguin	What order do penguins belong to?	Sphenisciformes	medium	medium	data/set1/a3
 penguin	What order do penguins belong to?	Sphenisciformes	medium	medium	data/set1/a3
-penguin	What is the largest living species of penguin?	Emperor Penguin	medium	medium	data/set1/a3
-penguin	What is the largest living species of penguin?	Emperor	medium	medium	data/set1/a3
+penguin	What is the largest living species of penguin?	emperor Penguin	medium	medium	data/set1/a3
+penguin	What is the largest living species of penguin?	emperor	medium	medium	data/set1/a3
 penguin	How tall were the tallest prehistoric penguins?	1.80 meters	medium	medium	data/set1/a3
 penguin	How tall were the tallest prehistoric penguins?	as tall as an adult human	medium	hard	data/set1/a3
 penguin	What makes penguins so agile in the water?	Their wings have become flippers	hard	hard	data/set1/a3
@@ -1336,8 +1335,8 @@ Qatar	Does the native pronunciation of Qatar sound like 'cutter'?	Yes.	hard	hard
 Qatar	Does the native pronunciation of Qatar sound like 'cutter'?	no	hard	hard	data/set2/a3
 Qatar	What is the Arabic word for municipalities?	baladiyah.	hard	hard	data/set2/a3
 Qatar	What is the Arabic word for municipalities?	baladiyah	hard	hard	data/set2/a3
-Qatar	What universities are in Education City?	Carnegie Mellon University, Georgetown University School of Foreign Service, Texas A&M University, Virginia Commonwealth University, and Cornell University's Weill Medical College.	hard	hard	data/set2/a3
-Qatar	What universities are in Education City?	Carnegie Mellon University, Georgetown University School of Foreign Service, Texas A&M University, Virginia Commonwealth University, and Cornell University	hard	hard	data/set2/a3
+Qatar	What universities are in education City?	Carnegie Mellon University, Georgetown University School of Foreign Service, Texas A&M University, Virginia Commonwealth University, and Cornell University's Weill Medical College.	hard	hard	data/set2/a3
+Qatar	What universities are in education City?	Carnegie Mellon University, Georgetown University School of Foreign Service, Texas A&M University, Virginia Commonwealth University, and Cornell University	hard	hard	data/set2/a3
 Qatar	What carried with it a tacit recognition of Qatar's status as distinct from Bahrain?	The British Protectorate (per Colonel Lewis Pelly) asking to negotiate with a representative from Qatar after Bahrain's violation of the 1820 Anglo-Bahraini Treaty.	NULL	hard	data/set2/a3
 Qatar	Qatar became an independent sovereign state in what year?	On September 3, 1971.	NULL	medium	data/set2/a3
 Qatar	What consists of a low, barren plain, covered with sand?	Much of the country.	NULL	medium	data/set2/a3
@@ -1383,12 +1382,12 @@ Romania	What is the largest city in Romania?	Bucharest	medium	medium	data/set2/a
 Romania	What is the largest city in Romania?	Bucharest	medium	medium	data/set2/a7
 Romania	What is the largest ethnic minority in Romania?	Hungarians	medium	medium	data/set2/a7
 Romania	What is the largest ethnic minority in Romania?	Hungarians	medium	medium	data/set2/a7
-Romania	How many countries in Europe are bigger than Romania?  	eleven	hard	hard	data/set2/a7
-Romania	How many countries in Europe are bigger than Romania?  	Eleven	hard	too hard	data/set2/a7
+Romania	How many countries in europe are bigger than Romania?  	eleven	hard	hard	data/set2/a7
+Romania	How many countries in europe are bigger than Romania?  	eleven	hard	too hard	data/set2/a7
 Romania	Why doesn't Romania have a state religion?  	Romania is a secular state	hard	hard	data/set2/a7
 Romania	Why wasn't Romania neutral during World War II?	it received a Soviet ultimatum	hard	hard	data/set2/a7
 Romania	Why wasn't Romania neutral during World War II?	The Soviets threatened invasion.	hard	hard	data/set2/a7
-Romania	Sibiu, a large city in Transylvania, was chosen as European Capital of Culture in what year?	2007	NULL	medium	data/set2/a7
+Romania	Sibiu, a large city in Transylvania, was chosen as european Capital of Culture in what year?	2007	NULL	medium	data/set2/a7
 Romania	What are approximately 42,000 years old and have been nicknamed`` John of Anina''?	the remains (the lower jaw) of the oldest modern human	NULL	hard	data/set2/a7
 Romania	Is it true that romania has a population of 21,698,181?	Yes	NULL	easy	data/set2/a7
 Romania	What do economy and law have in common?	(not sure how to answer this)	NULL		data/set2/a7
@@ -1455,15 +1454,15 @@ Singapore	Why are relations with Malaysia and Indonesia important?	Due to obviou
 Singapore	Why are relations with Malaysia and Indonesia important?	NULL	medium	NULL	data/set2/a2
 Singapore	What is the most densely populated independent country in the world?	Monaco	medium	hard	data/set2/a2
 Singapore	What is the most densely populated independent country in the world?	NULL	medium	NULL	data/set2/a2
-Singapore	Who did Sir Thomas Stamford Raffles work for?	British East India Company	hard	hard	data/set2/a2
+Singapore	Who did Sir Thomas Stamford Raffles work for?	British east India Company	hard	hard	data/set2/a2
 Singapore	Who did Sir Thomas Stamford Raffles work for?	NULL	hard	NULL	data/set2/a2
 Singapore	When was Lee Kuan Yew prime minister of Singapore?	1959	hard	medium	data/set2/a2
 Singapore	When was Lee Kuan Yew prime minister of Singapore?	NULL	hard	NULL	data/set2/a2
 Singapore	What is the punishment for first-degree murder?	There are laws which allow capital punishment in Singapore for first-degree murder and drug trafficking.	hard	hard	data/set2/a2
 Singapore	What is the punishment for first-degree murder?	NULL	hard	NULL	data/set2/a2
-Singapore	What established a trading post on the island in 1819?	British East India Company 	NULL	easy	data/set2/a2
+Singapore	What established a trading post on the island in 1819?	British east India Company 	NULL	easy	data/set2/a2
 Singapore	What used Singapore as a strategic trading post along the spice route?	British	NULL	easy	data/set2/a2
-Singapore	What became one of the most important commercial and military centres of the British Empire?	Singapore	NULL	medium	data/set2/a2
+Singapore	What became one of the most important commercial and military centres of the British empire?	Singapore	NULL	medium	data/set2/a2
 Singapore	Who boasted a sizeable community of 100,000 by 1869?	British India office	NULL	hard	data/set2/a2
 Singapore	How do reservoirs and water relate?	By 2001, there were 19 raw water reservoirs, 9 treatment works and 14 storage or service reservoirs locally to serve domestic needs. 	NULL	hard	data/set2/a2
 Singapore	Is it true that singapore has several long - standing disputes with malaysia?	Yes	NULL	easy	data/set2/a2
@@ -1479,8 +1478,8 @@ Theodore_Roosevelt	Does Theodore Roosevelt have a brother?	Yes	easy	easy	data/se
 Theodore_Roosevelt	Does Theodore Roosevelt have a brother?	Yes	easy	medium	data/set3/a7
 Theodore_Roosevelt	Did Theodore Roosevelt go to Harvard?	Yes	easy	easy	data/set3/a7
 Theodore_Roosevelt	Did Theodore Roosevelt go to Harvard?	Yes	easy	medium	data/set3/a7
-Theodore_Roosevelt	Where was Theodore Roosevelt born?	28 East 20th Street in the modern-day Gramercy section of New York City	medium	medium	data/set3/a7
-Theodore_Roosevelt	Where was Theodore Roosevelt born?	a four-story brownstone at 28 East 20th Street, in the modern-day Gramercy section of New York City	medium	easy	data/set3/a7
+Theodore_Roosevelt	Where was Theodore Roosevelt born?	28 east 20th Street in the modern-day Gramercy section of New York City	medium	medium	data/set3/a7
+Theodore_Roosevelt	Where was Theodore Roosevelt born?	a four-story brownstone at 28 east 20th Street, in the modern-day Gramercy section of New York City	medium	easy	data/set3/a7
 Theodore_Roosevelt	What did Roosevelt do to improve his physical condition?	Roosevelt took up exercise	medium	hard	data/set3/a7
 Theodore_Roosevelt	What did Roosevelt do to improve his physical condition?	He started boxing	medium	hard	data/set3/a7
 Theodore_Roosevelt	Why did Roosevelt start Boxing lessons?	To deal with bullies	medium	medium	data/set3/a7
@@ -1517,7 +1516,7 @@ turtle	Are turtles pets?	Yes	easy	medium	data/set1/a9
 turtle	Are turtles pets?	yes	easy	easy	data/set1/a9
 turtle	What shape are the eggs of the larest species of turtle?	Spherical	medium	medium	data/set1/a9
 turtle	What shape are the eggs of the larest species of turtle?	spherical	medium	medium	data/set1/a9
-turtle	How often do turtles breed?	Every few years or more	medium	medium	data/set1/a9
+turtle	How often do turtles breed?	every few years or more	medium	medium	data/set1/a9
 turtle	What do all turtles and tortoises breathe?	air	medium	easy	data/set1/a9
 turtle	What do all turtles and tortoises breathe?	air	medium	medium	data/set1/a9
 turtle	How do turtles reproduce?	They lay eggs	hard	too hard	data/set1/a9
@@ -1535,8 +1534,8 @@ turtle	How many suborders are turtles divided into?	Three.	medium	medium	data/se
 turtle	How many suborders are turtles divided into?	three	medium	medium	data/set1/a9
 turtle	Name a turtle popularly kept as a pet.	Russian Tortoises	medium	hard	data/set1/a9
 turtle	Name a turtle popularly kept as a pet.	Russian Tortoises	medium	hard	data/set1/a9
-turtle	Name four related articles for the article on turtles.	Triassic, Ernst Haeckel, Kunstformen der Natur, Animal	medium	medium	data/set1/a9
-turtle	Name four related articles for the article on turtles.	Triassic, Ernst Haeckel, Kunstformen der Natur, Animal	medium	hard	data/set1/a9
+turtle	Name four related articles for the article on turtles.	Triassic, ernst Haeckel, Kunstformen der Natur, Animal	medium	medium	data/set1/a9
+turtle	Name four related articles for the article on turtles.	Triassic, ernst Haeckel, Kunstformen der Natur, Animal	medium	hard	data/set1/a9
 turtle	If a turtle egg was kept warm, what would likely hatch?	A female turtle.	hard	hard	data/set1/a9
 turtle	If a turtle egg was kept warm, what would likely hatch?	A female turtle	hard	too hard	data/set1/a9
 turtle	What do turles use to breathe in the water?	Papillae	hard	hard	data/set1/a9
@@ -1601,7 +1600,7 @@ Ulysses_S._Grant	Was Grant 's favorite brand of bourbon whiskey Old Crow ?	yes	N
 Ulysses_S._Grant	Had he smoked only sporadically ?	yes	NULL	easy	data/set3/a5
 Ulysses_S._Grant	Did Grant & Perkins not sell harnesses , saddles , and other leather goods and purchase hides from farmers in the prosperous Galena area ?	they did	NULL	easy	data/set3/a5
 Ulysses_S._Grant	Is the famous dragon gate at the entrance to the district at the corner of Grant and Bush Street ?	yes	NULL	easy	data/set3/a5
-Ulysses_S._Grant	What happened in 1865?	he accepted the surrender of Robert E. Lee	NULL	medium	data/set3/a5
+Ulysses_S._Grant	What happened in 1865?	he accepted the surrender of Robert e. Lee	NULL	medium	data/set3/a5
 Ulysses_S._Grant	What happened in recent years?	his reputation as president has improved	NULL	medium	data/set3/a5
 Uruguay	Is Uruguay located in the northwesten part of Africa?	No.	easy	easy	data/set2/a9
 Uruguay	Is Uruguay located in the northwesten part of Africa?	no	easy	medium	data/set2/a9
@@ -1613,8 +1612,8 @@ Uruguay	Who founded Montevideo?	The Spanish.	medium	medium	data/set2/a9
 Uruguay	Who founded Montevideo?	the Spanish	medium	hard	data/set2/a9
 Uruguay	Where is Uruguay's oldest church?	San Carlos, Maldonado.	medium	medium	data/set2/a9
 Uruguay	Where is Uruguay's oldest church?	San Carlos, Maldonado	medium	medium	data/set2/a9
-Uruguay	Who heavily influenced the architecture and culture of Montevideo?	European immigrants.	medium	medium	data/set2/a9
-Uruguay	Who heavily influenced the architecture and culture of Montevideo?	European immigrants	medium	hard	data/set2/a9
+Uruguay	Who heavily influenced the architecture and culture of Montevideo?	european immigrants.	medium	medium	data/set2/a9
+Uruguay	Who heavily influenced the architecture and culture of Montevideo?	european immigrants	medium	hard	data/set2/a9
 Uruguay	What are poor neighborhoods called informally?	Cantegriles.	hard	hard	data/set2/a9
 Uruguay	What are poor neighborhoods called informally?	Cantegriles	hard	hard	data/set2/a9
 Uruguay	Is uruguay's landscape mountainous?	No.	hard	easy	data/set2/a9
@@ -1631,13 +1630,13 @@ Uruguay	Who founded Montevideo?	By the Spanish, in the early 18th century	medium
 Uruguay	Who founded Montevideo?	Montevideo was founded by the Spanish in the early 18th century as a military stronghold.	medium	medium	data/set2/a9
 Uruguay	How many square kilometres of continental land is Uruguay?	176.215 km?? 	medium	medium	data/set2/a9
 Uruguay	How many square kilometres of continental land is Uruguay?	176,214 square kilometres	medium	medium	data/set2/a9
-Uruguay	How much of the population is of white European descent?	88%	medium	easy	data/set2/a9
-Uruguay	How much of the population is of white European descent?	Approximately 88% of its population are of prevalently white European descent.	medium	medium	data/set2/a9
+Uruguay	How much of the population is of white european descent?	88%	medium	easy	data/set2/a9
+Uruguay	How much of the population is of white european descent?	Approximately 88% of its population are of prevalently white european descent.	medium	medium	data/set2/a9
 Uruguay	Why was the capital of Uruguay founded?	For a military stronghold.	hard	medium	data/set2/a9
 Uruguay	Why was the capital of Uruguay founded?	Uruguay's capital, Montevideo, was founded by the Spanish in the early 18th century as a military stronghold.	hard	medium	data/set2/a9
 Uruguay	How many times has Uruguay won the World Cup?	Twice. 	hard	hard	data/set2/a9
 Uruguay	How many times has Uruguay won the World Cup?	On two or more occasions.	hard	hard	data/set2/a9
-Uruguay	How much is the average income of an African woman compared to a European man?	African women earns 0.65 * 0.718  = 46.67% of a European man earns in average	hard	hard	data/set2/a9
+Uruguay	How much is the average income of an African woman compared to a european man?	African women earns 0.65 * 0.718  = 46.67% of a european man earns in average	hard	hard	data/set2/a9
 Uruguay	Does Uruguay recognize same-sex civil unions?	Yes	easy	easy	data/set2/a9
 Uruguay	Does Uruguay recognize same-sex civil unions?	Yes	easy	easy	data/set2/a9
 Uruguay	Does Uruguay border French Guiana?	No	easy	easy	data/set2/a9
@@ -1650,7 +1649,7 @@ Uruguay	Where is Uruguay's oldest church?	San Carlos, Maldonado	medium	medium	da
 Uruguay	Where is Uruguay's oldest church?	San Carlos, Maldonado	medium	medium	data/set2/a9
 Uruguay	What religions are found in Uruguay?	Roman Catholic, Protestant, Jewish, and nonprofessing.	medium	hard	data/set2/a9
 Uruguay	What religions are found in Uruguay?	Roman Catholic, Protestant, Jewish	medium	medium	data/set2/a9
-Uruguay	What has Uruguay done to be competitive in agriculture?	Labeling as "Natural" or "Ecological"	hard	too hard	data/set2/a9
+Uruguay	What has Uruguay done to be competitive in agriculture?	Labeling as "Natural" or "ecological"	hard	too hard	data/set2/a9
 Uruguay	What has Uruguay done to be competitive in agriculture?	Use low inputs of labour, technology, and capital, which results in lower yields but also opens the door for Uruguay to market its products as "natural" or "ecological"	hard	too hard	data/set2/a9
 Uruguay	What are the names of Uruguay's political parties?	Partido Colorado and Partido Blanco	hard	too hard	data/set2/a9
 Uruguay	What are the names of Uruguay's political parties?	Partido Blanco and Partido Colorado	hard	hard	data/set2/a9
@@ -1711,6 +1710,6 @@ Woodrow_Wilson	Was Wilson a remarkably effective writer and thinker?	Yes	NULL	ea
 Woodrow_Wilson	What lived in Columbia?	Wilson	NULL	too hard	data/set3/a8
 Woodrow_Wilson	Was Wilson president of the American Political Science Association in 1910 ?	Yes	NULL	easy	data/set3/a8
 Woodrow_Wilson	Did he not cast his ballot for John M. Palmer , the presidential candidate of the National Democratic Party , or Gold Democrats , a short-lived party that supported a gold standard , low tariffs , and limited government ?	Yes	NULL	easy	data/set3/a8
-Woodrow_Wilson	Did Wilson not spend 1914 through the beginning of 1917 trying to keep America out of the war in Europe ?	Yes	NULL	easy	data/set3/a8
+Woodrow_Wilson	Did Wilson not spend 1914 through the beginning of 1917 trying to keep America out of the war in europe ?	Yes	NULL	easy	data/set3/a8
 Woodrow_Wilson	Was Wilson , a staunch opponent of antisemitism , sympathetic to the plight of Jews , especially in Poland and in France ?	Yes	NULL	easy	data/set3/a8
 Woodrow_Wilson	What happened in 1917?	raised billions through Liberty loans, imposed an income tax, set up the War Industries Board, promoted labor union growth, supervised agriculture and food production through the Lever Act, took over control of the railroads, and suppressed anti-war movements	NULL	medium	data/set3/a8

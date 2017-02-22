@@ -32,14 +32,14 @@ Alessandro_Volta	When did lombardy come under Napoleon`s rule?	From 1796 to 1815
 Alessandro_Volta	Where did he publish his invention of the Voltaic pile battery?	the Philosophical Transactions of the Royal Society	NULL	medium	data/set4/a10
 Alessandro_Volta	Did he become professor of experimental physics at the University of Pavia?	Yes	NULL	easy	data/set4/a10
 Alessandro_Volta	Is it true that his passion been always the study of electricity?	Yes	NULL	easy	data/set4/a10
-Alessandro_Volta	His passion been always the study of what?	Electricity	NULL	easy	data/set4/a10
+Alessandro_Volta	His passion been always the study of what?	electricity	NULL	easy	data/set4/a10
 Alessandro_Volta	Is it true that Volta married the daughter of Count Ludovico Peregrini?	Yes	NULL	easy	data/set4/a10
 Alessandro_Volta	Is it true that he published his invention of the Voltaic pile battery?	Yes	NULL	easy	data/set4/a10
 Amedeo_Avogadro	Was Amedeo Avogadro Italian?	Yes	easy	easy	data/set4/a8
 Amedeo_Avogadro	Was Amedeo Avogadro Italian?	yes	easy	easy	data/set4/a8
 Amedeo_Avogadro	Did Amedeo Avogadro graduate?	Yes	easy	easy	data/set4/a8
 Amedeo_Avogadro	Did Amedeo Avogadro graduate?	yes	easy	easy	data/set4/a8
-Amedeo_Avogadro	Did Avogadro live in England?	No	easy	easy	data/set4/a8
+Amedeo_Avogadro	Did Avogadro live in england?	No	easy	easy	data/set4/a8
 Amedeo_Avogadro	Where was Avogadro a professor of physics?	University of Turin	medium	medium	data/set4/a8
 Amedeo_Avogadro	Where was Avogadro a professor of physics?	University of Turin	medium	medium	data/set4/a8
 Amedeo_Avogadro	How many children did Avogadro have?	six	medium	medium	data/set4/a8
@@ -58,7 +58,7 @@ Amedeo_Avogadro	How many years ago was it when he became a professor of physics 
 Amedeo_Avogadro	What is Amedeo Avogadro`s first name?	Amedeo	NULL	hard	data/set4/a8
 Amedeo_Avogadro	What is Amedeo Avogadro`s last name?	Avogadro	NULL	too easy	data/set4/a8
 Amedeo_Avogadro	Was Amedeo Avogadro born in North America?	no	NULL	hard	data/set4/a8
-Amedeo_Avogadro	Was King Victor  Emmanuel  III there to pay  homage  to Avogadro?	Yes	NULL	easy	data/set4/a8
+Amedeo_Avogadro	Was King Victor  emmanuel  III there to pay  homage  to Avogadro?	Yes	NULL	easy	data/set4/a8
 Amedeo_Avogadro	In fact, was Avogadro `s  famous  1811  paper written in French . )	Yes	NULL	easy	data/set4/a8
 Amedeo_Avogadro	Is avogadro `s  number commonly used to compute  the results  of chemical reactions?	Yes	NULL	easy	data/set4/a8
 Amedeo_Avogadro	Hence, can relative molecular  masses be calculated from the masses  of gas samples?	Yes	NULL	easy	data/set4/a8
@@ -67,7 +67,7 @@ Amedeo_Avogadro	Did Avogadro submit his poem?	Yes.	NULL	medium	data/set4/a8
 Amedeo_Avogadro	Is it true that loschmidt calculated first the value of Avogadro number?	Yes	NULL	easy	data/set4/a8
 Amedeo_Avogadro	Loschmidt calculated first the value of what?	Avogadro's number	NULL	medium	data/set4/a8
 Amedeo_Avogadro	Hence , can relative molecular masses be calculated from the masses of gas samples ?	yes	NULL	easy	data/set4/a8
-Amedeo_Avogadro	Can the title of this famous 1811 paper be roughly translated into English as "essay on determining the Relative Masses of the Elementary Molecules of Bodies" ?	Yes.	NULL	easy	data/set4/a8
+Amedeo_Avogadro	Can the title of this famous 1811 paper be roughly translated into english as "essay on determining the Relative Masses of the elementary Molecules of Bodies" ?	Yes.	NULL	easy	data/set4/a8
 Amedeo_Avogadro	What is Amedeo Avogadro?	A person.	NULL	hard	data/set4/a8
 Amedeo_Avogadro	Where is Amedeo Avogadro from?	Italy.	NULL	hard	data/set4/a8
 Anders_Celsius	When did Anders Celcius publish his observations on the aurora borealis?	1733	easy	medium	data/set4/a5
@@ -99,7 +99,7 @@ Anders_Celsius	He published a collection of what?	observations	NULL	medium	data/
 Arabic_language	Pronouns in which location are marked for person , number and gender?	NULL	NULL	NULL	data/set5/a3
 Arabic_language	Can syllables begin with a vowel?	no	NULL	easy	data/set5/a3
 Arabic_language	Are calligraphers held in great esteem?	Yes	NULL	easy	data/set5/a3
-Arabic_language	Have many European languages borrowed numerous words from it?	yes	NULL	easy	data/set5/a3
+Arabic_language	Have many european languages borrowed numerous words from it?	yes	NULL	easy	data/set5/a3
 Arabic_language	Are the most active in Damascus and Cairo?	(bad question)	NULL		data/set5/a3
 Arabic_language	Do arabs consider literary Arabic?	(bad question)	NULL		data/set5/a3
 Arabic_language	Was Arabic vehicle in science?	NULL	NULL	NULL	data/set5/a3
@@ -112,7 +112,7 @@ Arabic_language	Are pronouns in Literary Arabic marked for person , number and g
 Arabic_language	However , are non-human plural nouns grammatically considered to be feminine singular ?	yes	NULL	easy	data/set5/a3
 Bee	Is a bee an insect?	yes	easy	easy	data/set1/a8
 Bee	Are bees related to ants?	yes	easy	hard	data/set1/a8
-Bee	Have managed populations of European honey bees experienced substantial declines?	yes	easy	easy	data/set1/a8
+Bee	Have managed populations of european honey bees experienced substantial declines?	yes	easy	easy	data/set1/a8
 Bee	Where do bees live?	in colonies	medium	medium	data/set1/a8
 Bee	When do bumblebee colonies reach peak population?	mid to late summer	medium	medium	data/set1/a8
 Bee	What do people commonly call cleptoparasitic bees?	cuckoo bees	medium	medium	data/set1/a8
@@ -156,8 +156,8 @@ Cello	What is used to tune a cello?	Pegs are used to tune a cello.	medium	medium
 Cello	What is used to tune a cello?	the pegs	medium	medium	data/set2/a9
 Cello	Which harmonics can produce any notes above middle C? 	Artificial harmonics can produce any notes above middle C.	hard	hard	data/set2/a9
 Cello	Which harmonics can produce any notes above middle C? 	Artificial harmonics	hard	medium	data/set2/a9
-Cello	Who referred to the cello as “basso de viola da braccio"?	Monteverdi referred to the cello as "basso de viola da braccio".	hard	medium	data/set2/a9
-Cello	Who referred to the cello as “basso de viola da braccio"?	Monteverdi	hard	medium	data/set2/a9
+Cello	Who referred to the cello as "basso de viola da braccio"?	Monteverdi referred to the cello as "basso de viola da braccio".	hard	medium	data/set2/a9
+Cello	Who referred to the cello as "basso de viola da braccio"?	Monteverdi	hard	medium	data/set2/a9
 Cello	Where is the violincello held?	The violincello is held on the shoulder.	hard	hard	data/set2/a9
 Cello	Where is the violincello held?	on the shoulder	hard	medium	data/set2/a9
 Cello	Is there cello in performances by Rihanna?	yes	easy	easy	data/set2/a9
@@ -222,7 +222,7 @@ Chinese_language	Was Old Chinese wholly uninflected?	no	NULL	easy	data/set5/a7
 Chinese_language	In North Korea, has Hanja been discontinued?	NULL	NULL	NULL	data/set5/a7
 Chinese_language	The most  widespread is the Palladius  system?	NULL	NULL	NULL	data/set5/a7
 Chinese_language	Is the Vietnamese  term  for Chinese writing HÃ¡n t?	NULL	NULL	NULL	data/set5/a7
-Chinese_language	Did the Empire have little success?	NULL	NULL	NULL	data/set5/a7
+Chinese_language	Did the empire have little success?	NULL	NULL	NULL	data/set5/a7
 Chinese_language	When are most of these groups mutually unintelligible?	NULL	NULL	NULL	data/set5/a7
 Chinese_language	What is the population of Chinese language?	NULL	NULL	NULL	data/set5/a7
 Chinese_language	Is the most widespread the Palladius system?	NULL	NULL	NULL	data/set5/a7
@@ -278,7 +278,7 @@ Cymbal	Is the word cymbal derived from a Germanic word?	No	easy	easy	data/set2/a
 Cymbal	Is the word cymbal derived from a Germanic word?	No	easy	hard	data/set2/a6
 Cymbal	What is the center of a cymbal called?	Bell	medium	medium	data/set2/a6
 Cymbal	What is the center of a cymbal called?	bell	medium	medium	data/set2/a6
-Cymbal	What part of the cymbal gets the best "crash"?	Edge or rim	medium	medium	data/set2/a6
+Cymbal	What part of the cymbal gets the best "crash"?	edge or rim	medium	medium	data/set2/a6
 Cymbal	What part of the cymbal gets the best "crash"?	edge or rim	medium	medium	data/set2/a6
 Cymbal	What is the second main orchestral use of cymbals?	the suspended cymbal	medium	medium	data/set2/a6
 Cymbal	What is the second main orchestral use of cymbals?	the suspended cymbal	medium	medium	data/set2/a6
@@ -295,18 +295,18 @@ Dhaka	How many people did the 1970 Bhola cyclone kill?	500,000	medium	medium	dat
 Dhaka	When is the end of the independence war of Bangladesh?	December 16, 1971	medium	hard	data/set3/a3
 Dhaka	Did the Mughals arrive in Dhaka?	Yes	hard	medium	data/set3/a3
 Dhaka	Is University of Dhaka older than the Dhaka College?	No	hard	hard	data/set3/a3
-English_language	What is given for the number of native speakers?	No figure is given for the number of native speakers.	NULL	hard	data/set5/a1
-English_language	Is english an intonation  language?	Yes	NULL	easy	data/set5/a1
-English_language	Is english a de  jure  official  language  of Israel?	no	NULL	easy	data/set5/a1
-English_language	Is the stressed  syllable called the nuclear  syllable?	yes	NULL	easy	data/set5/a1
-English_language	Does english grammar have minimal inflection?	Yes	NULL	easy	data/set5/a1
-English_language	Did old English develop into Middle English?	Yes	NULL	easy	data/set5/a1
-English_language	Are books, magazines, and newspapers written in English available?	yes	NULL	easy	data/set5/a1
-English_language	Is the syntax of German different with different rules?	yes	NULL	easy	data/set5/a1
-English_language	Is it true that semantics causes a number of false friends?	true	NULL	easy	data/set5/a1
-English_language	Here , are all syllables unstressed , except the syllables/words best and done , which are stressed ?	yes	NULL	easy	data/set5/a1
-English_language	Are many words describing the navy , types of ships , and other objects or activities on the water of dutch origin ?	yes	NULL	easy	data/set5/a1
-English_language	Are local variations in the formal written version of the language quite limited , being restricted largely to the spelling differences between British and American English ?	yes	NULL	easy	data/set5/a1
+english_language	What is given for the number of native speakers?	No figure is given for the number of native speakers.	NULL	hard	data/set5/a1
+english_language	Is english an intonation  language?	Yes	NULL	easy	data/set5/a1
+english_language	Is english a de  jure  official  language  of Israel?	no	NULL	easy	data/set5/a1
+english_language	Is the stressed  syllable called the nuclear  syllable?	yes	NULL	easy	data/set5/a1
+english_language	Does english grammar have minimal inflection?	Yes	NULL	easy	data/set5/a1
+english_language	Did old english develop into Middle english?	Yes	NULL	easy	data/set5/a1
+english_language	Are books, magazines, and newspapers written in english available?	yes	NULL	easy	data/set5/a1
+english_language	Is the syntax of German different with different rules?	yes	NULL	easy	data/set5/a1
+english_language	Is it true that semantics causes a number of false friends?	true	NULL	easy	data/set5/a1
+english_language	Here , are all syllables unstressed , except the syllables/words best and done , which are stressed ?	yes	NULL	easy	data/set5/a1
+english_language	Are many words describing the navy , types of ships , and other objects or activities on the water of dutch origin ?	yes	NULL	easy	data/set5/a1
+english_language	Are local variations in the formal written version of the language quite limited , being restricted largely to the spelling differences between British and American english ?	yes	NULL	easy	data/set5/a1
 Flute	Is the flute a musical instrument?	Yes.	easy	easy	data/set2/a5
 Flute	Is the flute a musical instrument?	Yes	easy	easy	data/set2/a5
 Flute	Is it possible to open flutes at one or both ends?	Yes.	easy	easy	data/set2/a5
@@ -321,8 +321,8 @@ Flute	When did the tin whistle first appear?	12th century.	medium	medium	data/se
 Flute	When did the tin whistle first appear?	In the 12th century	medium	medium	data/set2/a5
 Flute	What are the oldest known musical instruments?	A three holed-flute made from a mammoth tusk and two flutes made from swan's bones.	hard	medium	data/set2/a5
 Flute	What are the oldest known musical instruments?	A three-holed flute made from a mammoth tusk and two flutes made from swans' bones are among the oldest known musical instruments	hard	hard	data/set2/a5
-Flute	When was the pan flute spread to other parts of Europe?	7th century BC.	hard	hard	data/set2/a5
-Flute	When was the pan flute spread to other parts of Europe?	After the 7th century BC	hard	hard	data/set2/a5
+Flute	When was the pan flute spread to other parts of europe?	7th century BC.	hard	hard	data/set2/a5
+Flute	When was the pan flute spread to other parts of europe?	After the 7th century BC	hard	hard	data/set2/a5
 Flute	What does the air stream across this hole create?	A Bernoulli, or siphon.	hard	medium	data/set2/a5
 Fox	Are foxes wary of humans?	Yes	easy	easy	data/set1/a6
 Fox	Are foxes wary of humans?	Yes	easy	easy	data/set1/a6
@@ -350,8 +350,8 @@ French_language	Is french taught in many schools as a primary language along wit
 French_language	What is widely used by the Lebanese, especially for administrative purposes?	French	NULL	medium	data/set5/a5
 French_language	Is french descendant of the Latin language?	Yes	NULL	easy	data/set5/a5
 French_language	Are there also a variety of regional languages In addition?	Yes	NULL	medium	data/set5/a5
-French_language	Is it true that france signed the European Charter for Regional Languages?	Yes	NULL	easy	data/set5/a5
-French_language	France signed the European Charter for what?	NULL	NULL	NULL	data/set5/a5
+French_language	Is it true that france signed the european Charter for Regional Languages?	Yes	NULL	easy	data/set5/a5
+French_language	France signed the european Charter for what?	NULL	NULL	NULL	data/set5/a5
 French_language	Is french language of 20  %?	NULL	NULL	NULL	data/set5/a5
 French_language	Is French language of Wallonia?	NULL	NULL	NULL	data/set5/a5
 French_language	Are the prefixes en- and em- always nasalized ?	Yes	NULL	easy	data/set5/a5
@@ -418,13 +418,13 @@ Henri_Becquerel	Did he share the Nobel Prize in Physics?	Yes	NULL	easy	data/set4
 Henri_Becquerel	Is it true that Becquerel wrapped a fluorescent substance in photographic plates?	Yes	NULL	easy	data/set4/a9
 Henri_Becquerel	Becquerel wrapped a fluorescent substance in what?	photographic plates and black material	NULL	medium	data/set4/a9
 Henri_Becquerel	Is there a Becquerel crater on the Moon for radioactivity?	Yes	NULL	easy	data/set4/a9
-Henri_Becquerel	Must â€¦ One conclude from these experiments that the phosphorescent substance in question emits rays which pass through the opaque paper and reduces silver salts ?	Yes	NULL	easy	data/set4/a9
+Henri_Becquerel	Must â¦ One conclude from these experiments that the phosphorescent substance in question emits rays which pass through the opaque paper and reduces silver salts ?	Yes	NULL	easy	data/set4/a9
 Henri_Becquerel	What is Henri Becquerel?	Henri Becquerel was a famous physicist.	NULL	easy	data/set4/a9
 Henri_Becquerel	Where is Henri Becquerel from?	Paris	NULL	medium	data/set4/a9
 Henri_Becquerel	What does Henri Becquerel do?	was a physisist	NULL	medium	data/set4/a9
 Henri_Becquerel	What does Henri Becquerel do?	Henri Becquerel was a physicist.	NULL	hard	data/set4/a9
-Isaac_Newton	Was Newton a English physicist?	Yes.	easy	easy	data/set4/a1
-Isaac_Newton	Was Newton a English physicist?	Yes	easy	easy	data/set4/a1
+Isaac_Newton	Was Newton a english physicist?	Yes.	easy	easy	data/set4/a1
+Isaac_Newton	Was Newton a english physicist?	Yes	easy	easy	data/set4/a1
 Isaac_Newton	Did Newton reject the church's doctrine of the Trinity?	Newton may have rejected the church's doctrine of the Trinity.	easy	hard	data/set4/a1
 Isaac_Newton	Did Newton reject the church's doctrine of the Trinity?	Maybe	easy	hard	data/set4/a1
 Isaac_Newton	Was Newton admitted into Havard College?	No.	easy	easy	data/set4/a1
@@ -455,8 +455,8 @@ Italian_language	Is it true that Italian retained the contrast between short con
 Italian_language	Italian retained the contrast between what?	NULL	NULL	NULL	data/set5/a9
 Italian_language	Is stress distinctive in most Romance languages?	NULL	NULL	NULL	data/set5/a9
 Italian_language	Are the speakers who use italian as a second or cultural language estimated at around 110-120 million ?	NULL	NULL	NULL	data/set5/a9
-Italian_language	Are front/back vowel rules for C and G similar in French , Romanian , Spanish , and to some extent English ?	NULL	NULL	NULL	data/set5/a9
-Italian_language	So can Italian language hear "istÃ nbul " or "ÃŒstanbul" ?	NULL	NULL	NULL	data/set5/a9
+Italian_language	Are front/back vowel rules for C and G similar in French , Romanian , Spanish , and to some extent english ?	NULL	NULL	NULL	data/set5/a9
+Italian_language	So can Italian language hear "istÃ nbul " or "Ãostanbul" ?	NULL	NULL	NULL	data/set5/a9
 Italian_language	Will , the vowel sounds be pronounced separately) ?	NULL	NULL	NULL	data/set5/a9
 Italian_language	Can Regional differences be recognized by various factors : the openness of vowels , the length of the consonants , and influence of the local dialect ?	NULL	NULL	NULL	data/set5/a9
 Italian_language	Give dictionaries the latter as an alternative pronunciation ?	NULL	NULL	NULL	data/set5/a9
@@ -476,7 +476,7 @@ Japanese_language	What was Japanese language`s profession?	NULL	NULL	NULL	data/s
 Japanese_language	What is Japanese language`s first name?	NULL	NULL	NULL	data/set5/a6
 Japanese_language	Is the basic sentence structure topic-comment?	NULL	NULL	NULL	data/set5/a6
 Japanese_language	Where are the circumstances complicated?	NULL	NULL	NULL	data/set5/a6
-Japanese_language	Does the   form indicate a perfect tense?	NULL	NULL	NULL	data/set5/a6
+Japanese_language	Does theform indicate a perfect tense?	NULL	NULL	NULL	data/set5/a6
 Japanese_language	Is or a conception that forms the counterpart of dialect?	NULL	NULL	NULL	data/set5/a6
 Japanese_language	Do most Japanese people employ politeness?	yes	NULL	easy	data/set5/a6
 Japanese_language	Is it true that Japanese borrowed a considerable number of words?	yes	NULL	easy	data/set5/a6
@@ -497,27 +497,27 @@ Lima	Where is the Park of the Reserve located?	Near the downtown area.	medium	me
 Lima	What is a colectivo?	Automobiles that renders express service on some major roads of the Lima Metropolitan Area.	medium	medium	data/set3/a4
 Lima	Is the National University of San Marcos in Lima?	Yes.	hard	hard	data/set3/a4
 Lima	Has the San Lorenzo Megaport Project been completed?	No.	hard	hard	data/set3/a4
-Lima	How many years ago was the Lima Stock Exchange the most profitable in the world?	Three	NULL	hard	data/set3/a4
+Lima	How many years ago was the Lima Stock exchange the most profitable in the world?	Three	NULL	hard	data/set3/a4
 Lima	Is rainfall very low?	Yes.	NULL	easy	data/set3/a4
 Lima	Is lima the capital  and  largest  city  of Peru?	Yes.	NULL	easy	data/set3/a4
 Lima	Is The GDP  per capita in Lima $ 7,600  /  ref )?	Yes.	NULL	easy	data/set3/a4
 Lima	The Spanish Crown named Pizarro governor of what?	Hemming.	NULL	medium	data/set3/a4
-Lima	Is it true that the ideas of the Enlightenment shaped the development of the city?	Yes.	NULL	easy	data/set3/a4
-Lima	The ideas of the Enlightenment shaped the development of what?	the city, Lima	NULL	medium	data/set3/a4
+Lima	Is it true that the ideas of the enlightenment shaped the development of the city?	Yes.	NULL	easy	data/set3/a4
+Lima	The ideas of the enlightenment shaped the development of what?	the city, Lima	NULL	medium	data/set3/a4
 London	Is London the capital of the United Kingdom?	Yes	easy	easy	data/set3/a1
 London	Is London the capital of the United Kingdom?	Yes	easy	easy	data/set3/a1
 London	Does London's population draw from a wide range of religions?	Yes	easy	easy	data/set3/a1
 London	Does London's population draw from a wide range of religions?	Yes	easy	easy	data/set3/a1
-London	Did Caunte take control of the English throne in 101?	No	easy	easy	data/set3/a1
+London	Did Caunte take control of the english throne in 101?	No	easy	easy	data/set3/a1
 London	Over how many languages are spoken in London?	Over 300 languages are spoken in london	medium	medium	data/set3/a1
 London	Over how many languages are spoken in London?	Over 300	medium	easy	data/set3/a1
 London	What had the Anglo-Saxons created by the 600s?	By the 600s, the Anglo-Saxons had created a new settlement called Lundenwic.	medium	medium	data/set3/a1
 London	What had the Anglo-Saxons created by the 600s?	a new settlement called Lundenwic	medium	easy	data/set3/a1
 London	What city in the UK has been subjected to bouts of terrorism?	London has been subjected to bouts of terrorism.	hard	hard	data/set3/a1
 London	What city in the UK has been subjected to bouts of terrorism?	London	hard	hard	data/set3/a1
-London	What countries did James VI of Scotland unite?	James VI of Scotland united Scotland and England.	hard	hard	data/set3/a1
-London	What countries did James VI of Scotland unite?	England and Scotland	hard	too hard	data/set3/a1
-London	How did civil wars affect England during the Middle Ages?	London remained relatively untouched	hard	medium	data/set3/a1
+London	What countries did James VI of Scotland unite?	James VI of Scotland united Scotland and england.	hard	hard	data/set3/a1
+London	What countries did James VI of Scotland unite?	england and Scotland	hard	too hard	data/set3/a1
+London	How did civil wars affect england during the Middle Ages?	London remained relatively untouched	hard	medium	data/set3/a1
 Lyre	Are the strings of a classical lyre made of gut?	Yes	easy	hard	data/set2/a10
 Lyre	Does a classical lyre have a sound-chest?	Yes	easy	easy	data/set2/a10
 Lyre	Is lyre played in mordern Greece?	No	easy	easy	data/set2/a10
@@ -525,8 +525,8 @@ Lyre	Which part of the strings does the left hand touch?	The lower strings	mediu
 Lyre	In which place is lyre still played?	North-eastern parts of Africa	medium	medium	data/set2/a10
 Lyre	Does a classical lyre have a fingerboard?	Yes	hard	hard	data/set2/a10
 Lyre	Is a guitar played with a plectrum like a lyre?	Yes	hard	easy	data/set2/a10
-Michael_Faraday	Was Michael Faraday an English chemist?	yes	easy	easy	data/set4/a7
-Michael_Faraday	Was Michael Faraday an English chemist?	yes	easy	easy	data/set4/a7
+Michael_Faraday	Was Michael Faraday an english chemist?	yes	easy	easy	data/set4/a7
+Michael_Faraday	Was Michael Faraday an english chemist?	yes	easy	easy	data/set4/a7
 Michael_Faraday	Was Faraday a devout Christian?	yes	easy	easy	data/set4/a7
 Michael_Faraday	Was Faraday a devout Christian?	yes	easy	easy	data/set4/a7
 Michael_Faraday	Was Faraday considered a gentleman?	no	easy	easy	data/set4/a7
@@ -546,8 +546,8 @@ Michael_Faraday	Did Faraday receive an extensive formal education?	no	easy	mediu
 Michael_Faraday	Did Faraday receive an extensive formal education?	no	easy	easy	data/set4/a7
 Michael_Faraday	Did Faraday discover the chemical substance benzene?	yes	easy	easy	data/set4/a7
 Michael_Faraday	Did Faraday discover the chemical substance benzene?	yes	easy	easy	data/set4/a7
-Michael_Faraday	Was Faraday born in England?	yes	easy	easy	data/set4/a7
-Michael_Faraday	Was Faraday born in England?	yes	easy	easy	data/set4/a7
+Michael_Faraday	Was Faraday born in england?	yes	easy	easy	data/set4/a7
+Michael_Faraday	Was Faraday born in england?	yes	easy	easy	data/set4/a7
 Michael_Faraday	What do some historians of science refer to Faraday as?	the best experimentalist in the history of science	medium	medium	data/set4/a7
 Michael_Faraday	What do some historians of science refer to Faraday as?	best experimentalist in the history of science	medium	medium	data/set4/a7
 Michael_Faraday	Who was the sponsor and mentor of Faraday?	John 'Mad Jack' Fuller	medium	medium	data/set4/a7
@@ -569,7 +569,7 @@ Michael_Faraday	Was faraday `s  earliest  chemical  work as an assistant  to Dav
 Michael_Faraday	Who died at his house at Hampton Court on August 25, 1867?	Faraday	NULL	medium	data/set4/a7
 Michael_Faraday	When was Michael Faraday born?	September 22, 1791	NULL	easy	data/set4/a7
 Michael_Faraday	Where did he serve two terms?	the Church of Scotland	NULL	hard	data/set4/a7
-Michael_Faraday	Who was born in Newington Butts, near present-day South London, England?	Michael Faraday	NULL	medium	data/set4/a7
+Michael_Faraday	Who was born in Newington Butts, near present-day South London, england?	Michael Faraday	NULL	medium	data/set4/a7
 Michael_Faraday	Is it true that institution formed the foundation of electric motor technology?	no	NULL	hard	data/set4/a7
 Michael_Faraday	Institution formed the foundation of what?	modern electromagnetic technology	NULL	medium	data/set4/a7
 Michael_Faraday	Was his father member of the Sandemanian sect?	yes	NULL	easy	data/set4/a7
@@ -586,8 +586,8 @@ Nikola_Tesla	Did Tesla study electrical engineering?	Yes	easy	easy	data/set4/a3
 Nikola_Tesla	Did Tesla study electrical engineering?	yes	easy	easy	data/set4/a3
 Nikola_Tesla	Was Tesla born in the United States?	No	easy	easy	data/set4/a3
 Nikola_Tesla	Was Tesla born in the United States?	no	easy	easy	data/set4/a3
-Nikola_Tesla	Was Tesla hired by Edison?	Yes	easy	easy	data/set4/a3
-Nikola_Tesla	Was Tesla hired by Edison?	yes	easy	easy	data/set4/a3
+Nikola_Tesla	Was Tesla hired by edison?	Yes	easy	easy	data/set4/a3
+Nikola_Tesla	Was Tesla hired by edison?	yes	easy	easy	data/set4/a3
 Nikola_Tesla	When did Tesla demonstrate wireless communication (radio)?	1893	medium	medium	data/set4/a3
 Nikola_Tesla	When did Tesla demonstrate wireless communication (radio)?	1893	medium	hard	data/set4/a3
 Nikola_Tesla	What is the SI unit measuring magnetic flux density or magnetic induction?	the tesla	medium	medium	data/set4/a3
@@ -659,14 +659,14 @@ Santiago	What is the Order of Santiago?	a Spanish knightly order	medium	medium	d
 Santiago	What is the Order of Santiago?	a Spanish Knightly order	medium	medium	data/set3/a6
 Santiago	What notable people have been named Santiago?	Benito Santiago, Hugo Santiago, Joey Santiago, Liliana Santiago, Rafael Santiago Maria, Santiago Caballero, Santiago Cabrera; James, son of Zebedee	hard	hard	data/set3/a6
 Santiago	What notable people have been named Santiago?	Benito, Hugo, and others	hard	hard	data/set3/a6
-Santiago	What fictional stories include a main character named Santiago?	Gears of War, Rainbow Six: Covert Operations Essentials, Death Foretold by Gabriel GarcÃ­a MÃ¡rquez, Ernest Hemingway's The Old Man and the Sea, the television series Babylon 5, Anne Rice's novel Interview with the Vampire, aulo Coelho's The Alchemist (novel), the television show Friday Night Lights	hard	hard	data/set3/a6
+Santiago	What fictional stories include a main character named Santiago?	Gears of War, Rainbow Six: Covert Operations essentials, Death Foretold by Gabriel GarcÃ­a MÃ¡rquez, ernest Hemingway's The Old Man and the Sea, the television series Babylon 5, Anne Rice's novel Interview with the Vampire, aulo Coelho's The Alchemist (novel), the television show Friday Night Lights	hard	hard	data/set3/a6
 Santiago	What fictional stories include a main character named Santiago?	Interview with the Vampire, The Alchemist, and others	hard	hard	data/set3/a6
 Santiago	Is Santiago the national capital of a country?	Yes	NULL	easy	data/set3/a6
 Santiago	Is santiago Spanish for St. James  ( from santo ,  saint  +  iago ,  James  )?	Yes	NULL	easy	data/set3/a6
 Santiago	Is santiago Spanish for St. James?	Yes	NULL	easy	data/set3/a6
-Santiago	What is Santiago?	Santiago is Spanish for St. James. It is also the name of places in Argentina, Brazil, Cape Verde, Chile, Colombia, Costa Rica, Cuba, the Dominican Republic, Ecuador, Guatemala, Jamaica, Mexico, Nicaragua, Panama, Paraguay, Peru, the Philippines, Portugal, Spain, the United States, Venezuela, and the Amazon. It is also the name of a baseball catcher, a film director, a guitarist, an economist, a footballer, a DJ, an actor, and James, son of Zebedee. Fictional people with this name include a character from Gears of War, a character from Chronicle of a Death Foretold, a character in Old Man and the Sea, a character in Babylon 5, a character in Interview with the Vampire, the main character of The Alchemist, and a character on Friday Night Lights. There has also been a battle of Santiago de Cuba, a couple of bands named Santiago, an Order of Santiago, and "Santiago" as a shortened form of the Reconquista battle cry.	NULL	too hard	data/set3/a6
+Santiago	What is Santiago?	Santiago is Spanish for St. James. It is also the name of places in Argentina, Brazil, Cape Verde, Chile, Colombia, Costa Rica, Cuba, the Dominican Republic, ecuador, Guatemala, Jamaica, Mexico, Nicaragua, Panama, Paraguay, Peru, the Philippines, Portugal, Spain, the United States, Venezuela, and the Amazon. It is also the name of a baseball catcher, a film director, a guitarist, an economist, a footballer, a DJ, an actor, and James, son of Zebedee. Fictional people with this name include a character from Gears of War, a character from Chronicle of a Death Foretold, a character in Old Man and the Sea, a character in Babylon 5, a character in Interview with the Vampire, the main character of The Alchemist, and a character on Friday Night Lights. There has also been a battle of Santiago de Cuba, a couple of bands named Santiago, an Order of Santiago, and "Santiago" as a shortened form of the Reconquista battle cry.	NULL	too hard	data/set3/a6
 Spanish_language	Are countries without in red?	NULL	NULL	NULL	data/set5/a8
-Spanish_language	However, is English the official  language?	NULL	NULL	NULL	data/set5/a8
+Spanish_language	However, is english the official  language?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Are most Spanish  speakers in Latin America?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Are countries where is a regionalism in green?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	The deeper  the blue  is, is the more  predominant?	NULL	NULL	NULL	data/set5/a8
@@ -675,14 +675,14 @@ Spanish_language	Did the language lose its official status?	NULL	NULL	NULL	data/
 Spanish_language	Where do about 400 million people speak Spanish?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	What kind of instrument is the spanish language?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Is the lexical similarity with Italian estimated at 82%?	NULL	NULL	NULL	data/set5/a8
-Spanish_language	Is spanish an official language of the European Union?	NULL	NULL	NULL	data/set5/a8
-Spanish_language	What is an official language of the European Union?	NULL	NULL	NULL	data/set5/a8
+Spanish_language	Is spanish an official language of the european Union?	NULL	NULL	NULL	data/set5/a8
+Spanish_language	What is an official language of the european Union?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Is it true that mexico contains the largest population of Spanish speakers?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Mexico contains the largest population of what?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Is this phenomenon notable in Brazil?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Is spanish one of the official languages?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Is universidad de MÃ©xico Instituto Cervantes Spanish language of Spain?	NULL	NULL	NULL	data/set5/a8
-Spanish_language	Is spanish language of the European Union?	NULL	NULL	NULL	data/set5/a8
+Spanish_language	Is spanish language of the european Union?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Pasan en consecuencia , las palabras que comienzan por estas dos letras , o que las contienen , a alfabetizarse en los lugares que les corresponden dentro de la c y de la l , respectivamente ?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Allow the common features of the writing systems of the Romance languages for a greater amount of interlingual reading comprehension than oral communication would ?	NULL	NULL	NULL	data/set5/a8
 Swahili_language	What was Swahili language`s profession?	NULL	NULL	NULL	data/set5/a4
@@ -700,7 +700,7 @@ Swahili_language	What was the only good candidate in these two colonies?	NULL	NU
 Swahili_language	Do some writers mark aspirated consonants?	NULL	NULL	NULL	data/set5/a4
 Swahili_language	Was one key step in spreading Swahili to create a standard written language?	NULL	NULL	NULL	data/set5/a4
 Swahili_language	Are there today more speakers in Kenya of the Somali coast?	NULL	NULL	NULL	data/set5/a4
-Swahili_language	Is      / ref Swahili unusual among sub-Saharan languages?	Yes	NULL	easy	data/set5/a4
+Swahili_language	Is/ ref Swahili unusual among sub-Saharan languages?	Yes	NULL	easy	data/set5/a4
 Swahili_language	The pronunciation of the phoneme / u / stands between what?	NULL	NULL	NULL	data/set5/a4
 Swahili_language	Are vowels never reduced , regardless of stress ?	Yes	NULL	easy	data/set5/a4
 Swan	Does the Australian Black Swan have white feathers on its wings?	yes	easy	medium	data/set1/a10
@@ -718,7 +718,7 @@ Swan	What is the Sanskrit word for swan?	Hamsa or hansa	medium	easy	data/set1/a1
 Swan	Which album was the song "The Bonny Swans" from?	The Mask and Mirror	hard	medium	data/set1/a10
 Swan	Which album was the song "The Bonny Swans" from?	The Mask and Mirror	hard	easy	data/set1/a10
 Swan	What is the Polish word for swan?	&#321;ab&#281;d&#378;	hard	hard	data/set1/a10
-Swan	What is the Polish word for swan?	ÅabÄ™dÅº	hard	easy	data/set1/a10
+Swan	What is the Polish word for swan?	aba™dº	hard	easy	data/set1/a10
 Swan	Which ballet by Pyotr Tchaikovsky is partially based on an Ancient German legend about a princess who was turned into a swan?	Swan Lake	hard	hard	data/set1/a10
 Swan	Which ballet by Pyotr Tchaikovsky is partially based on an Ancient German legend about a princess who was turned into a swan?	Swan Lake	hard	hard	data/set1/a10
 Swan	Are swan birds of the family Anatidae?	Yes.	easy	easy	data/set1/a10
@@ -729,8 +729,8 @@ Swan	Is the Trumpeter Swan the largest bird?	It is the largest bird of North Ame
 Swan	Is the Trumpeter Swan the largest bird?	The Trumpeter Swan is the largest bird of North America	easy	medium	data/set1/a10
 Swan	What is the name of young swans?	Cygnets.	medium	medium	data/set1/a10
 Swan	What is the name of young swans?	Cygnets	medium	medium	data/set1/a10
-Swan	Where is the word "swan" derived from?	Old English swan.	medium	medium	data/set1/a10
-Swan	Where is the word "swan" derived from?	The Old English word "swan," derived from the Indo-European root "*swen", meaning to sound or to sing	medium	medium	data/set1/a10
+Swan	Where is the word "swan" derived from?	Old english swan.	medium	medium	data/set1/a10
+Swan	Where is the word "swan" derived from?	The Old english word "swan," derived from the Indo-european root "*swen", meaning to sound or to sing	medium	medium	data/set1/a10
 Swan	What is the best known story about a swan?	The Ugly Duckling fable.	medium	medium	data/set1/a10
 Swan	What is the best known story about a swan?	The Ugly Duckling	medium	medium	data/set1/a10
 Swan	Are swans and ducks birds of the same family?	Yes.	hard	hard	data/set1/a10
@@ -773,7 +773,7 @@ Turtle	Do Terrestrial tortoises have short feet?	yes	easy	easy	data/set1/a4
 Turtle	How many groups are turtles broken down into?	Two	medium	medium	data/set1/a4
 Turtle	How many groups are turtles broken down into?	two	medium	easy	data/set1/a4
 Turtle	Where are the only surviving giant tortoises?	They are on the Seychelles and GalÃ¡pagos Islands.	medium	medium	data/set1/a4
-Turtle	Where are the only surviving giant tortoises?	Seychelles and Galápagos Islands	medium	easy	data/set1/a4
+Turtle	Where are the only surviving giant tortoises?	Seychelles and Galapagos Islands	medium	easy	data/set1/a4
 Turtle	How do turtles chew food?	Turtles use their jaws to cut and chew food.	medium	medium	data/set1/a4
 Turtle	How do turtles chew food?	Turtles use their jaws to cut and chew food	medium	easy	data/set1/a4
 Turtle	Are tortoises land based?	Yes.	hard	easy	data/set1/a4
@@ -819,7 +819,7 @@ Xylophone	Are xylophone bars made of rosewood?	yes	easy	easy	data/set2/a8
 Xylophone	Is the xylophone a precursor to the vibraphone?	yes	easy	easy	data/set2/a8
 Xylophone	Were ancient mallets made of copper?	no	easy	easy	data/set2/a8
 Xylophone	Where did the xylophone originate?	Indonesia	medium	medium	data/set2/a8
-Xylophone	What is the earliest historical reference in Europe?	Arnold Schlick's Spiegel der Orgelmacher und Organisten	medium	medium	data/set2/a8
+Xylophone	What is the earliest historical reference in europe?	Arnold Schlick's Spiegel der Orgelmacher und Organisten	medium	medium	data/set2/a8
 Xylophone	How are western-style xylophones characterised?	by a bright, sharp tone and high register	medium	medium	data/set2/a8
 Xylophone	Can a xylophone be 3 octaves?	yes	hard	hard	data/set2/a8
 Xylophone	Can a short bar follow a long bar?	no	hard	hard	data/set2/a8

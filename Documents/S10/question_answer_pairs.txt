@@ -17,8 +17,8 @@ Alessandro_Volta	When did Alessandro Volta improve  and popularize the electroph
 Alessandro_Volta	When did Alessandro Volta improve  and popularize the electrophorus?	1775	hard	hard	data/set4/a10
 Alessandro_Volta	How long was Alessandro Volta a professor at the University of Pavia?	Alessandro Volta was a professor at the University of Pavia for almost 25 years.	hard	hard	data/set4/a10
 Alessandro_Volta	How long was Alessandro Volta a professor at the University of Pavia?	almost 25 years	hard	hard	data/set4/a10
-Alessandro_Volta	Was Alessandro Volta an Egyptian?	no	easy	easy	data/set4/a10
-Alessandro_Volta	Was Alessandro Volta an Egyptian?	No.	easy	easy	data/set4/a10
+Alessandro_Volta	Was Alessandro Volta an egyptian?	no	easy	easy	data/set4/a10
+Alessandro_Volta	Was Alessandro Volta an egyptian?	No.	easy	easy	data/set4/a10
 Alessandro_Volta	Was Volta taught in public schools?	yes	easy	easy	data/set4/a10
 Alessandro_Volta	Was Volta taught in public schools?	Yes.	easy	easy	data/set4/a10
 Alessandro_Volta	Was Volta made a count in 1810?	yes	easy	easy	data/set4/a10
@@ -58,7 +58,7 @@ Amedeo_Avogadro	Who showed that Avogadro's theory held in dilute solutions?	Jaco
 Amedeo_Avogadro	In what language was his 1811 paper published?	French	hard	hard	data/set4/a8
 Amedeo_Avogadro	In what language was his 1811 paper published?	Avogadro's 1811 paper was published in French.	hard	hard	data/set4/a8
 Amedeo_Avogadro	Who was Avogadro's wife?	Felicita Mazz	hard	hard	data/set4/a8
-Amedeo_Avogadro	Who was Avogadro's wife?	Felicita Mazzé was Avogadro's wife.	hard	hard	data/set4/a8
+Amedeo_Avogadro	Who was Avogadro's wife?	Felicita Mazze was Avogadro's wife.	hard	hard	data/set4/a8
 Amedeo_Avogadro	Why did Avogadro lose his chair at the University of Turin?	He was active in the revolutionary movements of 1821 against the king of Sardinia	hard	hard	data/set4/a8
 Amedeo_Avogadro	Why did Avogadro lose his chair at the University of Turin?	Avogadro lost his chair at the University of Turin because he was active in the revolutionary movements of 1821 against the king of Sardinia.	hard	hard	data/set4/a8
 Amedeo_Avogadro	Was Amedeo Avogadro was born in Turin?	Yes	easy	easy	data/set4/a8
@@ -115,7 +115,7 @@ Ant	Do all ants build nests?	No, not all ants build nests.	hard	medium	data/set1
 Ant	Do all ants build nests?	NULL	hard	NULL	data/set1/a1
 Ant	Ultraviolet vision was first discovered in ants by Sir who in 1881?	John Lubbok	NULL	medium	data/set1/a1
 Ant	Do ants thrive in most ecosystems?	Yes.	NULL	easy	data/set1/a1
-Ant	Are several species of ants able to use the Earths magnetic field?	yes	NULL	easy	data/set1/a1
+Ant	Are several species of ants able to use the earths magnetic field?	yes	NULL	easy	data/set1/a1
 Ant	Are termites actually more closely related to cockroaches as well as mantids?	Yes, termites are actually more closely related to cockroaches as well as mantids.	NULL	easy	data/set1/a1
 Ant	Do some caterpillars produce vibrations as well as sounds?	yes	NULL	easy	data/set1/a1
 Ant	Did ants evolve from wasp-like ancestors in the mid-Cretaceous period between 110 and 130 million years ago and diversified after the rise of flowering plants?	yes	NULL	easy	data/set1/a1
@@ -141,20 +141,20 @@ Antwerp	How many municipalities does Antwerp have?	None, Antwerp is a municipali
 Antwerp	How many municipalities does Antwerp have?	NULL	hard	NULL	data/set3/a4
 Arabic_language	Is Arabic a Central Semitic language?	Yes	easy	easy	data/set5/a3
 Arabic_language	Is Arabic a Central Semitic language?	NULL	easy	NULL	data/set5/a3
-Arabic_language	Was Arabic a major vehicle of culture in Europe?	Yes	easy	easy	data/set5/a3
-Arabic_language	Was Arabic a major vehicle of culture in Europe?	NULL	easy	NULL	data/set5/a3
+Arabic_language	Was Arabic a major vehicle of culture in europe?	Yes	easy	easy	data/set5/a3
+Arabic_language	Was Arabic a major vehicle of culture in europe?	NULL	easy	NULL	data/set5/a3
 Arabic_language	Is Arabic classified alongside Semitic languages?	Yes	easy	easy	data/set5/a3
 Arabic_language	Is Arabic classified alongside Semitic languages?	NULL	easy	NULL	data/set5/a3
 Arabic_language	How many people speak the Arabic language?	280 million people.	medium	easy	data/set5/a3
 Arabic_language	How many people speak the Arabic language?	NULL	medium	NULL	data/set5/a3
 Arabic_language	When was Arabic calligraphy invented?	Many styles were developed after 786.	medium	hard	data/set5/a3
 Arabic_language	When was Arabic calligraphy invented?	NULL	medium	NULL	data/set5/a3
-Arabic_language	Where is Arabic spoken?	The Middle East and North Africa	medium	medium	data/set5/a3
+Arabic_language	Where is Arabic spoken?	The Middle east and North Africa	medium	medium	data/set5/a3
 Arabic_language	Where is Arabic spoken?	NULL	medium	NULL	data/set5/a3
 Arabic_language	Why is Arabic related to Islam?	Arabic is the liturgical language of Islam	hard	hard	data/set5/a3
 Arabic_language	Why is Arabic related to Islam?	NULL	hard	NULL	data/set5/a3
-Arabic_language	Why does Arabic heavily influence European languages?	Arabic was a major vehicle of culture in Europe, and the Arab and European civilizations are geographically close.	hard	hard	data/set5/a3
-Arabic_language	Why does Arabic heavily influence European languages?	NULL	hard	NULL	data/set5/a3
+Arabic_language	Why does Arabic heavily influence european languages?	Arabic was a major vehicle of culture in europe, and the Arab and european civilizations are geographically close.	hard	hard	data/set5/a3
+Arabic_language	Why does Arabic heavily influence european languages?	NULL	hard	NULL	data/set5/a3
 Arabic_language	How do you say "black" in Arabic?	NULL	hard	NULL	data/set5/a3
 Arabic_language	Is Arabic the largest member of the Semitic language family?	yes	easy	easy	data/set5/a3
 Arabic_language	Is Arabic the largest member of the Semitic language family?	yes	easy	easy	data/set5/a3
@@ -164,8 +164,8 @@ Arabic_language	Is Hassaniya Arabic spoken in Mauritania?	yes	easy	easy	data/set
 Arabic_language	Is Hassaniya Arabic spoken in Mauritania?	Yes	easy	easy	data/set5/a3
 Arabic_language	What is the only variety of modern Arabic that has acquired official language status?	maltese	medium	medium	data/set5/a3
 Arabic_language	What is the only variety of modern Arabic that has acquired official language status?	Maltese	medium	medium	data/set5/a3
-Arabic_language	Egyptian Arabic is spoken by how many in Egypt?	76 million	medium	medium	data/set5/a3
-Arabic_language	Egyptian Arabic is spoken by how many in Egypt?	76 million	medium	medium	data/set5/a3
+Arabic_language	egyptian Arabic is spoken by how many in egypt?	76 million	medium	medium	data/set5/a3
+Arabic_language	egyptian Arabic is spoken by how many in egypt?	76 million	medium	medium	data/set5/a3
 Arabic_language	Where are the Western Arabic numerals used?	North Africa	medium	medium	data/set5/a3
 Arabic_language	Where are the Western Arabic numerals used?	present-day North Africa	medium	medium	data/set5/a3
 Arabic_language	The most active Academies of Arabic Language are found where?	damascus and cairo	hard	medium	data/set5/a3
@@ -207,7 +207,7 @@ Berlin	How many occupation zones was Germany divided into after the war?	Germany
 Berlin	How many occupation zones was Germany divided into after the war?	NULL	hard	NULL	data/set3/a1
 Berlin	Where was Popkomm held before moving to Berlin?	Popkomm was held in Cologne before moving to Berlin.	hard	hard	data/set3/a1
 Berlin	Where was Popkomm held before moving to Berlin?	NULL	hard	NULL	data/set3/a1
-Blaise_Pascal	Who was Blaise Pascal's father?	His father, Ã‰tienne Pascal (1588â€“1651), who also had an interest in science and mathematics, was a local judge	easy	medium	data/set4/a4
+Blaise_Pascal	Who was Blaise Pascal's father?	His father, Ã‰tienne Pascal (1588â"1651), who also had an interest in science and mathematics, was a local judge	easy	medium	data/set4/a4
 Blaise_Pascal	Who was Blaise Pascal's father?	Ã‰tienne Pascal.	easy	easy	data/set4/a4
 Blaise_Pascal	Was Pascal a French mathematician?	yes	easy	easy	data/set4/a4
 Blaise_Pascal	Was Pascal a French mathematician?	Yes.	easy	easy	data/set4/a4
@@ -230,7 +230,7 @@ Blaise_Pascal	Who died the next morning?	Pascal.	NULL	hard	data/set4/a4
 Blaise_Pascal	When did his father die?	1651	NULL	hard	data/set4/a4
 Blaise_Pascal	When did his father die?	His father died in 1651.	NULL	medium	data/set4/a4
 Blaise_Pascal	Was he a child prodigy who was educated by his father, a civil servant?	yes	NULL	medium	data/set4/a4
-Blaise_Pascal	Was Pascal's earliest work in the natural and applied sciences where he made important contributions to the construction of mechanical calculators, the study of fluids, and clarified the concepts of pressure and vacuum by generalizing the work of Evangelista Torricelli?	Yes	NULL	easy	data/set4/a4
+Blaise_Pascal	Was Pascal's earliest work in the natural and applied sciences where he made important contributions to the construction of mechanical calculators, the study of fluids, and clarified the concepts of pressure and vacuum by generalizing the work of evangelista Torricelli?	Yes	NULL	easy	data/set4/a4
 Blaise_Pascal	Did Pascal also write in defense of the scientific method?	Yes	NULL	easy	data/set4/a4
 Butterfly	Do butterflies make sounds?	Some butterflies make sounds.	easy	medium	data/set1/a6
 Butterfly	Do butterflies make sounds?	NULL	easy	NULL	data/set1/a6
@@ -274,9 +274,9 @@ Charles-Augustin_de_Coulomb	Did Charles-Augustin de Coulomb come from a poor fam
 Charles-Augustin_de_Coulomb	Did Charles-Augustin de Coulomb come from a poor family?	No, his mother came from a wealthy family in the wool trade.	hard	hard	data/set4/a6
 Charles-Augustin_de_Coulomb	What is Coulomb's law?	The definition of the electrostatic force of attraction and repulsion.	hard	medium	data/set4/a6
 Charles-Augustin_de_Coulomb	What is Coulomb's law?	The definition of the electrostatic force of attraction and repulsion.	hard	medium	data/set4/a6
-Charles-Augustin_de_Coulomb	Where is Collège des Quatre-Nations located?	In Montpellier.	hard	hard	data/set4/a6
-Charles-Augustin_de_Coulomb	Where is Collège des Quatre-Nations located?	In Paris.	hard	hard	data/set4/a6
-Charles-Augustin_de_Coulomb	What happened in 1785?	Coulomb presented his three reports on Electricity and Magnetism	NULL	easy	data/set4/a6
+Charles-Augustin_de_Coulomb	Where is College des Quatre-Nations located?	In Montpellier.	hard	hard	data/set4/a6
+Charles-Augustin_de_Coulomb	Where is College des Quatre-Nations located?	In Paris.	hard	hard	data/set4/a6
+Charles-Augustin_de_Coulomb	What happened in 1785?	Coulomb presented his three reports on electricity and Magnetism	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	What happened in 1757 to 1759?	Charles-Augustin de Coulomb joined his father's family in Montpellier and took part in the work of the academy of the city.	NULL	hard	data/set4/a6
 Charles-Augustin_de_Coulomb	Regarding this topic, what did the Revolution do?	The Revolution caused Coulomb to resign his appointment as intendent des eaux et fontains and retire.	NULL	too hard	data/set4/a6
 Charles-Augustin_de_Coulomb	Who determined to pursue mathematics?	Charles-Augustin de Coulomb	NULL	medium	data/set4/a6
@@ -302,8 +302,8 @@ Chinese_language	How many head entries for character definitions does the Zhongh
 Chinese_language	What does the PRC government classify as literacy amongst workers?	knowledge of 2,000 characters	hard	medium	data/set5/a7
 Chinese_language	What does the PRC government classify as literacy amongst workers?	a knowledge of 2000 characters	hard	medium	data/set5/a7
 Chinese_language	How is South China linguistically different from North China?	South China displays more linguistic diversity	hard	hard	data/set5/a7
-Chinese_language	&#20415;&#24403;/&#20415;&#30070; “lunchbox or boxed lunch” (from bento) and &#26009;&#29702; “prepared cuisine” are loan words from which language?	Japanese	hard	hard	data/set5/a7
-Chinese_language	&#20415;&#24403;/&#20415;&#30070; “lunchbox or boxed lunch” (from bento) and &#26009;&#29702; “prepared cuisine” are loan words from which language?	Chinese	hard	hard	data/set5/a7
+Chinese_language	&#20415;&#24403;/&#20415;&#30070; "lunchbox or boxed lunch" (from bento) and &#26009;&#29702; "prepared cuisine" are loan words from which language?	Japanese	hard	hard	data/set5/a7
+Chinese_language	&#20415;&#24403;/&#20415;&#30070; "lunchbox or boxed lunch" (from bento) and &#26009;&#29702; "prepared cuisine" are loan words from which language?	Chinese	hard	hard	data/set5/a7
 Chinese_language	What is the standardized form of spoken chinese?	The standardized form of spoken Chinese is Standard Mandarin.	easy	medium	data/set5/a7
 Chinese_language	What is the standardized form of spoken chinese?	The standardized from of spoken Chinese is Standard Mandarin.	easy	easy	data/set5/a7
 Chinese_language	Is diglossia a common feature in mainland China and Taiwan?	Yes, diglossia is a common feature in mainland China and Taiwan.	easy	easy	data/set5/a7
@@ -311,11 +311,11 @@ Chinese_language	Is diglossia a common feature in mainland China and Taiwan?	Yes
 Chinese_language	Do linguists often view Chinese as a language family?	Yes, linguists often view Chinese as a language family.	easy	easy	data/set5/a7
 Chinese_language	Do linguists often view Chinese as a language family?	Yes, linguists often view Chinese as a language family.	easy	easy	data/set5/a7
 Chinese_language	When did classical Chinese literature begin?	Classical Chinese literature began in the Spring and Autumn period.	medium	medium	data/set5/a7
-Chinese_language	When did classical Chinese literature begin?	Classical Chinese literature began in the 14th to 11th centuires BCE.	medium	medium	data/set5/a7
+Chinese_language	When did classical Chinese literature begin?	Classical Chinese literature began in the 14th to 11th centuires BCe.	medium	medium	data/set5/a7
 Chinese_language	How does the government of the People's Republic of China often refer to all divisions of the Sinitic language(s) besides Standard Mandarin?	The government of the People's Republic of China refers to all divisions of the Sinitic language(s) besides Standard Mandarin as fangyan.	medium	hard	data/set5/a7
 Chinese_language	How does the government of the People's Republic of China often refer to all divisions of the Sinitic language(s) besides Standard Mandarin?	The PRC commonly refers to all divisons of the Sinitic language(s) beside Standard Mandarin as fangyan, or "regional tongues."	medium	hard	data/set5/a7
 Chinese_language	When was Middle Chinese used?	Middle Chinese was used during Southern and Northern Dynasties and the Sua, Tang, and Sang dynasties.	medium	medium	data/set5/a7
-Chinese_language	When was Middle Chinese used?	Middle Chinese was the language used in the 6th through 1-th centuries CE.	medium	medium	data/set5/a7
+Chinese_language	When was Middle Chinese used?	Middle Chinese was the language used in the 6th through 1-th centuries Ce.	medium	medium	data/set5/a7
 Chinese_language	How is the pronunciation of foreign words determined?	The pronunciation of foreign words is done by employing Chinese characters with similar pronuncations.	hard	hard	data/set5/a7
 Chinese_language	How is the pronunciation of foreign words determined?	Foreign words are transliterated into close-match existing Chinese morphemes.	hard	too hard	data/set5/a7
 Chinese_language	What is the total number of Chinese words?	The Hanyu Da Zidian includes 54,678 head entries for characters.	hard	hard	data/set5/a7
@@ -384,7 +384,7 @@ Dragonfly	In what country are dragonflies used as a food source?	NULL	hard	NULL	
 Dragonfly	Which culture has a legend that claims that trolls sent dragonflies to poke out their enemies' eyes?	NULL	hard	NULL	data/set1/a7
 Dragonfly	Which culture has a legend that claims that trolls sent dragonflies to poke out their enemies' eyes?	NULL	hard	NULL	data/set1/a7
 Dragonfly	Is the dragonfly associated with late summer as well as early autumn?	Yes	NULL	easy	data/set1/a7
-Dragonfly	Does Exposure to air cause the larva to begin breathing?	Yes (capitalization).	NULL	easy	data/set1/a7
+Dragonfly	Does exposure to air cause the larva to begin breathing?	Yes (capitalization).	NULL	easy	data/set1/a7
 Dragonfly	Is it characterized by large multifaceted eyes, two pairs of strong transparent wings, and an elongated body?	Yes.	NULL	easy	data/set1/a7
 Drum	Is the drum a member of the percussion group?	yes	easy	easy	data/set2/a4
 Drum	Is the drum a member of the percussion group?	yes	easy	easy	data/set2/a4
@@ -427,32 +427,32 @@ Drum	Are drums usually played by the hands?	Yes	NULL	easy	data/set2/a4
 Drum	Do many such drums have six to ten tension rods?	Yes.	NULL	easy	data/set2/a4
 Drum	Do drums consist of at least one membrane, called a drumhead or drum skin, that is stretched over a shell and struck, either directly with parts of a player's body, or with some sort of implement such as a drumstick, to produce sound?	yes	NULL	easy	data/set2/a4
 Drum	Have other techniques been used to cause drums to make sound, such as the ``Thumb roll''?	Yes	NULL	easy	data/set2/a4
-Eel	Is the electric eel a true eel?	No	easy	easy	data/set1/a8
-Eel	Is the electric eel a true eel?	No, the electric eel is not a true eel.	easy	hard	data/set1/a8
-Eel	Are most eels predators?	Yes	easy	easy	data/set1/a8
-Eel	Are most eels predators?	Yes, most eels are predators.	easy	easy	data/set1/a8
-Eel	Is eel blood toxic to humans?	Yes	easy	easy	data/set1/a8
-Eel	Is eel blood toxic to humans?	Yes, eel blood is toxic to humans.	easy	easy	data/set1/a8
-Eel	How many species of true eels are there?	approximately 800 species	medium	medium	data/set1/a8
-Eel	How many species of true eels are there?	There are approximately 800 species of true eels.	medium	medium	data/set1/a8
-Eel	Where is smoked eel considered a delicacy?	Northern Germany, The Netherlands, Denmark, Sweden	medium	medium	data/set1/a8
-Eel	Where is smoked eel considered a delicacy?	Smoked eel is considered a delicacy in northern Germany, The Netherlands, Denmark and Sweden.	medium	medium	data/set1/a8
-Eel	How do eels begin life?	As flat and transparent larvae, called leptocephali	medium	medium	data/set1/a8
-Eel	How do eels begin life?	Eels begin life as flat and transparent larvae, called leptocephali.	medium	medium	data/set1/a8
-Eel	What types of fins do eels have?	Dorsal, anal, caudal, tail fins	hard	hard	data/set1/a8
-Eel	What types of fins do eels have?	Eels have dorsal and anal fins fused with a tail fin. Some also have  pectoral fins.	hard	too hard	data/set1/a8
-Eel	What do leptocephali eat?	Marine snow	hard	hard	data/set1/a8
-Eel	What do leptocephali eat?	Leptocephali eat small particles called marine snow.	hard	hard	data/set1/a8
-Eel	Do all eels live in fresh water?	No	hard	hard	data/set1/a8
-Eel	Do all eels live in fresh water?	No, not all eels live in fresh water.	hard	too hard	data/set1/a8
-Finnish_language	Is Finnish an official language of the European Union?	Yes	easy	easy	data/set5/a5
-Finnish_language	Is Finnish an official language of the European Union?	Yes, Finnish is an official language of the European Union.	easy	easy	data/set5/a5
+eel	Is the electric eel a true eel?	No	easy	easy	data/set1/a8
+eel	Is the electric eel a true eel?	No, the electric eel is not a true eel.	easy	hard	data/set1/a8
+eel	Are most eels predators?	Yes	easy	easy	data/set1/a8
+eel	Are most eels predators?	Yes, most eels are predators.	easy	easy	data/set1/a8
+eel	Is eel blood toxic to humans?	Yes	easy	easy	data/set1/a8
+eel	Is eel blood toxic to humans?	Yes, eel blood is toxic to humans.	easy	easy	data/set1/a8
+eel	How many species of true eels are there?	approximately 800 species	medium	medium	data/set1/a8
+eel	How many species of true eels are there?	There are approximately 800 species of true eels.	medium	medium	data/set1/a8
+eel	Where is smoked eel considered a delicacy?	Northern Germany, The Netherlands, Denmark, Sweden	medium	medium	data/set1/a8
+eel	Where is smoked eel considered a delicacy?	Smoked eel is considered a delicacy in northern Germany, The Netherlands, Denmark and Sweden.	medium	medium	data/set1/a8
+eel	How do eels begin life?	As flat and transparent larvae, called leptocephali	medium	medium	data/set1/a8
+eel	How do eels begin life?	eels begin life as flat and transparent larvae, called leptocephali.	medium	medium	data/set1/a8
+eel	What types of fins do eels have?	Dorsal, anal, caudal, tail fins	hard	hard	data/set1/a8
+eel	What types of fins do eels have?	eels have dorsal and anal fins fused with a tail fin. Some also have  pectoral fins.	hard	too hard	data/set1/a8
+eel	What do leptocephali eat?	Marine snow	hard	hard	data/set1/a8
+eel	What do leptocephali eat?	Leptocephali eat small particles called marine snow.	hard	hard	data/set1/a8
+eel	Do all eels live in fresh water?	No	hard	hard	data/set1/a8
+eel	Do all eels live in fresh water?	No, not all eels live in fresh water.	hard	too hard	data/set1/a8
+Finnish_language	Is Finnish an official language of the european Union?	Yes	easy	easy	data/set5/a5
+Finnish_language	Is Finnish an official language of the european Union?	Yes, Finnish is an official language of the european Union.	easy	easy	data/set5/a5
 Finnish_language	Are the dialects of Finnish divided into two groups?	Yes	easy	easy	data/set5/a5
 Finnish_language	Are the dialects of Finnish divided into two groups?	Yes, the dialects of Finnish are divided into two groups.	easy	easy	data/set5/a5
-Finnish_language	Is Finnish threatened by English?	No	easy	easy	data/set5/a5
-Finnish_language	Is Finnish threatened by English?	No, Finnish is not threatened by English.	easy	easy	data/set5/a5
-Finnish_language	When did Proto-Uralic language arrive in Finland?	Around 1900 BCE	medium	medium	data/set5/a5
-Finnish_language	When did Proto-Uralic language arrive in Finland?	Proto-Uralic language arrived in Finland around 1900 BCE.	medium	medium	data/set5/a5
+Finnish_language	Is Finnish threatened by english?	No	easy	easy	data/set5/a5
+Finnish_language	Is Finnish threatened by english?	No, Finnish is not threatened by english.	easy	easy	data/set5/a5
+Finnish_language	When did Proto-Uralic language arrive in Finland?	Around 1900 BCe	medium	medium	data/set5/a5
+Finnish_language	When did Proto-Uralic language arrive in Finland?	Proto-Uralic language arrived in Finland around 1900 BCe.	medium	medium	data/set5/a5
 Finnish_language	What are characteristic features of Finnish?	Vowel harmony and an agglutinative morphology	medium	medium	data/set5/a5
 Finnish_language	What are characteristic features of Finnish?	Characteristic features of Finnish are vowel harmony and an agglutinative morphology.	medium	medium	data/set5/a5
 Finnish_language	Where is the Kven language spoken?	Norway	medium	medium	data/set5/a5
@@ -568,7 +568,7 @@ Guitar	How old is the oldest known representation of a guitar-like intrument bei
 Guitar	How old is the oldest known representation of a guitar-like intrument being played?	3,300 years old	hard	hard	data/set2/a7
 Guitar	What is the point called that is bolted or glued to the body of the guitar?	Neck Joint	hard	medium	data/set2/a7
 Guitar	What is the point called that is bolted or glued to the body of the guitar?	Neck joint or 'Heel'	hard	hard	data/set2/a7
-Henri_Becquerel	Did Becquerel study science at the École des Ponts et Chaussées?	Yes	easy	easy	data/set4/a9
+Henri_Becquerel	Did Becquerel study science at the ecole des Ponts et Chaussees?	Yes	easy	easy	data/set4/a9
 Henri_Becquerel	Did he become chief engineer in the Department of Bridges and Highways in 1892?	No	easy	easy	data/set4/a9
 Henri_Becquerel	Did he become chief engineer in the Department of Bridges and Highways in 1892?	yes	easy	easy	data/set4/a9
 Henri_Becquerel	Was Becquerel a French physicist?	Yes	easy	easy	data/set4/a9
@@ -579,14 +579,14 @@ Henri_Becquerel	When did he die?	1908	medium	medium	data/set4/a9
 Henri_Becquerel	When did he die?	1908	medium	hard	data/set4/a9
 Henri_Becquerel	What is the SI unit for radioactivity called?	becquerel	medium	medium	data/set4/a9
 Henri_Becquerel	What is the SI unit for radioactivity called?	the becquerel (Bq)	medium	medium	data/set4/a9
-Henri_Becquerel	When Becquerel discovered radioactivity, whose work did he investigate?	Wilhelm Conrad Röntgen	hard	hard	data/set4/a9
+Henri_Becquerel	When Becquerel discovered radioactivity, whose work did he investigate?	Wilhelm Conrad Rontgen	hard	hard	data/set4/a9
 Henri_Becquerel	When Becquerel discovered radioactivity, whose work did he investigate?	Wilhelm Conrad RÃ¶ntgen	hard	hard	data/set4/a9
 Henri_Becquerel	Where are there craters named Becquerel?	Moon and Mars	hard	hard	data/set4/a9
 Henri_Becquerel	Where are there craters named Becquerel?	on the moon and on mars	hard	medium	data/set4/a9
 Henri_Becquerel	Why did Bequerel win the Nobel Prize in Physics?	discovery of spontaneous radioactivity	hard	hard	data/set4/a9
 Henri_Becquerel	Why did Bequerel win the Nobel Prize in Physics?	was the discoverer of radioactivity	hard	hard	data/set4/a9
 Isaac_Newton	Was Isaac Newton British?	Yes.	easy	medium	data/set4/a1
-Isaac_Newton	Was Isaac Newton British?	Yes, he was English.	easy	hard	data/set4/a1
+Isaac_Newton	Was Isaac Newton British?	Yes, he was english.	easy	hard	data/set4/a1
 Isaac_Newton	Was Isaac Newton religious?	It is not clear.	easy	too hard	data/set4/a1
 Isaac_Newton	Was Isaac Newton religious?	Yes, he was highly religious, though an unorthodox Christian.	easy	easy	data/set4/a1
 Isaac_Newton	Did Isaac Newton die in 1898?	No.	easy	easy	data/set4/a1
@@ -603,8 +603,8 @@ Isaac_Newton	Were Newton's religious views consistent with Anglicanism?	No.	hard
 Isaac_Newton	Were Newton's religious views consistent with Anglicanism?	No, a conflict between Newton's religious views and Anglican orthodoxy was averted.	hard	too hard	data/set4/a1
 Isaac_Newton	Which fruit inspired Isaac Newton's theory of gravitation?	The apple.	hard	medium	data/set4/a1
 Isaac_Newton	Which fruit inspired Isaac Newton's theory of gravitation?	Isaac Newton's theory of gravitation was inspired by watching the fall of an apple from a tree.	hard	hard	data/set4/a1
-Isaac_Newton	Was Sir Isaac Newton an English physicist and mathematician?	yes	easy	easy	data/set4/a1
-Isaac_Newton	Was Sir Isaac Newton an English physicist and mathematician?	yes	easy	easy	data/set4/a1
+Isaac_Newton	Was Sir Isaac Newton an english physicist and mathematician?	yes	easy	easy	data/set4/a1
+Isaac_Newton	Was Sir Isaac Newton an english physicist and mathematician?	yes	easy	easy	data/set4/a1
 Isaac_Newton	Did he build the first practical reflecting telescope?	yes	easy	easy	data/set4/a1
 Isaac_Newton	Was Isaac Newton educated at The King's Schol, Grantham?	yes	easy	easy	data/set4/a1
 Isaac_Newton	Was Isaac Newton educated at The King's Schol, Grantham?	yes	easy	easy	data/set4/a1
@@ -662,7 +662,7 @@ Jakarta	What contributes to frequent flooding in Jakarta	It lies on a plain, app
 Jakarta	Did the economy improve in Jakarta in 2007	yes	hard	hard	data/set3/a5
 Jakarta	Did the economy improve in Jakarta in 2007	Yes	hard	easy	data/set3/a5
 Jakarta	In AD 39, King Purnawarman established Sunda Pura as a new capital city for the kingdom, located at the northern coast of where?	Java	NULL	medium	data/set3/a5
-Jakarta	In 1602, the British East India Company's first voyage, commanded by Sir who, arrived in Aceh and sailed on to Banten where they were allowed to build a trading post?	James Lancaster	NULL	medium	data/set3/a5
+Jakarta	In 1602, the British east India Company's first voyage, commanded by Sir who, arrived in Aceh and sailed on to Banten where they were allowed to build a trading post?	James Lancaster	NULL	medium	data/set3/a5
 Jakarta	Who began control of migration to the city in order to stem the overcrowding and poverty?	Lieutenant General Ali Sadikin began control of migration to the city in order to stem the overcrowding and poverty.	NULL	hard	data/set3/a5
 Jakarta	Did Jayawikarta's soldiers attack the Dutch fortress?	yes	NULL	easy	data/set3/a5
 Jakarta	Did Suharto resign as president?	Yes	NULL	easy	data/set3/a5
@@ -722,14 +722,14 @@ Korean_language	Are all dialects of Korean similar to each other?	Yes	easy	easy	
 Korean_language	Are all dialects of Korean similar to each other?	Yes	easy	easy	data/set5/a6
 Korean_language	About how many Koreans speakers are there?	78 million	medium	medium	data/set5/a6
 Korean_language	About how many Koreans speakers are there?	78 million Korean speakers	medium	medium	data/set5/a6
-Korean_language	Older English sources used the name "Korean" to refer to what?	language, country, and people	medium	medium	data/set5/a6
-Korean_language	Older English sources used the name "Korean" to refer to what?	language, country, and people	medium	medium	data/set5/a6
+Korean_language	Older english sources used the name "Korean" to refer to what?	language, country, and people	medium	medium	data/set5/a6
+Korean_language	Older english sources used the name "Korean" to refer to what?	language, country, and people	medium	medium	data/set5/a6
 Korean_language	What is the official language of North Korea?	Korean	medium	medium	data/set5/a6
 Korean_language	What is the official language of North Korea?	Korean	medium	medium	data/set5/a6
-Korean_language	Why may English translation of Koreans adjectives misleadingly suggest that they are verbs?	English does not have an identical grammatical category	hard	hard	data/set5/a6
-Korean_language	Why may English translation of Koreans adjectives misleadingly suggest that they are verbs?	English does not have an identical grammatical category	hard	too hard	data/set5/a6
+Korean_language	Why may english translation of Koreans adjectives misleadingly suggest that they are verbs?	english does not have an identical grammatical category	hard	hard	data/set5/a6
+Korean_language	Why may english translation of Koreans adjectives misleadingly suggest that they are verbs?	english does not have an identical grammatical category	hard	too hard	data/set5/a6
 Korean_language	Where do the majority of loanwords other than Sino-Korean come from?	modern times	hard	medium	data/set5/a6
-Korean_language	Where do the majority of loanwords other than Sino-Korean come from?	modern times, 90% of which are from English	hard	hard	data/set5/a6
+Korean_language	Where do the majority of loanwords other than Sino-Korean come from?	modern times, 90% of which are from english	hard	hard	data/set5/a6
 Korean_language	How many Korean speakers are there?	There are about 78 million Korean speakers.	easy	easy	data/set5/a6
 Korean_language	How many Korean speakers are there?	NULL	easy	NULL	data/set5/a6
 Korean_language	How many parts of speech does the Korean language contain?	The Korean Language contains nine parts of speech. 	easy	too easy	data/set5/a6
@@ -844,8 +844,8 @@ Malay_language	What family is Malay a member of?	Austronesian family	medium	medi
 Malay_language	What family is Malay a member of?	Austronesian.	medium	hard	data/set5/a2
 Malay_language	What is the basic word order in Malay?	Subject Verb Object	medium	medium	data/set5/a2
 Malay_language	What is the basic word order in Malay?	Subject Object Verb.	medium	medium	data/set5/a2
-Malay_language	What languages has Malay borrowed words from?	Sanskrit, Arabic and English	medium	medium	data/set5/a2
-Malay_language	What languages has Malay borrowed words from?	Arabic, Sanskrit, Tamil, Persian, Portuguese, Dutch, certain Chinese dialects, and English.	medium	hard	data/set5/a2
+Malay_language	What languages has Malay borrowed words from?	Sanskrit, Arabic and english	medium	medium	data/set5/a2
+Malay_language	What languages has Malay borrowed words from?	Arabic, Sanskrit, Tamil, Persian, Portuguese, Dutch, certain Chinese dialects, and english.	medium	hard	data/set5/a2
 Malay_language	Are there many words in Malay that use natural gender?	No	hard	hard	data/set5/a2
 Malay_language	How are new words formed in Malay?	three methods.	hard	too hard	data/set5/a2
 Malay_language	How are new words formed in Malay?	Affixation, composition, and reduplication.	hard	hard	data/set5/a2
@@ -893,8 +893,8 @@ Melbourne	How many domestic tourists visit Melbourne?	7.6 million domestic visit
 Melbourne	How many domestic tourists visit Melbourne?	7.6 million.	hard	hard	data/set3/a2
 Melbourne	What religion holds majority in Melbourne?	Christian	hard	hard	data/set3/a2
 Melbourne	What religion holds majority in Melbourne?	Christianity.	hard	too hard	data/set3/a2
-Michael_Faraday	Did Albert Einstein keep a photograph of Faraday on his study wall?	Yes, Albert Einstein kept a photograph of Faraday on his study wall.	easy	easy	data/set4/a7
-Michael_Faraday	Did Albert Einstein keep a photograph of Faraday on his study wall?	yes	easy	easy	data/set4/a7
+Michael_Faraday	Did Albert einstein keep a photograph of Faraday on his study wall?	Yes, Albert einstein kept a photograph of Faraday on his study wall.	easy	easy	data/set4/a7
+Michael_Faraday	Did Albert einstein keep a photograph of Faraday on his study wall?	yes	easy	easy	data/set4/a7
 Michael_Faraday	Did Faraday marry Sarah Barnard?	Yes, Faraday married Sarah Barnard.	easy	easy	data/set4/a7
 Michael_Faraday	Did Faraday marry Sarah Barnard?	yes	easy	easy	data/set4/a7
 Michael_Faraday	Did Faraday also discover the laws of electrolysis?	Yes, Faraday also discovered the laws of  electrolysis.	easy	easy	data/set4/a7
@@ -953,8 +953,8 @@ Montreal	Mount Royal Park's wooden design was created by what famous designer?	N
 Montreal	Mount Royal Park's wooden design was created by what famous designer?	NULL	hard	NULL	data/set3/a7
 Montreal	The majority of The Greater Montreal Area follows what religion?	NULL	hard	NULL	data/set3/a7
 Montreal	The majority of The Greater Montreal Area follows what religion?	NULL	hard	NULL	data/set3/a7
-Montreal	Is English the language most often spoken in Montreal?	The language most spoken at home in the city is French.	easy	easy	data/set3/a7
-Montreal	Is English the language most often spoken in Montreal?	No, the language most spoken in Montreal is French.	easy	hard	data/set3/a7
+Montreal	Is english the language most often spoken in Montreal?	The language most spoken at home in the city is French.	easy	easy	data/set3/a7
+Montreal	Is english the language most often spoken in Montreal?	No, the language most spoken in Montreal is French.	easy	hard	data/set3/a7
 Montreal	Is Montreal's economy the third largest of all cities in Canada?	No, Montreal's economy is the second largest of all cities in Canada.	easy	medium	data/set3/a7
 Montreal	Is Montreal's economy the third largest of all cities in Canada?	No, Montreal's economy is the second largest of all cities in Canada.	easy	medium	data/set3/a7
 Montreal	Is the most popular sport in Montreal ice hockey?	yes, The most popular sport in Montreal is ice hockey.	easy	easy	data/set3/a7
@@ -981,22 +981,22 @@ Nairobi	What is the current estimated population of Nairobi?	About 3 million	med
 Nairobi	What is the current estimated population of Nairobi?	NULL	medium	NULL	data/set3/a9
 Nairobi	In what year was Nairobi founded?	1899	medium	medium	data/set3/a9
 Nairobi	In what year was Nairobi founded?	NULL	medium	NULL	data/set3/a9
-Nairobi	Which embassy in Nairobi was bombed in August 1998?	The United States Embassy	medium	medium	data/set3/a9
+Nairobi	Which embassy in Nairobi was bombed in August 1998?	The United States embassy	medium	medium	data/set3/a9
 Nairobi	Which embassy in Nairobi was bombed in August 1998?	NULL	medium	NULL	data/set3/a9
 Nairobi	How many civilians died in the 1998 U.S. embassy bombing?	Over two hundred	hard	hard	data/set3/a9
 Nairobi	How many civilians died in the 1998 U.S. embassy bombing?	NULL	hard	NULL	data/set3/a9
-Nairobi	How many trades can the NSE make per day?	10 million trades	hard	medium	data/set3/a9
-Nairobi	How many trades can the NSE make per day?	NULL	hard	NULL	data/set3/a9
+Nairobi	How many trades can the NSe make per day?	10 million trades	hard	medium	data/set3/a9
+Nairobi	How many trades can the NSe make per day?	NULL	hard	NULL	data/set3/a9
 Nairobi	About how many people are estimated to live in Nairobi?	3 million	hard	hard	data/set3/a9
 Nairobi	About how many people are estimated to live in Nairobi?	NULL	hard	NULL	data/set3/a9
 Nairobi	The district is bordered to the southwest by Uhuru Park and where?	Central Park	NULL	medium	data/set3/a9
-Nairobi	When did the Catholic University of Eastern Africa which obtain its Letter of Interim Authority?	In 1989.	NULL	medium	data/set3/a9
+Nairobi	When did the Catholic University of eastern Africa which obtain its Letter of Interim Authority?	In 1989.	NULL	medium	data/set3/a9
 Nairobi	Is Central Park adjacent to Uhuru Park?	Central Park is adjacent to Uhuru Park.	NULL	easy	data/set3/a9
 Nairobi	Give an example of the highest growth rates of any city in Africa. 	 The growth rate of Nairobi is currently 6.9%,  an example of the highest growth rates of any city in Africa.	NULL	hard	data/set3/a9
 Nairobi	Give an example of the most prominent cities in Africa politically and financially. 	Nairobi is now one of the most prominent cities in Africa politically and financially	NULL	medium	data/set3/a9
 Nairobi	Is Nairobi not the capital as well as largest city of Kenya?	Nairobi is the capital and largest city of Kenya.	NULL	medium	data/set3/a9
 Nairobi	Does the city and its surrounding area also form the Nairobi Province?	yes	NULL	easy	data/set3/a9
-Nairobi	Does the name ``Nairobi'' come from the Maasai phrase Enkare Nyirobi, which translates to ``the place of cool waters''?	Yes.	NULL	easy	data/set3/a9
+Nairobi	Does the name ``Nairobi'' come from the Maasai phrase enkare Nyirobi, which translates to ``the place of cool waters''?	Yes.	NULL	easy	data/set3/a9
 Nikola_Tesla	Did Nikola Tesla die alone?	Nikola Tesla died alone.	easy	easy	data/set4/a3
 Nikola_Tesla	Did Nikola Tesla die alone?	Yes	easy	easy	data/set4/a3
 Nikola_Tesla	Was Nikola Tesla close friends with Mark Twain?	Nikola Tesla was close friends with Mark Twain.	easy	medium	data/set4/a3
@@ -1005,8 +1005,8 @@ Nikola_Tesla	Did Nikola Tesla use a technique called picture thinking?	Nikola Te
 Nikola_Tesla	Did Nikola Tesla use a technique called picture thinking?	Yes	easy	hard	data/set4/a3
 Nikola_Tesla	When did Nikola Tesla appear on the cover of Time Magazine?	On Tesla's 75th birthday in 1931, Time magazine put him on its cover.	medium	hard	data/set4/a3
 Nikola_Tesla	When did Nikola Tesla appear on the cover of Time Magazine?	1931	medium	medium	data/set4/a3
-Nikola_Tesla	Who became adversaries with Nikola Tesla?	Nikola Tesla became adversaries with Edison.	medium	easy	data/set4/a3
-Nikola_Tesla	Who became adversaries with Nikola Tesla?	Edison	medium	medium	data/set4/a3
+Nikola_Tesla	Who became adversaries with Nikola Tesla?	Nikola Tesla became adversaries with edison.	medium	easy	data/set4/a3
+Nikola_Tesla	Who became adversaries with Nikola Tesla?	edison	medium	medium	data/set4/a3
 Nikola_Tesla	Where did Nikola Tesla move to in 1880?	In 1880, Nikola Tesla moved to Budapest.	medium	easy	data/set4/a3
 Nikola_Tesla	Where did Nikola Tesla move to in 1880?	Budapest	medium	medium	data/set4/a3
 Nikola_Tesla	Was Nikola Tesla's mother illiterate?	Nikola Tesla's mother never learned to read.	hard	hard	data/set4/a3
@@ -1025,7 +1025,7 @@ Nikola_Tesla	Where did Tesla study electrical engineering?	The Austrian Polytech
 Nikola_Tesla	Where did Tesla study electrical engineering?	NULL	medium	NULL	data/set4/a3
 Nikola_Tesla	When did Tesla receive his last patent?	1928	medium	medium	data/set4/a3
 Nikola_Tesla	When did Tesla receive his last patent?	NULL	medium	NULL	data/set4/a3
-Nikola_Tesla	What languages did Tesla speak?	Serbian, Czech, English, French, German, Hungarian, Italian, and Latin	medium	medium	data/set4/a3
+Nikola_Tesla	What languages did Tesla speak?	Serbian, Czech, english, French, German, Hungarian, Italian, and Latin	medium	medium	data/set4/a3
 Nikola_Tesla	What languages did Tesla speak?	NULL	medium	NULL	data/set4/a3
 Nikola_Tesla	Did Tesla win the Nobel Prize?	No	hard	hard	data/set4/a3
 Nikola_Tesla	Did Tesla win the Nobel Prize?	NULL	hard	NULL	data/set4/a3
@@ -1038,9 +1038,9 @@ Norman_Rockwell	Who spent the next 10 years painting for Look magazine?	Norman R
 Norman_Rockwell	When was his last painting for the Post published?	1963	NULL	hard	data/set6/a4
 Norman_Rockwell	When did Rockwell marry his first wife, Irene O'Connor,?	In 1916.	NULL	medium	data/set6/a4
 Norman_Rockwell	Did Norman Rockwell spend the winter months as artist-in-residence at Otis College of Art as well as Design?	Yes	NULL	easy	data/set6/a4
-Norman_Rockwell	Did Norman Rockwell publish a total of 321 original covers for The Saturday Evening Post over 47 years?	Yes.	NULL	easy	data/set6/a4
+Norman_Rockwell	Did Norman Rockwell publish a total of 321 original covers for The Saturday evening Post over 47 years?	Yes.	NULL	easy	data/set6/a4
 Norman_Rockwell	Was Rockwell also commissioned to illustrate over 40 books including Tom Sawyer as well as Huckleberry Finn?	Rockwell was also commissioned to illustrate over 40 books including Tom Sawyer and Huckleberry Finn. 	NULL	easy	data/set6/a4
-Norman_Rockwell	Do his works enjoy a broad popular appeal in the United States, where Rockwell is most famous for the cover illustrations of everyday life scenarios he created for The Saturday Evening Post magazine over more than four decades?	yes	NULL	easy	data/set6/a4
+Norman_Rockwell	Do his works enjoy a broad popular appeal in the United States, where Rockwell is most famous for the cover illustrations of everyday life scenarios he created for The Saturday evening Post magazine over more than four decades?	yes	NULL	easy	data/set6/a4
 Norman_Rockwell	Are among the best-known of Rockwell's works the Willie Gillis series, Rosie the Riveter (although his Rosie was reproduced less than others of the day), Saying Grace (1951), and the Four Freedoms series?	Yes.	NULL	easy	data/set6/a4
 Norman_Rockwell	Is he also noted for his work for the Boy Scouts of America (BSA)?	yes	NULL	easy	data/set6/a4
 Octopus	Is the octopus a cephalopod?	Yes, the octopus is a cephalopod.	easy	easy	data/set1/a10
@@ -1069,7 +1069,7 @@ Octopus	Is octopus a common food in Mediterranean cuisine as well as Portuguese 
 Octopus	Is the collective form octopus usually reserved for animals consumed for food?	Yes	NULL	easy	data/set1/a10
 Octopus	Has an octopus a hard beak, with its mouth at the center point of the arms?	Yes	NULL	easy	data/set1/a10
 Pablo_Picasso	What happened in 1968 through 1971?	Devoting his full energies to his work, Picasso became more daring, his works more colorful and expressive, and from 1968 through 1971	NULL	medium	data/set6/a1
-Pablo_Picasso	What happened in 1838?	Don José Ruiz y Blasco was born	NULL	hard	data/set6/a1
+Pablo_Picasso	What happened in 1838?	Don Jose Ruiz y Blasco was born	NULL	hard	data/set6/a1
 Pablo_Picasso	Who was not long in finding another lover, Jacqueline Roque?	Picasso.	NULL	medium	data/set6/a1
 Pablo_Picasso	When did Picasso make his first trip to Paris?	1900	NULL	medium	data/set6/a1
 Pablo_Picasso	Give an example of the most comprehensive records extant of any major artists beginnings. 	Museu Picasso	NULL	medium	data/set6/a1
@@ -1116,7 +1116,7 @@ Pierre-Auguste_Renoir	What happened in the January 15, 1882?	On January 15, 1882
 Pierre-Auguste_Renoir	What happened in 1887?	In 1887, a year when Queen Victoria celebrated her Golden Jubilee, and upon the request of the queen's associate, Phillip Richbourg, he donated several paintings to the "French Impressionist Paintings" catalog as a token of his loyalty.	NULL	too hard	data/set6/a5
 Pierre-Auguste_Renoir	Is one of the best known Impressionist works Renoirs 1876 Dance at Le Moulin de la Galette?	Yes.	NULL	easy	data/set6/a5
 Pierre-Auguste_Renoir	Was Pierre-Auguste Renoir born in Limoges Haute-Vienne France the child of a working class family?	yes	NULL	easy	data/set6/a5
-Pierre-Auguste_Renoir	Have two of Renoirs paintings sold for more than US0 million?	Yes (any painting sells for more than $0 million though...)	NULL	easy	data/set6/a5
+Pierre-Auguste_Renoir	Have two of Renoirs paintings sold for more than US0 million?	Yes (any painting sells for more than $0 million though)	NULL	easy	data/set6/a5
 Pierre-Auguste_Renoir	As a celebrator of beauty, and especially feminine sensuality, has it been said that ``Renoir is the final representative of a tradition which runs directly from Rubens to Watteau''?	Yes.	NULL	easy	data/set6/a5
 Pierre-Auguste_Renoir	Did Pierre-Auguste Renoir die in Limoges, Haute-Vienne, France, the child of a working class family?	no	NULL	medium	data/set6/a5
 Pierre-Auguste_Renoir	As a boy, did he work in a porcelain factory where his drawing talents led to him being chosen to paint designs on fine china?	yes	NULL	easy	data/set6/a5
@@ -1126,21 +1126,21 @@ Portuguese_language	Does the Portuguese language have its roots in the Latin lan
 Portuguese_language	Does the Portuguese language have its roots in the Latin language?	Yes, Portuguese is derived from Latin.	easy	hard	data/set5/a1
 Portuguese_language	Does Portuguese contain words from the Arabic language?	Yes	easy	easy	data/set5/a1
 Portuguese_language	Does Portuguese contain words from the Arabic language?	Yes, Portuguese contains words from the Arabic language.	easy	hard	data/set5/a1
-Portuguese_language	Where are there small Portuguese-speaking communities?	Former overseas colonies of Portugal such as Macau and East Timor 	medium	medium	data/set5/a1
-Portuguese_language	Where are there small Portuguese-speaking communities?	There are small Portuguese-speaking communities in Macau and East Timor.	medium	medium	data/set5/a1
+Portuguese_language	Where are there small Portuguese-speaking communities?	Former overseas colonies of Portugal such as Macau and east Timor 	medium	medium	data/set5/a1
+Portuguese_language	Where are there small Portuguese-speaking communities?	There are small Portuguese-speaking communities in Macau and east Timor.	medium	medium	data/set5/a1
 Portuguese_language	What are the two main groups of Portuguese dialects?	Those of Brazil and those of the Old World	medium	medium	data/set5/a1
 Portuguese_language	What are the two main groups of Portuguese dialects?	The two main groups of dialects are Brazil and the Old World.	medium	medium	data/set5/a1
 Portuguese_language	What event marked the end of the Old Portuguese period?	The publication of the Cancioneiro Geral by Garcia de Resende in 1516	medium	medium	data/set5/a1
 Portuguese_language	What event marked the end of the Old Portuguese period?	The end of the Old Portuguese period was marked by the publication of the Cancioneiro Geral by Garcia de Resende.	medium	medium	data/set5/a1
-Portuguese_language	Which government established Portuguese as it's third official language in order to meet the requirements to apply for full membership in the CPLP?	Equatorial Guinea	hard	medium	data/set5/a1
-Portuguese_language	Which government established Portuguese as it's third official language in order to meet the requirements to apply for full membership in the CPLP?	The government of Equatorial Guinea established Portuguese as its third official language in order to meet the requirements to apply for full membership in the CPLP.	hard	medium	data/set5/a1
+Portuguese_language	Which government established Portuguese as it's third official language in order to meet the requirements to apply for full membership in the CPLP?	equatorial Guinea	hard	medium	data/set5/a1
+Portuguese_language	Which government established Portuguese as it's third official language in order to meet the requirements to apply for full membership in the CPLP?	The government of equatorial Guinea established Portuguese as its third official language in order to meet the requirements to apply for full membership in the CPLP.	hard	medium	data/set5/a1
 Portuguese_language	By 2050, what will the total population of Portuguese speakers in the world be?	335 million people	hard	hard	data/set5/a1
 Portuguese_language	By 2050, what will the total population of Portuguese speakers in the world be?	By 2050, Portuguese-speaking countries will have a total population of 335 million people.	hard	hard	data/set5/a1
 Portuguese_language	In which country is Portuguese the co-official language with Cantonese Chinese?	Macau	hard	medium	data/set5/a1
 Portuguese_language	In which country is Portuguese the co-official language with Cantonese Chinese?	Portuguese is the co-official language with Cantonese Chinese in Macau.	hard	medium	data/set5/a1
 Portuguese_language	Wasn't Portuguese language spread by arriving Roman soldiers?	Yes.	NULL	easy	data/set5/a1
 Portuguese_language	(where French has a similar phenomenon, with alveolar affricates instead of postalveolars?	Quebec.	NULL	medium	data/set5/a1
-Portuguese_language	Give an example of the official languages of the special administrative region of Macau and East Timor, . 	Portuguese	NULL	medium	data/set5/a1
+Portuguese_language	Give an example of the official languages of the special administrative region of Macau and east Timor, . 	Portuguese	NULL	medium	data/set5/a1
 Portuguese_language	Is Portuguese an official language of several international organizations?	Yes.	NULL	easy	data/set5/a1
 Portuguese_language	Is it derived from the Latin spoken by the romanized pre-Roman peoples of the Iberian Peninsula (namely the Gallaeci, the Lusitanians, the Celtici and the Conii) around 2000 years ago?	yes	NULL	easy	data/set5/a1
 Portuguese_language	Was it used as the exclusive lingua franca on the island of Sri Lanka for almost 350 years?	yes	NULL	easy	data/set5/a1
@@ -1161,13 +1161,13 @@ Saint_Petersburg	How to travel to work from the city to Moscow?	railway	hard	too
 Saint_Petersburg	How to travel to work from the city to Moscow?	One way is through the Moscow-Saint Petersburg Railway.	hard	hard	data/set3/a10
 Saint_Petersburg	Who laid down the Peter and Paul Fortress?	Peter the Great 	NULL	easy	data/set3/a10
 Saint_Petersburg	When was the 7th symphony premiered?	1942	NULL	medium	data/set3/a10
-Saint_Petersburg	Has Equestrianism been a long tradition, popular among the Tsars and aristocracy?	yes	NULL	easy	data/set3/a10
+Saint_Petersburg	Has equestrianism been a long tradition, popular among the Tsars and aristocracy?	yes	NULL	easy	data/set3/a10
 Saint_Petersburg	Give an example of the largest stadiums anywhere in the world, and the home to FC Zenit St. Petersburg in 1950-1993 and 1995. 	Kirov Stadium (now demolished) was one of the largest stadiums anywhere in the world, and the home to FC Zenit St. Petersburg in 1950-1993 and 1995.	NULL	medium	data/set3/a10
 Saint_Petersburg	Give an example of the best known symphony orchestras in the world under the leadership of conductors Yevgeny Mravinsky and Yuri Temirkanov. 	The Leningrad Philharmonic Orchestra	NULL	medium	data/set3/a10
 Saint_Petersburg	Give an example of the longest, most destructive, and most lethal sieges of major cities in modern history. 	The Siege of Leningrad	NULL	medium	data/set3/a10
 Saint_Petersburg	Were the city's other names Petrograd (, 1914 -- 1924) and Leningrad (, 1924 -- 1991)?	yes	NULL	easy	data/set3/a10
 Saint_Petersburg	Is it often called just Petersburg (-RRB- and is informally known as Piter (-RRB-?	Yes	NULL	easy	data/set3/a10
-Saint_Petersburg	Founded by Tsar Peter I of Russia on 27 May 1703, was it the capital of the Russian Empire for more than two hundred years (1713 -- 1728, 1732 -- 1918)?	Yes.	NULL	easy	data/set3/a10
+Saint_Petersburg	Founded by Tsar Peter I of Russia on 27 May 1703, was it the capital of the Russian empire for more than two hundred years (1713 -- 1728, 1732 -- 1918)?	Yes.	NULL	easy	data/set3/a10
 San_Francisco	Is the standard of living in San Franciscio high?	Yes, San Francisco is characterized by a high standard of living.	easy	easy	data/set3/a8
 San_Francisco	Is the standard of living in San Franciscio high?	Yes	easy	easy	data/set3/a8
 San_Francisco	Does San Francisco have a high percentage of gay and lesbian individuals?	Yes, according to the 2005 American Community Survey, San Francisco has the highest percentage of gay and lesbian individuals of any of the 50 largest U.S. cities, at 15.4%.	easy	easy	data/set3/a8
@@ -1238,9 +1238,9 @@ Swedish_language	How many letters are in the basic Latin alphabet?	26.	medium	me
 Swedish_language	How many letters are in the basic Latin alphabet?	26	medium	medium	data/set5/a9
 Swedish_language	When did a standard and common language become available to all Swedes?	In the 20th Century.	medium	hard	data/set5/a9
 Swedish_language	When did a standard and common language become available to all Swedes?	It was during the 20th century that a common, standardized national language became available to all Swedes.	medium	easy	data/set5/a9
-Swedish_language	When did the Soviet military forces occupy Estonia?	1944.	hard	medium	data/set5/a9
-Swedish_language	When did the Soviet military forces occupy Estonia?	In 1944.	hard	hard	data/set5/a9
-Swedish_language	What are the differences between English and Swedish pronouns?	Swedish pronouns are basically the same as those of English but distinguish two genders and have an additional object form, derived from the old dative form, as well as a distinct genitive case.	hard	hard	data/set5/a9
+Swedish_language	When did the Soviet military forces occupy estonia?	1944.	hard	medium	data/set5/a9
+Swedish_language	When did the Soviet military forces occupy estonia?	In 1944.	hard	hard	data/set5/a9
+Swedish_language	What are the differences between english and Swedish pronouns?	Swedish pronouns are basically the same as those of english but distinguish two genders and have an additional object form, derived from the old dative form, as well as a distinct genitive case.	hard	hard	data/set5/a9
 Swedish_language	How does Swedish language counterbalance the absence of cases?	The lack of cases in Swedish is compensated by a wide variety of prepositions.	hard	hard	data/set5/a9
 Taipei	Is Taipei in a valley?	Taipei is in the valleys of the Keelung and Xindian Rivers	easy	medium	data/set3/a6
 Taipei	Is Taipei in a valley?	Yes	easy	easy	data/set3/a6
@@ -1296,7 +1296,7 @@ Trumpet	What was built to play in both B and A keys?	piccolo trumpets	hard	mediu
 Trumpet	What was built to play in both B and A keys?	piccolo trumpets	hard	hard	data/set2/a3
 Trumpet	What happened in 1894?	Jean-Baptiste Arban published "Complete Conservatory Method for Trumpet."	NULL	hard	data/set2/a3
 Trumpet	What happened in nineteen fifty seven?	Maynard Ferguson formed his own band.	NULL	hard	data/set2/a3
-Trumpet	Is the Breeze Eazy' ' method sometimes used to teach younger students?	Yes.	NULL	easy	data/set2/a3
+Trumpet	Is the Breeze eazy' ' method sometimes used to teach younger students?	Yes.	NULL	easy	data/set2/a3
 Trumpet	Do many players use a smaller mouthpiece on the piccolo trumpet?	Yes	NULL	easy	data/set2/a3
 Trumpet	Is the trumpet constructed of brass tubing bent twice into an oblong shape?	yes	NULL	easy	data/set2/a3
 Trumpet	Give an example of the most influential musicians of the 20th century. 	Miles Davis	NULL	medium	data/set2/a3
@@ -1313,9 +1313,9 @@ Turkish_language	What is the official language of Turkey?	Turkish.	medium	hard	d
 Turkish_language	What is the official language of Turkey?	Turkish is the official language of Turkey.	medium	medium	data/set5/a8
 Turkish_language	When was the Turkish Language Association founded?	In 1928.	medium	hard	data/set5/a8
 Turkish_language	When was the Turkish Language Association founded?	The Turkish Language Association was founded in 1932.	medium	medium	data/set5/a8
-Turkish_language	What are the most significant foreign contributors to Turkish vocabulary?	Among the most significant foreign contributors to Turkish vocabulary are Arabic, French, Persian, Italian, English, and Greek. 	medium	medium	data/set5/a8
-Turkish_language	Who were the Orkhon inscriptions built for?	For the prince Kul Tigin and his brother Emperor Bilge Khan.	hard	medium	data/set5/a8
-Turkish_language	Who were the Orkhon inscriptions built for?	The Orkhon inscriptions were erected in honour of the prince Kul Tigin and his brother Emperor Bilge Khan.	hard	hard	data/set5/a8
+Turkish_language	What are the most significant foreign contributors to Turkish vocabulary?	Among the most significant foreign contributors to Turkish vocabulary are Arabic, French, Persian, Italian, english, and Greek. 	medium	medium	data/set5/a8
+Turkish_language	Who were the Orkhon inscriptions built for?	For the prince Kul Tigin and his brother emperor Bilge Khan.	hard	medium	data/set5/a8
+Turkish_language	Who were the Orkhon inscriptions built for?	The Orkhon inscriptions were erected in honour of the prince Kul Tigin and his brother emperor Bilge Khan.	hard	hard	data/set5/a8
 Turkish_language	What was one of the results of the introduction of the new Turkish alphabet?	A dramatic increase in literacy from Third World levels.	hard	hard	data/set5/a8
 Turkish_language	What was one of the results of the introduction of the new Turkish alphabet?	There was a dramatic increase in literacy from its original Third World levels.	hard	medium	data/set5/a8
 Turkish_language	Why does Lewis use "absolute case" instead of "nominative"?	Because it is also used for the indefinite accusative.	hard	hard	data/set5/a8
@@ -1350,7 +1350,7 @@ Vietnamese_language	Have consonant clusters been lost?	Yes	medium	medium	data/se
 Vietnamese_language	Have consonant clusters been lost?	Yes.	medium	medium	data/set5/a10
 Vietnamese_language	Is the Red River Delta traditionally poor?	Not compared to Nghe An, Ha Tinh, or Quang Binh	hard	medium	data/set5/a10
 Vietnamese_language	Is the Red River Delta traditionally poor?	Yes.	hard	easy	data/set5/a10
-Vietnamese_language	What kind of words have been borrowed from Chinese?	Words that denote abstract ideas in the same way European languages borrow form Latin and Greek.	hard	medium	data/set5/a10
+Vietnamese_language	What kind of words have been borrowed from Chinese?	Words that denote abstract ideas in the same way european languages borrow form Latin and Greek.	hard	medium	data/set5/a10
 Vietnamese_language	What kind of words have been borrowed from Chinese?	Vietnamese adopts words from Chinese which express abstract ideas.	hard	hard	data/set5/a10
 Vietnamese_language	Is Vietnam independent from France?	Yes.	hard	easy	data/set5/a10
 Vietnamese_language	Was Vietnamese formally written using the Chinese writing system?	Yes, Vietnamese was *formerly* written using the Chinese writing system.	easy	easy	data/set5/a10
@@ -1400,14 +1400,14 @@ Violin	Regarding this topic, what did Antonio Stradivari do?	Antonio Stradivari 
 Violin	When did Charles IX order Amati to construct 24 violins for him?	1560	NULL	medium	data/set2/a2
 Violin	Is a string first tuned to a standard pitch?	Yes.	NULL	easy	data/set2/a2
 Violin	Is each node at an integer division of the string?	Yes.	NULL	easy	data/set2/a2
-Violin	Is the tuning G-D-A-E used for most violin music?	Yes	NULL	easy	data/set2/a2
+Violin	Is the tuning G-D-A-e used for most violin music?	Yes	NULL	easy	data/set2/a2
 Violin	Is it the smallest and highest-pitched member of the violin family of string instruments, which also includes the viola and cello?	Yes, it is the smallest and highest-pitched member of the violin family of string instruments, which also includes the viola and cello.	NULL	easy	data/set2/a2
 Violin	Is a violin sometimes informally called a fiddle, regardless of the type of music played on it?	Yes.	NULL	easy	data/set2/a2
 Violin	Does the word ``violin'' come from the Middle Latin word vitula, meaning ``stringed instrument''?	Yes.	NULL	easy	data/set2/a2
 Xylophone	Are concert xylophonese typically 3 1/2 or 4 octaves?	NULL	easy	NULL	data/set2/a8
 Xylophone	Are concert xylophonese typically 3 1/2 or 4 octaves?	NULL	easy	NULL	data/set2/a8
-Xylophone	Is folk music associated with western Europe?	NULL	easy	NULL	data/set2/a8
-Xylophone	Is folk music associated with western Europe?	NULL	easy	NULL	data/set2/a8
+Xylophone	Is folk music associated with western europe?	NULL	easy	NULL	data/set2/a8
+Xylophone	Is folk music associated with western europe?	NULL	easy	NULL	data/set2/a8
 Xylophone	Were xylophonists featured in the theatre in the 20th century?	NULL	easy	NULL	data/set2/a8
 Xylophone	Were xylophonists featured in the theatre in the 20th century?	NULL	easy	NULL	data/set2/a8
 Xylophone	What year were the first xylophone artifacts found?	NULL	medium	NULL	data/set2/a8
@@ -1426,8 +1426,8 @@ Xylophone	Is the xylophone a musical instrument?	yes	easy	easy	data/set2/a8
 Xylophone	Is the xylophone a musical instrument?	Yes.	easy	easy	data/set2/a8
 Xylophone	Was the xylophone associated with the folk music of the United States by the 19th century?	no	easy	easy	data/set2/a8
 Xylophone	Was the xylophone associated with the folk music of the United States by the 19th century?	No.	easy	medium	data/set2/a8
-Xylophone	Was it likely that the xylophone reached Europe during the Crusades?	yes	easy	easy	data/set2/a8
-Xylophone	Was it likely that the xylophone reached Europe during the Crusades?	Yes.	easy	easy	data/set2/a8
+Xylophone	Was it likely that the xylophone reached europe during the Crusades?	yes	easy	easy	data/set2/a8
+Xylophone	Was it likely that the xylophone reached europe during the Crusades?	Yes.	easy	easy	data/set2/a8
 Xylophone	The xylophone is an instrument from what family?	the percussion family	medium	medium	data/set2/a8
 Xylophone	The xylophone is an instrument from what family?	Percussion	medium	medium	data/set2/a8
 Xylophone	How do the Java and Bali use xylophones?	In gamelan ensembles	medium	medium	data/set2/a8
@@ -1435,8 +1435,8 @@ Xylophone	Some versions of xylophones have resonators made of what?	gourds	mediu
 Xylophone	Some versions of xylophones have resonators made of what?	Gourds.	medium	medium	data/set2/a8
 Xylophone	Which came first, the xylophone or the vibraphone?	xylophone	hard	hard	data/set2/a8
 Xylophone	Which came first, the xylophone or the vibraphone?	The xylophone.	hard	hard	data/set2/a8
-Xylophone	Did the golden age of xylophones come before or after the first usage of the European-derived orchestral?	after	hard	hard	data/set2/a8
-Xylophone	Did the golden age of xylophones come before or after the first usage of the European-derived orchestral?	After.	hard	hard	data/set2/a8
+Xylophone	Did the golden age of xylophones come before or after the first usage of the european-derived orchestral?	after	hard	hard	data/set2/a8
+Xylophone	Did the golden age of xylophones come before or after the first usage of the european-derived orchestral?	After.	hard	hard	data/set2/a8
 Xylophone	Does kelon increase or decrease tone quality of the xylophone?	no	hard	too hard	data/set2/a8
 Xylophone	Does kelon increase or decrease tone quality of the xylophone?	Decrease.	hard	hard	data/set2/a8
 Zebra	Do the different species of zebras interbreed?	no	easy	easy	data/set1/a9
@@ -1451,9 +1451,9 @@ Zebra	What do zebras eat?	mainly grass	medium	hard	data/set1/a9
 Zebra	What do zebras eat?	Grasses, shrubs, herbs, twigs, leaves, and bark	medium	hard	data/set1/a9
 Zebra	What are zebras hunted for?	mainly for their skins	medium	medium	data/set1/a9
 Zebra	What are zebras hunted for?	Skins	medium	medium	data/set1/a9
-Zebra	What areas do the Grevy's Zebras inhabit?	semi-arid grasslands of Ethiopia and northern Kenya	hard	hard	data/set1/a9
+Zebra	What areas do the Grevy's Zebras inhabit?	semi-arid grasslands of ethiopia and northern Kenya	hard	hard	data/set1/a9
 Zebra	What areas do the Grevy's Zebras inhabit?		hard		data/set1/a9
-Zebra	Which species of zebra is known as the common zebra?	Plains Zebra (Equus quagga, formerly Equus burchelli)	hard	medium	data/set1/a9
+Zebra	Which species of zebra is known as the common zebra?	Plains Zebra (equus quagga, formerly equus burchelli)	hard	medium	data/set1/a9
 Zebra	Which species of zebra is known as the common zebra?	Plains Zebra	hard	medium	data/set1/a9
 Zebra	At what age can a zebra breed?	five or six	hard	medium	data/set1/a9
 Zebra	At what age can a zebra breed?	5 or 6	hard	hard	data/set1/a9
