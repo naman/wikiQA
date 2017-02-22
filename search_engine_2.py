@@ -195,9 +195,8 @@ def jaccard_similarity(article_name, focus_terms):
         all_lists.append(words_in_sentence)
         intersect = intersection(all_lists)
 
-        scores[x] = len(intersect)
         length = float(len(word_set))
-        scores[x] /= length
+        scores[x] = len(intersect) / length
 
     print_scores(article_name, scores, "Jaccard")
 
@@ -307,11 +306,12 @@ porter = PorterStemmer()
 os.system("clear")
 
 print ".........................................................."
-print "\t\tWelcome to WikiQA!"
+print "\t\tWelcome to WikiQA part 2!"
 print "..........................................................\n"
 
 print "Do you want to update/build inverted index?[y/n]"
 if raw_input() == 'y':
+    # part 2
     print "Loading Stop Words..."
     load_stop_words()
     vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words=stop_words)
@@ -324,6 +324,7 @@ if raw_input() == 'y':
     write_to_file(file_sentences, sys.argv[1])
 
     print "Complete!\n"
+    # part 1
 
     take_commands()
 else:

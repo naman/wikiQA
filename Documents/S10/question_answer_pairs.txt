@@ -58,7 +58,7 @@ Amedeo_Avogadro	Who showed that Avogadro's theory held in dilute solutions?	Jaco
 Amedeo_Avogadro	In what language was his 1811 paper published?	French	hard	hard	data/set4/a8
 Amedeo_Avogadro	In what language was his 1811 paper published?	Avogadro's 1811 paper was published in French.	hard	hard	data/set4/a8
 Amedeo_Avogadro	Who was Avogadro's wife?	Felicita Mazz	hard	hard	data/set4/a8
-Amedeo_Avogadro	Who was Avogadro's wife?	Felicita Mazz� was Avogadro's wife.	hard	hard	data/set4/a8
+Amedeo_Avogadro	Who was Avogadro's wife?	Felicita Mazzé was Avogadro's wife.	hard	hard	data/set4/a8
 Amedeo_Avogadro	Why did Avogadro lose his chair at the University of Turin?	He was active in the revolutionary movements of 1821 against the king of Sardinia	hard	hard	data/set4/a8
 Amedeo_Avogadro	Why did Avogadro lose his chair at the University of Turin?	Avogadro lost his chair at the University of Turin because he was active in the revolutionary movements of 1821 against the king of Sardinia.	hard	hard	data/set4/a8
 Amedeo_Avogadro	Was Amedeo Avogadro was born in Turin?	Yes	easy	easy	data/set4/a8
@@ -207,8 +207,8 @@ Berlin	How many occupation zones was Germany divided into after the war?	Germany
 Berlin	How many occupation zones was Germany divided into after the war?	NULL	hard	NULL	data/set3/a1
 Berlin	Where was Popkomm held before moving to Berlin?	Popkomm was held in Cologne before moving to Berlin.	hard	hard	data/set3/a1
 Berlin	Where was Popkomm held before moving to Berlin?	NULL	hard	NULL	data/set3/a1
-Blaise_Pascal	Who was Blaise Pascal's father?	His father, Étienne Pascal (1588–1651), who also had an interest in science and mathematics, was a local judge	easy	medium	data/set4/a4
-Blaise_Pascal	Who was Blaise Pascal's father?	Étienne Pascal.	easy	easy	data/set4/a4
+Blaise_Pascal	Who was Blaise Pascal's father?	His father, Ã‰tienne Pascal (1588â€“1651), who also had an interest in science and mathematics, was a local judge	easy	medium	data/set4/a4
+Blaise_Pascal	Who was Blaise Pascal's father?	Ã‰tienne Pascal.	easy	easy	data/set4/a4
 Blaise_Pascal	Was Pascal a French mathematician?	yes	easy	easy	data/set4/a4
 Blaise_Pascal	Was Pascal a French mathematician?	Yes.	easy	easy	data/set4/a4
 Blaise_Pascal	Did Pascal have poor health throughout his life?	yes	easy	easy	data/set4/a4
@@ -274,8 +274,8 @@ Charles-Augustin_de_Coulomb	Did Charles-Augustin de Coulomb come from a poor fam
 Charles-Augustin_de_Coulomb	Did Charles-Augustin de Coulomb come from a poor family?	No, his mother came from a wealthy family in the wool trade.	hard	hard	data/set4/a6
 Charles-Augustin_de_Coulomb	What is Coulomb's law?	The definition of the electrostatic force of attraction and repulsion.	hard	medium	data/set4/a6
 Charles-Augustin_de_Coulomb	What is Coulomb's law?	The definition of the electrostatic force of attraction and repulsion.	hard	medium	data/set4/a6
-Charles-Augustin_de_Coulomb	Where is Coll�ge des Quatre-Nations located?	In Montpellier.	hard	hard	data/set4/a6
-Charles-Augustin_de_Coulomb	Where is Coll�ge des Quatre-Nations located?	In Paris.	hard	hard	data/set4/a6
+Charles-Augustin_de_Coulomb	Where is Collège des Quatre-Nations located?	In Montpellier.	hard	hard	data/set4/a6
+Charles-Augustin_de_Coulomb	Where is Collège des Quatre-Nations located?	In Paris.	hard	hard	data/set4/a6
 Charles-Augustin_de_Coulomb	What happened in 1785?	Coulomb presented his three reports on Electricity and Magnetism	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	What happened in 1757 to 1759?	Charles-Augustin de Coulomb joined his father's family in Montpellier and took part in the work of the academy of the city.	NULL	hard	data/set4/a6
 Charles-Augustin_de_Coulomb	Regarding this topic, what did the Revolution do?	The Revolution caused Coulomb to resign his appointment as intendent des eaux et fontains and retire.	NULL	too hard	data/set4/a6
@@ -283,10 +283,10 @@ Charles-Augustin_de_Coulomb	Who determined to pursue mathematics?	Charles-August
 Charles-Augustin_de_Coulomb	When did Coulomb return to Paris?	In 1759.	NULL	medium	data/set4/a6
 Charles-Augustin_de_Coulomb	Does Coulomb leave a legacy as a pioneer in the field of geotechnical engineering for his contribution to retaining wall design?	yes	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	Did the family move to Paris as well as there Coulomb studied at the prestigious Collge des Quatre-Nations?	Yes	NULL	easy	data/set4/a6
-Charles-Augustin_de_Coulomb	Was Coulomb born in Angoulme France to a well-to-do family?	Coulomb was born in Angoulême, France, to a well-to-do family	NULL	easy	data/set4/a6
+Charles-Augustin_de_Coulomb	Was Coulomb born in Angoulme France to a well-to-do family?	Coulomb was born in AngoulÃªme, France, to a well-to-do family	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	Is he best known for developing Coulomb's law, the definition of the electrostatic force of attraction and repulsion?	Yes	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	The SI unit of charge, the coulomb, was named after him?	Yes	NULL	easy	data/set4/a6
-Charles-Augustin_de_Coulomb	Did Coulomb die in Angoulême, France, to a well-to-do family?	No	NULL	easy	data/set4/a6
+Charles-Augustin_de_Coulomb	Did Coulomb die in AngoulÃªme, France, to a well-to-do family?	No	NULL	easy	data/set4/a6
 Chinese_language	Are all spoken varieties of Chinese tonal and analytical?	yes	easy	easy	data/set5/a7
 Chinese_language	Are all spoken varieties of Chinese tonal and analytical?	yes	easy	easy	data/set5/a7
 Chinese_language	Is fifty percent or more of Korean vocabulary of Chinese origin?	Yes	easy	easy	data/set5/a7
@@ -302,8 +302,8 @@ Chinese_language	How many head entries for character definitions does the Zhongh
 Chinese_language	What does the PRC government classify as literacy amongst workers?	knowledge of 2,000 characters	hard	medium	data/set5/a7
 Chinese_language	What does the PRC government classify as literacy amongst workers?	a knowledge of 2000 characters	hard	medium	data/set5/a7
 Chinese_language	How is South China linguistically different from North China?	South China displays more linguistic diversity	hard	hard	data/set5/a7
-Chinese_language	&#20415;&#24403;/&#20415;&#30070; �lunchbox or boxed lunch� (from bento) and &#26009;&#29702; �prepared cuisine� are loan words from which language?	Japanese	hard	hard	data/set5/a7
-Chinese_language	&#20415;&#24403;/&#20415;&#30070; �lunchbox or boxed lunch� (from bento) and &#26009;&#29702; �prepared cuisine� are loan words from which language?	Chinese	hard	hard	data/set5/a7
+Chinese_language	&#20415;&#24403;/&#20415;&#30070; “lunchbox or boxed lunch” (from bento) and &#26009;&#29702; “prepared cuisine” are loan words from which language?	Japanese	hard	hard	data/set5/a7
+Chinese_language	&#20415;&#24403;/&#20415;&#30070; “lunchbox or boxed lunch” (from bento) and &#26009;&#29702; “prepared cuisine” are loan words from which language?	Chinese	hard	hard	data/set5/a7
 Chinese_language	What is the standardized form of spoken chinese?	The standardized form of spoken Chinese is Standard Mandarin.	easy	medium	data/set5/a7
 Chinese_language	What is the standardized form of spoken chinese?	The standardized from of spoken Chinese is Standard Mandarin.	easy	easy	data/set5/a7
 Chinese_language	Is diglossia a common feature in mainland China and Taiwan?	Yes, diglossia is a common feature in mainland China and Taiwan.	easy	easy	data/set5/a7
@@ -568,7 +568,7 @@ Guitar	How old is the oldest known representation of a guitar-like intrument bei
 Guitar	How old is the oldest known representation of a guitar-like intrument being played?	3,300 years old	hard	hard	data/set2/a7
 Guitar	What is the point called that is bolted or glued to the body of the guitar?	Neck Joint	hard	medium	data/set2/a7
 Guitar	What is the point called that is bolted or glued to the body of the guitar?	Neck joint or 'Heel'	hard	hard	data/set2/a7
-Henri_Becquerel	Did Becquerel study science at the �cole des Ponts et Chauss�es?	Yes	easy	easy	data/set4/a9
+Henri_Becquerel	Did Becquerel study science at the École des Ponts et Chaussées?	Yes	easy	easy	data/set4/a9
 Henri_Becquerel	Did he become chief engineer in the Department of Bridges and Highways in 1892?	No	easy	easy	data/set4/a9
 Henri_Becquerel	Did he become chief engineer in the Department of Bridges and Highways in 1892?	yes	easy	easy	data/set4/a9
 Henri_Becquerel	Was Becquerel a French physicist?	Yes	easy	easy	data/set4/a9
@@ -579,8 +579,8 @@ Henri_Becquerel	When did he die?	1908	medium	medium	data/set4/a9
 Henri_Becquerel	When did he die?	1908	medium	hard	data/set4/a9
 Henri_Becquerel	What is the SI unit for radioactivity called?	becquerel	medium	medium	data/set4/a9
 Henri_Becquerel	What is the SI unit for radioactivity called?	the becquerel (Bq)	medium	medium	data/set4/a9
-Henri_Becquerel	When Becquerel discovered radioactivity, whose work did he investigate?	Wilhelm Conrad R�ntgen	hard	hard	data/set4/a9
 Henri_Becquerel	When Becquerel discovered radioactivity, whose work did he investigate?	Wilhelm Conrad Röntgen	hard	hard	data/set4/a9
+Henri_Becquerel	When Becquerel discovered radioactivity, whose work did he investigate?	Wilhelm Conrad RÃ¶ntgen	hard	hard	data/set4/a9
 Henri_Becquerel	Where are there craters named Becquerel?	Moon and Mars	hard	hard	data/set4/a9
 Henri_Becquerel	Where are there craters named Becquerel?	on the moon and on mars	hard	medium	data/set4/a9
 Henri_Becquerel	Why did Bequerel win the Nobel Prize in Physics?	discovery of spontaneous radioactivity	hard	hard	data/set4/a9
@@ -961,8 +961,8 @@ Montreal	Is the most popular sport in Montreal ice hockey?	yes, The most popular
 Montreal	Is the most popular sport in Montreal ice hockey?	Yes, the most popular sport in Montreal is ice hockey.	easy	medium	data/set3/a7
 Montreal	How many international airports does Montreal have?	Montreal has two international airports.	medium	easy	data/set3/a7
 Montreal	How many international airports does Montreal have?	Montreal has two international airports.	medium	easy	data/set3/a7
-Montreal	Who is the Mayor of Montreal?	The mayor is Gérald Tremblay.	medium	easy	data/set3/a7
-Montreal	Who is the Mayor of Montreal?	The mayor is Gérald Tremblay.	medium	medium	data/set3/a7
+Montreal	Who is the Mayor of Montreal?	The mayor is GÃ©rald Tremblay.	medium	easy	data/set3/a7
+Montreal	Who is the Mayor of Montreal?	The mayor is GÃ©rald Tremblay.	medium	medium	data/set3/a7
 Montreal	What is the name of the largest church in Montreal?	The largest church in Montreal is named Saint Joseph's Oratory.	medium	hard	data/set3/a7
 Montreal	What is the name of the largest church in Montreal?	Saint Joseph's Oratory is the largest church in Montreal.	medium	hard	data/set3/a7
 Montreal	Where was much of Montreal's industry during the late 19th and early-to-mid 20th century?	The Sud-Ouest borough was home to much of the city's industry during the late 19th and early-to-mid 20th century. 	hard	easy	data/set3/a7
@@ -1069,7 +1069,7 @@ Octopus	Is octopus a common food in Mediterranean cuisine as well as Portuguese 
 Octopus	Is the collective form octopus usually reserved for animals consumed for food?	Yes	NULL	easy	data/set1/a10
 Octopus	Has an octopus a hard beak, with its mouth at the center point of the arms?	Yes	NULL	easy	data/set1/a10
 Pablo_Picasso	What happened in 1968 through 1971?	Devoting his full energies to his work, Picasso became more daring, his works more colorful and expressive, and from 1968 through 1971	NULL	medium	data/set6/a1
-Pablo_Picasso	What happened in 1838?	Don Jos� Ruiz y Blasco was born	NULL	hard	data/set6/a1
+Pablo_Picasso	What happened in 1838?	Don José Ruiz y Blasco was born	NULL	hard	data/set6/a1
 Pablo_Picasso	Who was not long in finding another lover, Jacqueline Roque?	Picasso.	NULL	medium	data/set6/a1
 Pablo_Picasso	When did Picasso make his first trip to Paris?	1900	NULL	medium	data/set6/a1
 Pablo_Picasso	Give an example of the most comprehensive records extant of any major artists beginnings. 	Museu Picasso	NULL	medium	data/set6/a1

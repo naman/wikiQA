@@ -572,7 +572,8 @@ Gerald_Ford	What did Ford say about his biological father?	He was abusive and ha
 Gerald_Ford	What did Ford say about his biological father?	his biological father was abusive and had a history of hitting his mother	medium	medium	data/set3/a10
 Gerald_Ford	Who did Ford nominate for Vice President?	Bob Dole	medium	hard	data/set3/a10
 Gerald_Ford	Who did Ford nominate for Vice President?	Nelson Rockefeller	medium	medium	data/set3/a10
-Gerald_Ford	Was Ford active about Vietnamese affairs?	No\n	hard	hard	data/set3/a10
+Gerald_Ford	Was Ford active about Vietnamese affairs?	No
+\n	hard	hard	data/set3/a10
 Gerald_Ford	Was Ford active about Vietnamese affairs?	Yes	hard	too hard	data/set3/a10
 Gerald_Ford	Had Ford's wife married before?	Yes	hard	hard	data/set3/a10
 Gerald_Ford	Had Ford's wife married before?	No	hard	hard	data/set3/a10
@@ -1628,7 +1629,7 @@ Uruguay	Did Uruguay host the first ever World Cup?	Yes, in 1930.	easy	easy	data/
 Uruguay	Did Uruguay host the first ever World Cup?	Yes	easy	easy	data/set2/a9
 Uruguay	Who founded Montevideo?	By the Spanish, in the early 18th century	medium	medium	data/set2/a9
 Uruguay	Who founded Montevideo?	Montevideo was founded by the Spanish in the early 18th century as a military stronghold.	medium	medium	data/set2/a9
-Uruguay	How many square kilometres of continental land is Uruguay?	176.215 km©÷ 	medium	medium	data/set2/a9
+Uruguay	How many square kilometres of continental land is Uruguay?	176.215 km?? 	medium	medium	data/set2/a9
 Uruguay	How many square kilometres of continental land is Uruguay?	176,214 square kilometres	medium	medium	data/set2/a9
 Uruguay	How much of the population is of white European descent?	88%	medium	easy	data/set2/a9
 Uruguay	How much of the population is of white European descent?	Approximately 88% of its population are of prevalently white European descent.	medium	medium	data/set2/a9
