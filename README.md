@@ -1,6 +1,5 @@
 # Go: Search Engine
-A basic search engine using tf-idf score. The code and a more readable README can be found on https://github.com/naman/go-search-engine.
-
+A basic search engine using jacard/cosine similarity and tf-idf score for Wikipedia Q/A. 
 [Naman Gupta, 2013064]
 
 # Screenshots
@@ -14,25 +13,26 @@ A basic search engine using tf-idf score. The code and a more readable README ca
 ![Offline Caching 2](cache2.png)
 
 
-
 # References
 
 1. Porter stemmer from https://tartarus.org/~martin/PorterStemmer/
-2. Stop words from http://xpo6.com/list-of-english-stop-words/
-3. Documents taken from http://www.textfiles.com/computers/DOCUMENTATION/. EDIT: Now, http://www.textfiles.com/humor/
-(Some files contained special characters, they were ommited since python throws an error while converting special characters to unicode strings.)
+2. http://www.cs.cmu.edu/~ark/QA-data/
 
 # Usage
 
-`python search_engine.py <inverted_index> <stop_words> <path_to_docs>`
+`python search_engine_1.py <inverted_index> <stop_words> <path_to_docs>`
+`python search_engine_2.py <inverted_index> <stop_words> <path_to_docs>`
 
-`python search_engine.py inverted_index.json stop_words.txt ./Documents/` 
+`python search_engine_1.py inverted_index.json stop_words.txt ./Documents/` part 1
+`python search_engine_2.py inverted_index.json stop_words.txt ./Documents/` part 2, inverted word index
+`python search_engine_2.py file_sentences.json stop_words.txt ./Documents/` part 2, inverted sentence index
 
 # Features Implemented
 
-1. The code automatically downloads the document from "http://www.textfiles.com/computers/DOCUMENTATION/". (see `loadDocuments()`)
-
-2. Stores the inverted index as a json allowing offline caching (saves precious time, power and those CPU cycles on building the index again) (see `build_index()`, `load_index_in_memory()` and `write_inverted_index_to_file()`). The 
+1. For part 1: Uses cosine and jacard similarity to fetch questions for the answers in answer corpus.
+2. For part 2: It uses tf-idf to retrieve ranked results of possible documents which may contain the answer to the question. A faster method/alternative was used which splits senteces (with the help of nltk) and matches the query with every sentence in every doc.  
+3. Cutoffs used for Jaccard and Cosine similarity is 0.4 +- 0.0001. 
+4. Stores the inverted index (both inverted word index, and inverted sentence index) as a json allowing offline caching (saves precious time 7 minutes required to build inverted index, power and those CPU cycles on building the index again) (see `build_index()`, `load_index_in_memory()` and `write_to_file()`). The 
 	The inverted index json stores as follows 
 	
 		term: {
@@ -41,31 +41,14 @@ A basic search engine using tf-idf score. The code and a more readable README ca
 			score,
 			positions[]
 		}
-	
+	While, the sentence index json stores the following
 
-3. Scoring is done using tf-idf (normalized) formula (see `normalize()`). 
+		[
+			doc_name: {
+				sentences[]
+			}
+		]
 
-4. Specially handled one word queries, multiword queries and phrase queries with "<query>". Logic for Query results:
-	
-	a) `OneWordQ()` function: Search for the query term in the inverted index.  
-	
-	b) `MultiWordQ()` function: Search for the each query term in the inverted index. Take a union of results. Make a set. The output is the list of documents that contain any of the query terms.
-	
-	c) `PhraseQ()` function: Search for the each query term in the inverted index. Take an intersection of results. In the intersection of result documents, find positions of the query terms for each resulting documents. Take the intersection of positions from a doc d after subtracting the term offset  from the positions. If the intersection is non empty, then we have found a match. A similar algorithm for finding match in phrase queries was also covered in class.
-		Eg. "time out" is present in the doc 3_drives.txt. The term offset for time is 0, and out is 1.
-					
-			find docs for time
-			find docs for out
-			take intersection
-			for each doc in the above intersection,
-				compute (positions - offset) 
-			take intersection of positions found
-			if intersection is non empty, 
-				match is found
-			else
-				no match
-			
+5. For part 2: Logic for tf-idf ranked matching `MultiWordQ()` function: Search for the each query term in the inverted index. Take a union of results. Make a set. The output is the list of documents that contain any of the query terms. Sorted according to tf-idf scores/relevance.
 
-5. The query can be entered iteratively just like a normal shell. A prompt is visible where the query is entered and results are shown almost instantaneosly.
-
-6. All the results for OneWordQ are sorted according to relevance (sorted scores).
+6. The query can be entered iteratively just like a normal shell. A prompt is visible where the query is entered and results are shown almost instantaneosly.

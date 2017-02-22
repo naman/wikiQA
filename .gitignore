@@ -89,5 +89,4 @@ ENV/
 .ropeproject
 
 # Documents/
-doc2/
-*.json
+# *.json

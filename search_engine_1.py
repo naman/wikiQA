@@ -84,9 +84,8 @@ def ground_truth(query):
 
 
 def load_stop_words():
-    f = open(sys.argv[2])
-    for word in f:
-        stop_words.append(word.strip())
+    x = stopwords.words("english")
+    return [s.encode('ascii') for s in x]
 
 
 def clean_split(string):
@@ -182,6 +181,7 @@ def parse_answers_corpus(query):
     parse_answers(query, path_to_documents + "S10/question_answer_pairs.txt")
     ground_truth(query)
 
+
 def run_query(query):
     parse_answers_corpus(query)
 
@@ -233,6 +233,6 @@ print "\t\tWelcome to WikiQA part 1!"
 print "..........................................................\n"
 
 print "Loading Stop Words..."
-load_stop_words()
+stop_words = load_stop_words()
 vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words=stop_words)
 take_commands()
