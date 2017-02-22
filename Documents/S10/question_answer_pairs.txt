@@ -207,8 +207,8 @@ Berlin	How many occupation zones was Germany divided into after the war?	Germany
 Berlin	How many occupation zones was Germany divided into after the war?	NULL	hard	NULL	data/set3/a1
 Berlin	Where was Popkomm held before moving to Berlin?	Popkomm was held in Cologne before moving to Berlin.	hard	hard	data/set3/a1
 Berlin	Where was Popkomm held before moving to Berlin?	NULL	hard	NULL	data/set3/a1
-Blaise_Pascal	Who was Blaise Pascal's father?	His father, Ã‰tienne Pascal (1588â"1651), who also had an interest in science and mathematics, was a local judge	easy	medium	data/set4/a4
-Blaise_Pascal	Who was Blaise Pascal's father?	Ã‰tienne Pascal.	easy	easy	data/set4/a4
+Blaise_Pascal	Who was Blaise Pascal's father?	His father, a‰tienne Pascal (1588a"1651), who also had an interest in science and mathematics, was a local judge	easy	medium	data/set4/a4
+Blaise_Pascal	Who was Blaise Pascal's father?	a‰tienne Pascal.	easy	easy	data/set4/a4
 Blaise_Pascal	Was Pascal a French mathematician?	yes	easy	easy	data/set4/a4
 Blaise_Pascal	Was Pascal a French mathematician?	Yes.	easy	easy	data/set4/a4
 Blaise_Pascal	Did Pascal have poor health throughout his life?	yes	easy	easy	data/set4/a4
@@ -283,10 +283,10 @@ Charles-Augustin_de_Coulomb	Who determined to pursue mathematics?	Charles-August
 Charles-Augustin_de_Coulomb	When did Coulomb return to Paris?	In 1759.	NULL	medium	data/set4/a6
 Charles-Augustin_de_Coulomb	Does Coulomb leave a legacy as a pioneer in the field of geotechnical engineering for his contribution to retaining wall design?	yes	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	Did the family move to Paris as well as there Coulomb studied at the prestigious Collge des Quatre-Nations?	Yes	NULL	easy	data/set4/a6
-Charles-Augustin_de_Coulomb	Was Coulomb born in Angoulme France to a well-to-do family?	Coulomb was born in AngoulÃªme, France, to a well-to-do family	NULL	easy	data/set4/a6
+Charles-Augustin_de_Coulomb	Was Coulomb born in Angoulme France to a well-to-do family?	Coulomb was born in Angoulaªme, France, to a well-to-do family	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	Is he best known for developing Coulomb's law, the definition of the electrostatic force of attraction and repulsion?	Yes	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	The SI unit of charge, the coulomb, was named after him?	Yes	NULL	easy	data/set4/a6
-Charles-Augustin_de_Coulomb	Did Coulomb die in AngoulÃªme, France, to a well-to-do family?	No	NULL	easy	data/set4/a6
+Charles-Augustin_de_Coulomb	Did Coulomb die in Angoulaªme, France, to a well-to-do family?	No	NULL	easy	data/set4/a6
 Chinese_language	Are all spoken varieties of Chinese tonal and analytical?	yes	easy	easy	data/set5/a7
 Chinese_language	Are all spoken varieties of Chinese tonal and analytical?	yes	easy	easy	data/set5/a7
 Chinese_language	Is fifty percent or more of Korean vocabulary of Chinese origin?	Yes	easy	easy	data/set5/a7
@@ -580,7 +580,7 @@ Henri_Becquerel	When did he die?	1908	medium	hard	data/set4/a9
 Henri_Becquerel	What is the SI unit for radioactivity called?	becquerel	medium	medium	data/set4/a9
 Henri_Becquerel	What is the SI unit for radioactivity called?	the becquerel (Bq)	medium	medium	data/set4/a9
 Henri_Becquerel	When Becquerel discovered radioactivity, whose work did he investigate?	Wilhelm Conrad Rontgen	hard	hard	data/set4/a9
-Henri_Becquerel	When Becquerel discovered radioactivity, whose work did he investigate?	Wilhelm Conrad RÃ¶ntgen	hard	hard	data/set4/a9
+Henri_Becquerel	When Becquerel discovered radioactivity, whose work did he investigate?	Wilhelm Conrad Ra¶ntgen	hard	hard	data/set4/a9
 Henri_Becquerel	Where are there craters named Becquerel?	Moon and Mars	hard	hard	data/set4/a9
 Henri_Becquerel	Where are there craters named Becquerel?	on the moon and on mars	hard	medium	data/set4/a9
 Henri_Becquerel	Why did Bequerel win the Nobel Prize in Physics?	discovery of spontaneous radioactivity	hard	hard	data/set4/a9
@@ -961,8 +961,8 @@ Montreal	Is the most popular sport in Montreal ice hockey?	yes, The most popular
 Montreal	Is the most popular sport in Montreal ice hockey?	Yes, the most popular sport in Montreal is ice hockey.	easy	medium	data/set3/a7
 Montreal	How many international airports does Montreal have?	Montreal has two international airports.	medium	easy	data/set3/a7
 Montreal	How many international airports does Montreal have?	Montreal has two international airports.	medium	easy	data/set3/a7
-Montreal	Who is the Mayor of Montreal?	The mayor is GÃ©rald Tremblay.	medium	easy	data/set3/a7
-Montreal	Who is the Mayor of Montreal?	The mayor is GÃ©rald Tremblay.	medium	medium	data/set3/a7
+Montreal	Who is the Mayor of Montreal?	The mayor is Gacrald Tremblay.	medium	easy	data/set3/a7
+Montreal	Who is the Mayor of Montreal?	The mayor is Gacrald Tremblay.	medium	medium	data/set3/a7
 Montreal	What is the name of the largest church in Montreal?	The largest church in Montreal is named Saint Joseph's Oratory.	medium	hard	data/set3/a7
 Montreal	What is the name of the largest church in Montreal?	Saint Joseph's Oratory is the largest church in Montreal.	medium	hard	data/set3/a7
 Montreal	Where was much of Montreal's industry during the late 19th and early-to-mid 20th century?	The Sud-Ouest borough was home to much of the city's industry during the late 19th and early-to-mid 20th century. 	hard	easy	data/set3/a7

@@ -201,14 +201,14 @@ Charles-Augustin_de_Coulomb	How old was Charles-Augustin de Coulomb when he died
 Charles-Augustin_de_Coulomb	How many years ago did he resign his appointment as intendant de eaux et fontaine ?	220	NULL	hard	data/set4/a6
 Charles-Augustin_de_Coulomb	How many years ago did Charles-Augustin de Coulomb die?	203	NULL	hard	data/set4/a6
 Charles-Augustin_de_Coulomb	Was The SI  unit  of charge , the  coulomb , named after him?	yes	NULL	easy	data/set4/a6
-Charles-Augustin_de_Coulomb	Was coulomb born in AngoulÃªme,  France ,  to a well  to do  family?	yes	NULL	easy	data/set4/a6
+Charles-Augustin_de_Coulomb	Was coulomb born in Angoulaªme,  France ,  to a well  to do  family?	yes	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	Was his father ,  Henri  Coulomb , inspector of the Royal  Fields  in Montpellier?	Yes	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	Is coulomb distinguished in the history  of mechanics  and  of electricity and  magnetism?	yes	NULL	easy	data/set4/a6
-Charles-Augustin_de_Coulomb	Was Charles Augustin  de Coulomb  ( born  June  14 ,  1736 ,  AngoulÃªme ,  France  -  died August 23 ,  1806 ,  Paris ,  France  ) a French  physicist?	yes	NULL	medium	data/set4/a6
+Charles-Augustin_de_Coulomb	Was Charles Augustin  de Coulomb  ( born  June  14 ,  1736 ,  Angoulaªme ,  France  -  died August 23 ,  1806 ,  Paris ,  France  ) a French  physicist?	yes	NULL	medium	data/set4/a6
 Charles-Augustin_de_Coulomb	Does Coulomb leave a legacy?	yes	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	When was Charles-Augustin de Coulomb born?	June 14, 1736	NULL	medium	data/set4/a6
 Charles-Augustin_de_Coulomb	Did he publish an important investigation of the laws of friction?	yes	NULL	easy	data/set4/a6
-Charles-Augustin_de_Coulomb	Was Coulomb born in AngoulÃªme, France, to a well to do family?	yes	NULL	easy	data/set4/a6
+Charles-Augustin_de_Coulomb	Was Coulomb born in Angoulaªme, France, to a well to do family?	yes	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	Was his father inspector of the Royal Fields?	yes	NULL	easy	data/set4/a6
 Charles-Augustin_de_Coulomb	He discovered an inverse relationship of what?	distance and electric force	NULL	hard	data/set4/a6
 Charles-Augustin_de_Coulomb	Is it true that coulomb leaves a legacy as a hero?	yes	NULL	easy	data/set4/a6
@@ -221,7 +221,7 @@ Chinese_language	The Mandarin dialects in which location have experienced a dram
 Chinese_language	Was Old Chinese wholly uninflected?	no	NULL	easy	data/set5/a7
 Chinese_language	In North Korea, has Hanja been discontinued?	NULL	NULL	NULL	data/set5/a7
 Chinese_language	The most  widespread is the Palladius  system?	NULL	NULL	NULL	data/set5/a7
-Chinese_language	Is the Vietnamese  term  for Chinese writing HÃ¡n t?	NULL	NULL	NULL	data/set5/a7
+Chinese_language	Is the Vietnamese  term  for Chinese writing Ha¡n t?	NULL	NULL	NULL	data/set5/a7
 Chinese_language	Did the empire have little success?	NULL	NULL	NULL	data/set5/a7
 Chinese_language	When are most of these groups mutually unintelligible?	NULL	NULL	NULL	data/set5/a7
 Chinese_language	What is the population of Chinese language?	NULL	NULL	NULL	data/set5/a7
@@ -359,7 +359,7 @@ French_language	Are French and German not official languages nor recognised mino
 French_language	Can the palatal nasal occur in word initial position ( e.g ?	NULL	NULL	NULL	data/set5/a5
 German_language	How many years ago was the Luther Bible by Martin Luther printed?	475	NULL	hard	data/set5/a2
 German_language	Is german an inflected  language?	yes	NULL	easy	data/set5/a2
-German_language	In Switzerland, is ÃŸ used at all?	no	NULL	easy	data/set5/a2
+German_language	In Switzerland, is aŸ used at all?	no	NULL	easy	data/set5/a2
 German_language	Are there two common  word  orders?	yes	NULL	easy	data/set5/a2
 German_language	Are feminines declined in the singular?	no	NULL	easy	data/set5/a2
 German_language	Is 9 %  of the Internet  population German?	no	NULL	easy	data/set5/a2
@@ -368,7 +368,7 @@ German_language	Was the Luther Bible by Martin Luther printed?	Yes	NULL	easy	dat
 German_language	Does a  tz indicate that the preceding vowel is short?	no	NULL	easy	data/set5/a2
 German_language	Are there 622,650 speakers of German In Canada?	Yes	NULL	easy	data/set5/a2
 German_language	Are there also large populations of German ancestry In Mexico?	yes	NULL	medium	data/set5/a2
-German_language	Would BundeslÃ¤nder not accept North Rhine Westphalia and Bavaria ?	yes	NULL	easy	data/set5/a2
+German_language	Would Bundesla¤nder not accept North Rhine Westphalia and Bavaria ?	yes	NULL	easy	data/set5/a2
 German_language	Have adverbs of time to appear in the third place in the sentence , just after the predicate ?	Yes	NULL	easy	data/set5/a2
 Giraffe	Do both sexes of giraffe have horns?	Yes	easy	easy	data/set1/a5
 Giraffe	Do both sexes of giraffe have horns?	yes	easy	easy	data/set1/a5
@@ -411,14 +411,14 @@ Henri_Becquerel	Did Henri Becquerel live to be 80 years old?	no	NULL	medium	data
 Henri_Becquerel	What was Henri Becquerel`s profession?	physisist	NULL	easy	data/set4/a9
 Henri_Becquerel	How old was Henri Becquerel when he died?	53	NULL	too hard	data/set4/a9
 Henri_Becquerel	How many years ago was it when he became the third in his family to occupy the physics chair at the Musum National d`Histoire Naturelle?	117	NULL	hard	data/set4/a9
-Henri_Becquerel	In 1908, the year  of his death, was Becquerel elected Permanent Secretary  of the AcadÃ©mie  des  Sciences?	Yes	NULL	easy	data/set4/a9
+Henri_Becquerel	In 1908, the year  of his death, was Becquerel elected Permanent Secretary  of the Acadacmie  des  Sciences?	Yes	NULL	easy	data/set4/a9
 Henri_Becquerel	When was Henri Becquerel born?	December 15, 1852	NULL	medium	data/set4/a9
 Henri_Becquerel	Did he become chief engineer in the Department of Bridges and Highways?	Yes	NULL	easy	data/set4/a9
 Henri_Becquerel	Did he share the Nobel Prize in Physics?	Yes	NULL	easy	data/set4/a9
 Henri_Becquerel	Is it true that Becquerel wrapped a fluorescent substance in photographic plates?	Yes	NULL	easy	data/set4/a9
 Henri_Becquerel	Becquerel wrapped a fluorescent substance in what?	photographic plates and black material	NULL	medium	data/set4/a9
 Henri_Becquerel	Is there a Becquerel crater on the Moon for radioactivity?	Yes	NULL	easy	data/set4/a9
-Henri_Becquerel	Must â¦ One conclude from these experiments that the phosphorescent substance in question emits rays which pass through the opaque paper and reduces silver salts ?	Yes	NULL	easy	data/set4/a9
+Henri_Becquerel	Must a¦ One conclude from these experiments that the phosphorescent substance in question emits rays which pass through the opaque paper and reduces silver salts ?	Yes	NULL	easy	data/set4/a9
 Henri_Becquerel	What is Henri Becquerel?	Henri Becquerel was a famous physicist.	NULL	easy	data/set4/a9
 Henri_Becquerel	Where is Henri Becquerel from?	Paris	NULL	medium	data/set4/a9
 Henri_Becquerel	What does Henri Becquerel do?	was a physisist	NULL	medium	data/set4/a9
@@ -456,7 +456,7 @@ Italian_language	Italian retained the contrast between what?	NULL	NULL	NULL	data
 Italian_language	Is stress distinctive in most Romance languages?	NULL	NULL	NULL	data/set5/a9
 Italian_language	Are the speakers who use italian as a second or cultural language estimated at around 110-120 million ?	NULL	NULL	NULL	data/set5/a9
 Italian_language	Are front/back vowel rules for C and G similar in French , Romanian , Spanish , and to some extent english ?	NULL	NULL	NULL	data/set5/a9
-Italian_language	So can Italian language hear "istÃ nbul " or "Ãostanbul" ?	NULL	NULL	NULL	data/set5/a9
+Italian_language	So can Italian language hear "ista nbul " or "aostanbul" ?	NULL	NULL	NULL	data/set5/a9
 Italian_language	Will , the vowel sounds be pronounced separately) ?	NULL	NULL	NULL	data/set5/a9
 Italian_language	Can Regional differences be recognized by various factors : the openness of vowels , the length of the consonants , and influence of the local dialect ?	NULL	NULL	NULL	data/set5/a9
 Italian_language	Give dictionaries the latter as an alternative pronunciation ?	NULL	NULL	NULL	data/set5/a9
@@ -659,7 +659,7 @@ Santiago	What is the Order of Santiago?	a Spanish knightly order	medium	medium	d
 Santiago	What is the Order of Santiago?	a Spanish Knightly order	medium	medium	data/set3/a6
 Santiago	What notable people have been named Santiago?	Benito Santiago, Hugo Santiago, Joey Santiago, Liliana Santiago, Rafael Santiago Maria, Santiago Caballero, Santiago Cabrera; James, son of Zebedee	hard	hard	data/set3/a6
 Santiago	What notable people have been named Santiago?	Benito, Hugo, and others	hard	hard	data/set3/a6
-Santiago	What fictional stories include a main character named Santiago?	Gears of War, Rainbow Six: Covert Operations essentials, Death Foretold by Gabriel GarcÃ­a MÃ¡rquez, ernest Hemingway's The Old Man and the Sea, the television series Babylon 5, Anne Rice's novel Interview with the Vampire, aulo Coelho's The Alchemist (novel), the television show Friday Night Lights	hard	hard	data/set3/a6
+Santiago	What fictional stories include a main character named Santiago?	Gears of War, Rainbow Six: Covert Operations essentials, Death Foretold by Gabriel Garca­a Ma¡rquez, ernest Hemingway's The Old Man and the Sea, the television series Babylon 5, Anne Rice's novel Interview with the Vampire, aulo Coelho's The Alchemist (novel), the television show Friday Night Lights	hard	hard	data/set3/a6
 Santiago	What fictional stories include a main character named Santiago?	Interview with the Vampire, The Alchemist, and others	hard	hard	data/set3/a6
 Santiago	Is Santiago the national capital of a country?	Yes	NULL	easy	data/set3/a6
 Santiago	Is santiago Spanish for St. James  ( from santo ,  saint  +  iago ,  James  )?	Yes	NULL	easy	data/set3/a6
@@ -681,7 +681,7 @@ Spanish_language	Is it true that mexico contains the largest population of Spani
 Spanish_language	Mexico contains the largest population of what?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Is this phenomenon notable in Brazil?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Is spanish one of the official languages?	NULL	NULL	NULL	data/set5/a8
-Spanish_language	Is universidad de MÃ©xico Instituto Cervantes Spanish language of Spain?	NULL	NULL	NULL	data/set5/a8
+Spanish_language	Is universidad de Macxico Instituto Cervantes Spanish language of Spain?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Is spanish language of the european Union?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Pasan en consecuencia , las palabras que comienzan por estas dos letras , o que las contienen , a alfabetizarse en los lugares que les corresponden dentro de la c y de la l , respectivamente ?	NULL	NULL	NULL	data/set5/a8
 Spanish_language	Allow the common features of the writing systems of the Romance languages for a greater amount of interlingual reading comprehension than oral communication would ?	NULL	NULL	NULL	data/set5/a8
@@ -772,7 +772,7 @@ Turtle	Do Terrestrial tortoises have short feet?	Yes.	easy	easy	data/set1/a4
 Turtle	Do Terrestrial tortoises have short feet?	yes	easy	easy	data/set1/a4
 Turtle	How many groups are turtles broken down into?	Two	medium	medium	data/set1/a4
 Turtle	How many groups are turtles broken down into?	two	medium	easy	data/set1/a4
-Turtle	Where are the only surviving giant tortoises?	They are on the Seychelles and GalÃ¡pagos Islands.	medium	medium	data/set1/a4
+Turtle	Where are the only surviving giant tortoises?	They are on the Seychelles and Gala¡pagos Islands.	medium	medium	data/set1/a4
 Turtle	Where are the only surviving giant tortoises?	Seychelles and Galapagos Islands	medium	easy	data/set1/a4
 Turtle	How do turtles chew food?	Turtles use their jaws to cut and chew food.	medium	medium	data/set1/a4
 Turtle	How do turtles chew food?	Turtles use their jaws to cut and chew food	medium	easy	data/set1/a4

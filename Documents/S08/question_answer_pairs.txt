@@ -1156,7 +1156,7 @@ Millard_Fillmore	Is the comic strip Mallard Fillmore named after the president ?
 Millard_Fillmore	Was Fillmore the first U.S. President born after the death of a former president ?	yes	NULL	easy	data/set3/a3
 Millard_Fillmore	Did Fillmore not turn down the honor , explaining that he had neither the `` literary nor scientific attainment '' to justify the degree ?	no	NULL	easy	data/set3/a3
 Millard_Fillmore	What happened in a log cabin in summerhill , new york?	Fillmore was born	NULL	easy	data/set3/a3
-Nikola_Tesla	Who was born precisely at midnight during an electrical storm , to a Serbian family in the village of Smiljan near Gospić , in the Lika region of the Croatian Krajina in Military Frontier ( part of the Austrian empire ) , in the present-day Croatia . ?	Nikola Tesla	NULL	easy	data/set4/a3
+Nikola_Tesla	Who was born precisely at midnight during an electrical storm , to a Serbian family in the village of Smiljan near Gospic , in the Lika region of the Croatian Krajina in Military Frontier ( part of the Austrian empire ) , in the present-day Croatia . ?	Nikola Tesla	NULL	easy	data/set4/a3
 Nikola_Tesla	Are there at least two films describing Tesla 's life ?	Yes.	NULL	easy	data/set4/a3
 Nikola_Tesla	Have a number of live theatrical plays based on Tesla 's life been produced and staged worldwide ?	yes.	NULL	easy	data/set4/a3
 otter	Do sea otters have long muscular tails?	no	easy	medium	data/set1/a7
@@ -1376,8 +1376,8 @@ Romania	Did Romania declare neutrality during World War I?	yes	easy	easy	data/se
 Romania	Did Romania declare neutrality during World War I?	Yes	easy	easy	data/set2/a7
 Romania	Does Romania share the same language with Moldova?	yes	easy	easy	data/set2/a7
 Romania	Does Romania share the same language with Moldova?	Practically	easy	medium	data/set2/a7
-Romania	Who was the first gymnast to score a perfect "ten"?	Nadia Comăneci	medium	medium	data/set2/a7
-Romania	Who was the first gymnast to score a perfect "ten"?	Nadia Comăneci	medium	medium	data/set2/a7
+Romania	Who was the first gymnast to score a perfect "ten"?	Nadia Comaneci	medium	medium	data/set2/a7
+Romania	Who was the first gymnast to score a perfect "ten"?	Nadia Comaneci	medium	medium	data/set2/a7
 Romania	What is the largest city in Romania?	Bucharest	medium	medium	data/set2/a7
 Romania	What is the largest city in Romania?	Bucharest	medium	medium	data/set2/a7
 Romania	What is the largest ethnic minority in Romania?	Hungarians	medium	medium	data/set2/a7

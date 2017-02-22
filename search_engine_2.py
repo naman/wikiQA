@@ -26,6 +26,7 @@ def parse_data_files(path):
                     file_sentences[
                         "data" + file_path.split("data")[1].split(".")[0]] = sentences
                 except Exception:
+                    print file_path
                     pass
 
 
@@ -203,10 +204,10 @@ def jaccard_similarity(article_name, focus_terms):
 
 def print_scores(retrieved_docs, retrieved_docs_count, article_name, scores, similarity):
     if similarity == "Jaccard":
-        cuttoff = 0.004
+        cuttoff = 0.4
         threshold = 0.0001
     elif similarity == "Cosine":
-        cuttoff = 0.1
+        cuttoff = 0.4
         threshold = 0.0001
 
     max_score = max(scores[x] for x in scores)

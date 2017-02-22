@@ -2,8 +2,6 @@ from porter_stemmer import PorterStemmer
 import os
 import re
 import sys
-import math
-import json
 import nltk
 import string
 from sklearn.feature_extraction.text import TfidfVectorizer
