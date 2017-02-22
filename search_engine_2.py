@@ -8,7 +8,9 @@ import string
 import fnmatch
 from porter_stemmer import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from nltk.corpus import stopwords
+from stop_words import get_stop_words
+# from collections import OrderedDict
+from operator import itemgetter
 
 
 def add_to_dictionary(docname, term_frequency, position, word):
@@ -123,24 +125,45 @@ def build_index():
 
 
 def MultiWordQ(words_in_query):
-    all_results = []
+    results_dict = {}
 
-    for query in words_in_query:
-        query = porter.stem(query, 0, len(query) - 1)
-        if (query in stop_words) or (hasNumbers(query)) or (query not in dictionary):
+    for query in clean_words(words_in_query):
+        if query not in dictionary:
             print query, "word is not in any document."
             continue
         else:
+            results_dict[query] = []
             for x in dictionary[query]:
-                all_results.append(x['name'])
+                tmp = {
+                    'doc': x['name'],
+                    'score': x['tf_idf_weight']
+                }
+                results_dict[query].append(tmp)
 
-    final_results = list(set(all_results))
-
-    if len(final_results) == 0:
+    all_results = []
+    for q in results_dict:
+        q_results = []
+        for d in results_dict[q]:
+            q_results.append(d['doc'])
+        all_results.append(q_results)
+    intersect = intersection(all_results)
+    # print intersect
+    if len(intersect) == 0:
         print "Sorry! No results found!"
+    else:
+        scores = {}
+        for x in intersect:
+            score = 0
+            for q in results_dict:
+                for d in results_dict[q]:
+                    if d['doc'] == x:
+                        score += d['score']
+            scores[x] = score
 
-    for x in xrange(len(final_results)):
-        print "[" + str(x + 1) + "]", "in", final_results[x]
+        ranked = reversed(sorted(scores.items(), key=itemgetter(1)))
+
+        for x in ranked:
+            print "\t[" + str(x[1]) + "]", x[0]
 
 
 def tab_split(string):
@@ -265,8 +288,9 @@ def ground_truth(query):
 
 
 def load_stop_words():
-    x = stopwords.words("english")
-    return [s.encode('ascii') for s in x]
+    # x = stopwords.words("english")
+    x = get_stop_words("en")
+    return [s.encode('ascii') for s in x] + list(string.printable)
 
 
 def clean_split(string):
@@ -301,8 +325,8 @@ def cosine_sim(a, b):
     return magnitude[0, 1]
 
 
-def load_index_in_memory():
-    with open(sys.argv[1]) as data_file:
+def load_index_in_memory(path):
+    with open(path) as data_file:
         var = dict(json.load(data_file))
     return var
 
@@ -340,7 +364,7 @@ def print_scores(retrieved_docs, retrieved_docs_count, article_name, scores, sim
         cuttoff = 0.4
         threshold = 0.0001
     elif similarity == "Cosine":
-        cuttoff = 0.4
+        cuttoff = 0.3
         threshold = 0.0001
 
     max_score = max(scores[x] for x in scores)
@@ -393,7 +417,12 @@ def process_query(query):
 
 
 def run_query(query):
-    # process_query(query)
+    print "\t\tUsing Cosine/Jaccard similarity in the inverted sentence index."
+    print "\t\treturns answers inside the documents too."
+
+    process_query(query)
+
+    print "\t\tUsing tf-idf scores in the inverted word index"
     words_in_query = special_split(query)
     MultiWordQ(words_in_query)
 
@@ -406,8 +435,8 @@ def take_commands():
         run_query(query)
 
 
-if len(sys.argv) < 4:
-    print "USAGE: python search_engine.py <stop_words> <path_to_docs>\n"
+if len(sys.argv) < 5:
+    print "USAGE: python search_engine.py <inverted_index> <stop_words> <path_to_docs> <inverted_sentence_index>\n"
     print "PLEASE USE STOP WORDS IF YOU ALREADY HAVE IT."
     print "PLEASE USE PATH TO DOCUMENTATION IF YOU ALREADY HAVE IT."
 
@@ -466,13 +495,13 @@ if raw_input() == 'y':
     print "normalizing!"
     normalize_index()
 
-    print "Writing the inverted index to", sys.argv[1]
+    print "Writing the inverted word index to", sys.argv[1]
     write_to_file(dictionary, sys.argv[1])
 
-    print "Data munching complete! Use WikiQA now!"
-    # print "Writing the inverted index to", sys.argv[1]
-    # write_to_file(file_sentences, sys.argv[1])
+    print "Writing the inverted sentence index to", sys.argv[4]
+    write_to_file(file_sentences, sys.argv[4])
 
+    print "Data munching complete! Use WikiQA now!"
     print "Complete!\n"
 
     take_commands()
@@ -480,13 +509,13 @@ else:
     print "Congrats! You just saved 5 minutes in your life.\n"
     print "Loading Stop Words..."
     stop_words = load_stop_words()
-    # vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words=stop_words)
+    vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words=stop_words)
 
     print "Loading inverted index in memory..."
-    # file_sentences = load_index_in_memory()
-    dictionary = load_index_in_memory()
-    # if file_sentences == {}:
-    if dictionary == {}:
+    file_sentences = load_index_in_memory(sys.argv[4])
+    dictionary = load_index_in_memory(sys.argv[1])
+
+    if dictionary == {} or file_sentences == {}:
         print "error"
         exit(-1)
     print "Loaded inverted index in memory!"
