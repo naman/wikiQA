@@ -30,8 +30,12 @@ A basic search engine using jacard/cosine similarity and tf-idf score for Wikipe
 # Features Implemented
 
 1. For part 1: Uses cosine and jacard similarity to fetch questions for the answers in answer corpus.
-2. For part 2: It uses tf-idf to retrieve ranked results of possible documents which may contain the answer to the question. A faster method/alternative was used which splits senteces (with the help of nltk) and matches the query with every sentence in every doc.  
+
+2. For part 2: It uses tf-idf to retrieve ranked results of possible documents which may contain the answer to the question. A faster method/alternative was also used which splits senteces (with the help of nltk) and matches the query with every sentence in every doc. The second approach is much more relevant to the the type of Search engine we are designing.
+	EXAMPLE: We have a query, "Who did James Monroe marry?", Now, the tf-idf will output all the docs which contain these terms, the terms may be in a single sentence, or far apart. The only demerit of tf-idf scoring is that it doesn't consider how close the words are in the query. However, the sentence similarity scoring is much relevant in this case, because we get a finer list of results which contains these words closely.
+
 3. Cutoffs used for Jaccard and Cosine similarity is 0.4 +- 0.0001. 
+
 4. Stores the inverted index (both inverted word index, and inverted sentence index) as a json allowing offline caching (saves precious time 7 minutes required to build inverted index, power and those CPU cycles on building the index again) (see `build_index()`, `load_index_in_memory()` and `write_to_file()`). The 
 	The inverted index json stores as follows 
 	

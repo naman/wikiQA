@@ -124,10 +124,15 @@ def build_index():
         f.close()
 
 
-def MultiWordQ(words_in_query):
-    results_dict = {}
+def MultiWordQ(query):
+    words_in_query = special_split(query)
+    focus_terms = clean_words(words_in_query)
 
-    for query in clean_words(words_in_query):
+    retrieved_docs = {}
+    relevant_docs = get_relevant_docs(query)
+
+    results_dict = {}
+    for query in focus_terms:
         if query not in dictionary:
             print query, "word is not in any document."
             continue
@@ -164,6 +169,8 @@ def MultiWordQ(words_in_query):
 
         for x in ranked:
             print "\t[" + str(x[1]) + "]", x[0]
+            retrieved_docs[x[0]] = True
+    print_formulas(relevant_docs, retrieved_docs, ranked)
 
 
 def tab_split(string):
@@ -194,6 +201,24 @@ def clean_sentences():
             cleaned = special_split(sentence)
             new_sentences.append(' '.join(cleaned))
         file_sentences[k] = new_sentences
+
+
+def get_relevant_docs(query):
+
+    files = get_files(path_to_documents, "question_answer_pairs.txt")
+    found = {}
+    for file_path in files:
+        f = open(file_path)
+        for line in f:
+            words_in_line = tab_split(line)
+            q = words_in_line[1]
+            doc = words_in_line[5]
+            if q == query:
+                cleaned_doc = file_path.split("question_answer_pairs.txt")[
+                    0] + doc + ".txt.clean"
+                found[cleaned_doc] = True
+        f.close()
+    return found
 
 
 def get_article_name(path, file_path):
@@ -240,7 +265,7 @@ def parse_set(set):
     parse_data_files(path_to_documents + set + "/data/")
     clean_sentences()
 
-    file_sentences_temp = {}
+    taemp = {}
     # replace file_path with article name
     for x in file_sentences:
         tmp = get_article_name(path_to_documents + set +
@@ -359,7 +384,7 @@ def jaccard_similarity(article_name, focus_terms):
     print_scores(article_name, scores, "Jaccard")
 
 
-def print_scores(retrieved_docs, retrieved_docs_count, article_name, scores, similarity):
+def print_scores(retrieved_docs, article_name, scores, similarity):
     if similarity == "Jaccard":
         cuttoff = 0.4
         threshold = 0.0001
@@ -370,20 +395,34 @@ def print_scores(retrieved_docs, retrieved_docs_count, article_name, scores, sim
     max_score = max(scores[x] for x in scores)
     for x in scores:
         if scores[x] > cuttoff and math.fabs(max_score - scores[x]) < threshold:
-            retrieved_docs_count += 1
             retrieved_docs[article_name] = True
             print "\nDocument:", article_name, get_doc_name(article_name)
             print "\t", similarity, "similarity"
             print "\t[" + str(scores[x]) + "]", "\t", x
 
 
-def cosine_similarity(retrieved_docs, retrieved_docs_count, article_name, query):
+def cosine_similarity(retrieved_docs, article_name, query):
     scores = {}
     for x in file_sentences[article_name]:
         score = cosine_sim(query, x)
         scores[x] = score
-    print_scores(retrieved_docs, retrieved_docs_count,
-                 article_name, scores, "Cosine")
+    print_scores(retrieved_docs, article_name, scores, "Cosine")
+
+
+def print_formulas(relevant_docs, retrieved_docs, ranked):
+    a = [doc for doc in relevant_docs if relevant_docs[doc] is True]
+    b = [doc for doc in retrieved_docs if retrieved_docs[doc] is True]
+    intersect = intersection([a, b])
+
+    try:
+        precision = len(intersect) / float(len(b))
+        recall = len(intersect) / float(len(a))
+    except Exception:
+        precision = 0.5
+        recall = 1.0
+
+    print "Precision:", precision
+    print "Recall:", recall
 
 
 def process_query(query):
@@ -393,38 +432,27 @@ def process_query(query):
     relevant_docs = {doc: False for doc in file_sentences}
     retrieved_docs = {doc: False for doc in file_sentences}
 
-    relevant_docs_count = 0
-    retrieved_docs_count = 0
     for word in focus_terms:
         for doc in file_sentences:
             if word in doc:
                 relevant_docs[doc] = True
-                relevant_docs_count += 1
                 break
 
     for doc in file_sentences:
-        cosine_similarity(retrieved_docs, retrieved_docs_count, doc, query)
+        cosine_similarity(retrieved_docs, doc, query)
         # jaccard_similarity(doc, focus_terms)
 
-    a = [doc for doc in relevant_docs if relevant_docs[doc] is True]
-    b = [doc for doc in relevant_docs if retrieved_docs[doc] is True]
-    intersect = intersection([a, b])
-    precision = len(intersect) / float(len(b))
-    recall = len(intersect) / float(len(a))
-
-    print "Precision:", precision
-    print "Recall:", recall
+    print_formulas(relevant_docs, retrieved_docs,
+                   [])  # TODO add ranked for ndcg
 
 
 def run_query(query):
     print "\t\tUsing Cosine/Jaccard similarity in the inverted sentence index."
     print "\t\treturns answers inside the documents too."
-
-    process_query(query)
+    # process_query(query)
 
     print "\t\tUsing tf-idf scores in the inverted word index"
-    words_in_query = special_split(query)
-    MultiWordQ(words_in_query)
+    MultiWordQ(query)
 
 
 def take_commands():
@@ -502,8 +530,7 @@ if raw_input() == 'y':
     write_to_file(file_sentences, sys.argv[4])
 
     print "Data munching complete! Use WikiQA now!"
-    print "Complete!\n"
-
+    print "Complete!"
     take_commands()
 else:
     print "Congrats! You just saved 5 minutes in your life.\n"
