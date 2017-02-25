@@ -265,7 +265,7 @@ def parse_set(set):
     parse_data_files(path_to_documents + set + "/data/")
     clean_sentences()
 
-    taemp = {}
+    file_sentences_temp = {}
     # replace file_path with article name
     for x in file_sentences:
         tmp = get_article_name(path_to_documents + set +
@@ -447,12 +447,13 @@ def process_query(query):
 
 
 def run_query(query):
+    print "\t\tUsing tf-idf scores in the inverted word index"
+    MultiWordQ(query)
+
+    print "\t\t ALTERNATIVE WAY!"
     print "\t\tUsing Cosine/Jaccard similarity in the inverted sentence index."
     print "\t\treturns answers inside the documents too."
     # process_query(query)
-
-    print "\t\tUsing tf-idf scores in the inverted word index"
-    MultiWordQ(query)
 
 
 def take_commands():

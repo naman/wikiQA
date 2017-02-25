@@ -5,6 +5,7 @@ import sys
 import nltk
 import string
 from sklearn.feature_extraction.text import TfidfVectorizer
+from stop_words import get_stop_words
 
 
 def tab_split(string):
@@ -70,6 +71,7 @@ def parse_ground_truth_file(query, path):
         if q == query:
             # exclude yes/no/null answers
             print a
+            relevant_ans.append(a)
     f.close()
 
 
@@ -84,8 +86,9 @@ def ground_truth(query):
 
 
 def load_stop_words():
-    x = stopwords.words("english")
-    return [s.encode('ascii') for s in x]
+    # x = stopwords.words("english")
+    x = get_stop_words("en")
+    return [s.encode('ascii') for s in x] + list(string.printable)
 
 
 def clean_split(string):
@@ -154,8 +157,8 @@ def jaccard_sim(t1, t2):
     return score
 
 
-cosine_offset = 0.5
-jaccard_offset = 0.4
+cosine_offset = 0.4
+# jaccard_offset = 0.4
 
 
 def parse_answers(query, path):
@@ -167,12 +170,32 @@ def parse_answers(query, path):
         if cos_score > cosine_offset:
             print "Cosine Similarity"
             print "\t[" + str(cos_score) + "]", "\t", a
-
-        jac_score = jaccard_sim(query, a)
-        if jac_score > jaccard_offset:
-            print "Jaccard Similarity"
-            print "\t[" + str(jac_score) + "]", "\t", a
+            retrieved_ans.append(a)
+        # jac_score = jaccard_sim(query, a)
+        # if jac_score > jaccard_offset:
+            # print "Jaccard Similarity"
+            # print "\t[" + str(jac_score) + "]", "\t", a
     f.close()
+
+
+relevant_ans = []
+retrieved_ans = []
+
+
+def print_formula():
+    a = relevant_ans
+    b = retrieved_ans
+    intersect = intersection([a, b])
+
+    try:
+        precision = len(intersect) / float(len(b))
+        recall = len(intersect) / float(len(a))
+    except Exception:
+        precision = 0.5
+        recall = 1.0
+
+    print "Precision:", precision
+    print "Recall:", recall
 
 
 def parse_answers_corpus(query):
@@ -180,6 +203,9 @@ def parse_answers_corpus(query):
     parse_answers(query, path_to_documents + "S09/question_answer_pairs.txt")
     parse_answers(query, path_to_documents + "S10/question_answer_pairs.txt")
     ground_truth(query)
+    print_formula()
+    relevant_ans = []
+    retrieved_ans = []
 
 
 def run_query(query):
