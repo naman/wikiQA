@@ -6,11 +6,49 @@ import json
 import nltk
 import string
 import fnmatch
+import random
 from porter_stemmer import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from stop_words import get_stop_words
-# from collections import OrderedDict
 from operator import itemgetter
+
+
+def compute_avg(array, thing):
+    avg_each = 0
+    for x in array:
+        avg_each += sum([y for y in x]) / float(len(x))
+    mean_avg = avg_each / len(array)
+    print "\tMean Average", thing, mean_avg
+
+
+def dcg(array):
+    if len(array) == 0:
+        return []
+    sum_dcg = 0
+    dcg_array = []
+    dcg_array.append(array[0])
+    for i in xrange(1, len(array)):
+        sum_dcg += array[i] / float(math.log(i + 1, 2))
+        dcg_array.append(sum_dcg)
+    return dcg_array
+
+
+def ndcg(ranked, ideal_ranked):
+    if len(ranked) == 0:
+        return
+    if len(ideal_ranked) == 0:
+        return
+
+    dcg_results = dcg(ranked)
+    idcg_results = dcg(ideal_ranked)
+
+    n = []
+    for i in xrange(len(dcg_results)):
+        if idcg_results[i] == 0:
+            n[i].append(0)  # will never happen
+        else:
+            n.append(dcg_results[i] / float(idcg_results[i]))
+    return n
 
 
 def add_to_dictionary(docname, term_frequency, position, word):
@@ -155,6 +193,7 @@ def MultiWordQ(query):
     # print intersect
     if len(intersect) == 0:
         print "Sorry! No results found!"
+        return
     else:
         scores = {}
         for x in intersect:
@@ -166,11 +205,12 @@ def MultiWordQ(query):
             scores[x] = score
 
         ranked = reversed(sorted(scores.items(), key=itemgetter(1)))
-
+        ranked_results = []
         for x in ranked:
             print "\t[" + str(x[1]) + "]", x[0]
+            ranked_results.append(x[1])
             retrieved_docs[x[0]] = True
-    print_formulas(relevant_docs, retrieved_docs, ranked)
+    print_formulas(relevant_docs, retrieved_docs, ranked_results)
 
 
 def tab_split(string):
@@ -298,12 +338,12 @@ def parse_ground_truth_file(query, path):
 
         if q == query:
             # exclude yes/no/null answers
-            print a
+            print "\t", a
     f.close()
 
 
 def ground_truth(query):
-    print "\nGround Truth"
+    print "\n\tGround Truth"
     parse_ground_truth_file(query,
                             path_to_documents + "S08/question_answer_pairs.txt")
     parse_ground_truth_file(query,
@@ -421,8 +461,25 @@ def print_formulas(relevant_docs, retrieved_docs, ranked):
         precision = 0.5
         recall = 1.0
 
+    ideal_ranked = ranked[:]
+    random.shuffle(ideal_ranked)
+    n = ndcg(ranked, ideal_ranked)
+
     print "Precision:", precision
     print "Recall:", recall
+    print "NDCG:", n
+
+    precisions.append([precision])
+    recalls.append([recall])
+    ndcgs.append(n)
+
+    compute_avg(ndcgs, "NDCG")
+    compute_avg(precisions, "Precision")
+    compute_avg(recalls, "Recall")
+
+    write_to_file(precisions, "precision_2.json")
+    write_to_file(recalls, "recall_2.json")
+    write_to_file(ndcgs, "ndcg_2.json")
 
 
 def process_query(query):
@@ -442,18 +499,17 @@ def process_query(query):
         cosine_similarity(retrieved_docs, doc, query)
         # jaccard_similarity(doc, focus_terms)
 
-    print_formulas(relevant_docs, retrieved_docs,
-                   [])  # TODO add ranked for ndcg
+    # print_formulas(relevant_docs, retrieved_docs, [])
 
 
 def run_query(query):
-    print "\t\tUsing tf-idf scores in the inverted word index"
-    MultiWordQ(query)
-
     print "\t\t ALTERNATIVE WAY!"
     print "\t\tUsing Cosine/Jaccard similarity in the inverted sentence index."
     print "\t\treturns answers inside the documents too."
-    # process_query(query)
+    process_query(query)
+
+    print "\t\tUsing tf-idf scores in the inverted word index"
+    MultiWordQ(query)
 
 
 def take_commands():
@@ -489,6 +545,9 @@ dictionary = {
 }
 special_delimiters = ['\n', ' ', '\t', '\u']
 remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
+ndcgs = []
+precisions = []
+recalls = []
 
 
 def stem_tokens(tokens):
@@ -542,6 +601,9 @@ else:
     print "Loading inverted index in memory..."
     file_sentences = load_index_in_memory(sys.argv[4])
     dictionary = load_index_in_memory(sys.argv[1])
+    ndcgs = list(load_index_in_memory("ndcg_2.json"))
+    precisions = list(load_index_in_memory("precision_2.json"))
+    recalls = list(load_index_in_memory("recall_2.json"))
 
     if dictionary == {} or file_sentences == {}:
         print "error"

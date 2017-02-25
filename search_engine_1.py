@@ -4,8 +4,49 @@ import re
 import sys
 import nltk
 import string
+import math
+import random
+import json
 from sklearn.feature_extraction.text import TfidfVectorizer
 from stop_words import get_stop_words
+
+
+def compute_avg(array, thing):
+    avg_each = 0
+    for x in array:
+        avg_each += sum([y for y in x]) / float(len(x))
+    mean_avg = avg_each / len(array)
+    print "\tMean Average", thing, mean_avg
+
+
+def dcg(array):
+    if len(array) == 0:
+        return []
+    sum_dcg = 0
+    dcg_array = []
+    dcg_array.append(array[0])
+    for i in xrange(1, len(array)):
+        sum_dcg += array[i] / float(math.log(i + 1, 2))
+        dcg_array.append(sum_dcg)
+    return dcg_array
+
+
+def ndcg(ranked, ideal_ranked):
+    if len(ranked) == 0:
+        return []
+    if len(ideal_ranked) == 0:
+        return []
+
+    dcg_results = dcg(ranked)
+    idcg_results = dcg(ideal_ranked)
+
+    n = []
+    for i in xrange(len(dcg_results)):
+        if idcg_results[i] == 0:
+            n[i].append(0)  # will never happen
+        else:
+            n.append(dcg_results[i] / float(idcg_results[i]))
+    return n
 
 
 def tab_split(string):
@@ -62,27 +103,33 @@ def get_doc_name(article_name):
 
 
 def parse_ground_truth_file(query, path):
+    flag = True
     f = open(path)
     for line in f:
         words_in_line = tab_split(line)
         q = words_in_line[1]
         a = words_in_line[2]
-
+        clean_ans = a.strip().lower().strip(".").strip("!")
         if q == query:
             # exclude yes/no/null answers
-            print a
+            print "\t", a
             relevant_ans.append(a)
+            if clean_ans == "yes" or clean_ans == "no":
+                # print clean_ans, a
+                flag = False
+                return flag
     f.close()
+    return flag
 
 
 def ground_truth(query):
-    print "\nGround Truth"
-    parse_ground_truth_file(query,
-                            path_to_documents + "S08/question_answer_pairs.txt")
-    parse_ground_truth_file(query,
-                            path_to_documents + "S09/question_answer_pairs.txt")
-    parse_ground_truth_file(query,
-                            path_to_documents + "S10/question_answer_pairs.txt")
+    f1 = parse_ground_truth_file(query,
+                                 path_to_documents + "S08/question_answer_pairs.txt")
+    f2 = parse_ground_truth_file(query,
+                                 path_to_documents + "S09/question_answer_pairs.txt")
+    f3 = parse_ground_truth_file(query,
+                                 path_to_documents + "S10/question_answer_pairs.txt")
+    return all([f1, f2, f3])
 
 
 def load_stop_words():
@@ -171,6 +218,7 @@ def parse_answers(query, path):
             print "Cosine Similarity"
             print "\t[" + str(cos_score) + "]", "\t", a
             retrieved_ans.append(a)
+            ranked.append(cos_score)
         # jac_score = jaccard_sim(query, a)
         # if jac_score > jaccard_offset:
             # print "Jaccard Similarity"
@@ -178,8 +226,9 @@ def parse_answers(query, path):
     f.close()
 
 
-relevant_ans = []
-retrieved_ans = []
+def write_to_file(text, path):
+    with open(path, 'w') as outfile:
+        json.dump(text, outfile, sort_keys=True, indent=4)
 
 
 def print_formula():
@@ -194,22 +243,51 @@ def print_formula():
         precision = 0.5
         recall = 1.0
 
-    print "Precision:", precision
-    print "Recall:", recall
+    r = sorted(ranked, reverse=True)
+    ideal_ranked = r[:]
+    random.shuffle(ideal_ranked)
+    n = ndcg(r, ideal_ranked)
+
+    print "\n"
+    print "\tPrecision:", precision
+    print "\tRecall:", recall
+    print "\tNDCG:", n
+
+    precisions.append([precision])
+    recalls.append([recall])
+    ndcgs.append(n)
+
+    compute_avg(ndcgs, "NDCG")
+    compute_avg(precisions, "Precision")
+    compute_avg(recalls, "Recall")
+
+    write_to_file(precisions, "precision_1.json")
+    write_to_file(recalls, "recall_1.json")
+    write_to_file(ndcgs, "ndcg_1.json")
 
 
 def parse_answers_corpus(query):
-    parse_answers(query, path_to_documents + "S08/question_answer_pairs.txt")
-    parse_answers(query, path_to_documents + "S09/question_answer_pairs.txt")
-    parse_answers(query, path_to_documents + "S10/question_answer_pairs.txt")
-    ground_truth(query)
-    print_formula()
-    relevant_ans = []
-    retrieved_ans = []
+    print "\n\tGround Truth"
+    if ground_truth(query):
+        parse_answers(query, path_to_documents +
+                      "S08/question_answer_pairs.txt")
+        parse_answers(query, path_to_documents +
+                      "S09/question_answer_pairs.txt")
+        parse_answers(query, path_to_documents +
+                      "S10/question_answer_pairs.txt")
+        print_formula()
+        relevant_ans = []
+        retrieved_ans = []
 
 
 def run_query(query):
     parse_answers_corpus(query)
+
+
+def load_index_in_memory(path):
+    with open(path) as data_file:
+        var = dict(json.load(data_file))
+    return var
 
 
 def take_commands():
@@ -218,6 +296,16 @@ def take_commands():
         sys.stdout.write("> ")
         query = raw_input().strip()
         run_query(query)
+
+
+def stem_tokens(tokens):
+    return [porter.stem(item, 0, len(item) - 1) for item in tokens]
+
+
+def normalize(t):
+    x = stem_tokens(nltk.word_tokenize(
+        t.lower().translate(remove_punctuation_map)))
+    return x
 
 
 if len(sys.argv) < 4:
@@ -238,19 +326,13 @@ delimiters = ['\n', ' ', ',', '.', '?', '!', ':', '#', '$', '[', ']',
 
 special_delimiters = ['\n', ' ', '\t', '\u']
 remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
-
-
-def stem_tokens(tokens):
-    return [porter.stem(item, 0, len(item) - 1) for item in tokens]
-
-
-def normalize(t):
-    x = stem_tokens(nltk.word_tokenize(
-        t.lower().translate(remove_punctuation_map)))
-    return x
-
-
+ndcgs = []
+precisions = []
+recalls = []
 porter = PorterStemmer()
+relevant_ans = []
+retrieved_ans = []
+ranked = []
 
 os.system("clear")
 
@@ -261,4 +343,8 @@ print "..........................................................\n"
 print "Loading Stop Words..."
 stop_words = load_stop_words()
 vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words=stop_words)
+# ndcgs = list(load_index_in_memory("ndcg_1.json"))
+# precisions = list(load_index_in_memory("precision_1.json"))
+# recalls = list(load_index_in_memory("recall_1.json"))
+
 take_commands()
