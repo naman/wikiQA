@@ -74,9 +74,12 @@ python search_engine_2.py inverted_index.json stop_words.txt ./Documents/ file_s
 
 3. For part 1 and 2: Precision/Recall is designed for binary relevance (relevant or not relevant). Therefore, NDCG is used to evaluate the search engine system where rank of the results is also considered. Since there is no way to determine the Ideal DCG (we don't know the ideal relevance of docs/answers), the ideal ranked answers/docs are assumed to be randomly shuffled and then ndcg is computed. Also, mean average precision, mean average recall and mean average ndcg is also calculated to evaluate the system (with n queries). Note that, precision, recall and NDCG for every results for every query is stored as a JSON which is used to compute the Mean Average precision, recall and NDCG after the end of results of each query.
 
-4. Cutoffs used for Jaccard and Cosine similarity is 0.4 +- 0.0001. 
+4. For Part 3: Because we know the document (Wikipedia article), the question and the answer, you can therefore 
+verify if for the same question the output of part 1 is same as output of part 2. Please see the section 4.4 in this doc below. You can run these queries to match the answers form the part 1 matches the documents and answers returned from part 1.
 
-5. Stores the inverted index (both inverted word index, and inverted sentence index) as a json allowing offline caching (saves precious time 7 minutes required to build inverted index, power and those CPU cycles on building the index again) (see `build_index()`, `load_index_in_memory()` and `write_to_file()`). The 
+5.  Cutoffs used for Jaccard and Cosine similarity is 0.4 +- 0.0001. 
+
+6. Stores the inverted index (both inverted word index, and inverted sentence index) as a json allowing offline caching (saves precious time 7 minutes required to build inverted index, power and those CPU cycles on building the index again) (see `build_index()`, `load_index_in_memory()` and `write_to_file()`). The 
 	The inverted index json stores as follows 
 	
 		term: {
@@ -93,9 +96,10 @@ python search_engine_2.py inverted_index.json stop_words.txt ./Documents/ file_s
 			}
 		]
 
-6. For part 2: Logic for tf-idf ranked matching `MultiWordQ()` function: Search for the each query term in the inverted index. Take a union of results. Make a set. The output is the list of documents that contain any of the query terms. Sorted according to tf-idf scores/relevance. Prints the recall, precision and ndcg scores.
+7. For part 2: Logic for tf-idf ranked matching `MultiWordQ()` function: Search for the each query term in the inverted index. Take a union of results. Make a set. The output is the list of documents that contain any of the query terms. Sorted according to tf-idf scores/relevance. Prints the recall, precision and ndcg scores.
 
-7. The query can be entered iteratively just like a normal shell. A prompt is visible where the query is entered and results are shown almost instantaneosly.
+8. The query can be entered iteratively just like a normal shell. A prompt is visible where the query is entered and results are shown almost instantaneosly.
+
 
 ## Sample Queries for part 1
 1. What are the similarities between beetles and grasshoppers?
