@@ -573,10 +573,10 @@ if raw_input() == 'y':
     # part 2
     print "Loading Stop Words..."
     stop_words = load_stop_words()
-    # vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words=stop_words)
+    vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words=stop_words)
 
-    # print "Building inverted sentence index..."
-    # build_sentence_index()
+    print "Building inverted sentence index..."
+    build_sentence_index()
     print "Building inverted index..."
     build_index()
 
